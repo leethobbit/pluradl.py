@@ -3,37 +3,38 @@ from subprocess import Popen, PIPE, STDOUT
 
 def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
 
-    # OS parameters - Creates course path and sets current download directory
+    # OS parameters - Creates course path and sets current course directory
     coursepath = os.path.join(DLPATH,COURSE)
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
-    
+
+    # Quote and space char
+    # # # # # # # # # # # #
+    qu = '"';  sp = " "   # 
     # Download parameters - important parameters for the Pluralsight webservice
     pluraurl = "https://app.pluralsight.com/library/courses/"
-    qu = '"'
-    usr = " " + qu + USERNAME + qu
-    usrpass = " " + qu + PASSWORD + qu
+    usr = sp + qu + USERNAME + qu
+    usrpass = sp + qu + PASSWORD + qu
     # IMPORTANT SETTING TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT
-    sleep = 120 # <- Change this on your own risk.
+    sleep = 120 # <- Change this at your own risk.
     # # # # # # #
     
     # CMD Tool parameters - useful settings for the download process (youtube-dl)
     cmdtool = "youtube-dl"
-    verbc = " --verbose"
-    usrc = " --username"
-    passc = " --password"
-    sleepc = " --sleep-interval " + str(sleep)
-    tmplc = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
-    filename = " -o " + tmplc
-    courseurl = " " + pluraurl + COURSE
+    verbc = sp + "--verbose"
+    usrc = sp + "--username"
+    passc = sp + "--password"
+    sleepc = sp + "--sleep-interval" + sp + str(sleep)
+    template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
+    filenamec = " -o " + template
+    courseurlc = sp + qu + pluraurl + COURSE + qu
     
     # Command string
     dlstr1 = cmdtool + verbc
     dlstr2 = usrc + usr + passc + usrpass
-    dlstr3 = sleepc + filename + courseurl
-    dlstr = dlstr1 + dlstr2 + dlstr3
-    cmd = dlstr
+    dlstr3 = sleepc + filenamec + courseurlc
+    cmd = dlstr1 + dlstr2 + dlstr3
     
     # Command execution and logging
     bufflen = 512
@@ -49,7 +50,7 @@ def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
 
 def courselist(scriptpath):
 
-    # Courselist textfile prelocated in the directory of the python script
+    # Courselist textfile prelocated in the same directory as this script
     filelist = "courselist.txt"
     
     # Loops the list's lines and stores it as a python list
@@ -66,13 +67,14 @@ def courselist(scriptpath):
 
 if __name__ == "__main__":
 
-    # Script's absolute path
+    # Script's absolute directory path
     sysfile = sys.argv[0]
     scriptabspath = os.path.abspath(sysfile)
     scriptpath = os.path.dirname(scriptabspath)
     
-    # Download path
-    DLPATH = os.path.join(scriptpath,"Courses")
+    # Download directory path
+    dldirname = "Courses"
+    DLPATH = os.path.join(scriptpath,dldirname)
     if not os.path.exists(DLPATH):
         os.mkdir(DLPATH)
     # Script's call arguments for username and password
