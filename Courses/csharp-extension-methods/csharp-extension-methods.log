@@ -1,0 +1,492 @@
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['--verbose', '--username', 'PRIVATE', '--password', 'PRIVATE', '--sleep-interval', '120', '-o', '%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s', 'https://app.pluralsight.com/library/courses/csharp-extension-methods']
+[debug] Encodings: locale UTF-8, fs utf-8, out UTF-8, pref UTF-8
+[debug] youtube-dl version 2019.03.18
+[debug] Python version 3.7.2 (CPython) - Linux-5.0.1-arch1-1-ARCH-x86_64-with-arch-Arch-Linux
+[debug] exe versions: none
+[debug] Proxy map: {}
+[pluralsight:course] csharp-extension-methods: Downloading JSON metadata
+[download] Downloading playlist: C# Extension Methods
+[pluralsight:course] playlist C# Extension Methods: Collected 53 video ids (downloading 53 of them)
+[download] Downloading video 1 of 53
+[pluralsight] Downloading login page
+[pluralsight] Logging in
+[pluralsight] csharp-extension-methods-m1-intro-0: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-0: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-0: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805058/5646563644ac5e616390008b5a45dd92/clips/resolution/d8454ff7-c4f1-46cb-bbf9-8ed6427ec8a2/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 01-1-Introducing Extension Methods-1024x768.mp4
+[download]   0.0% of 5.36MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.36MiB at  2.06MiB/s ETA 00:02[download]   0.1% of 5.36MiB at  3.63MiB/s ETA 00:01[download]   0.3% of 5.36MiB at  6.04MiB/s ETA 00:00[download]   0.6% of 5.36MiB at  9.73MiB/s ETA 00:00[download]   1.1% of 5.36MiB at  1.60MiB/s ETA 00:03[download]   2.3% of 5.36MiB at  1.45MiB/s ETA 00:03[download]   4.6% of 5.36MiB at  2.20MiB/s ETA 00:02[download]   9.3% of 5.36MiB at  3.08MiB/s ETA 00:01[download]  18.6% of 5.36MiB at  4.58MiB/s ETA 00:00[download]  37.3% of 5.36MiB at  7.17MiB/s ETA 00:00[download]  74.6% of 5.36MiB at 10.28MiB/s ETA 00:00[download] 100.0% of 5.36MiB at 10.09MiB/s ETA 00:00[download] 100% of 5.36MiB in 00:00
+[download] Downloading video 2 of 53
+[pluralsight] csharp-extension-methods-m1-intro-1: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-1: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-1: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805183/408e5dc13459b2eeeb39a6dd47af4f63/clips/resolution/99b94188-7c5d-45fc-b807-aa5b8cb5846c/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 02-1-Course Outline-1024x768.mp4
+[download]   0.0% of 5.61MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.61MiB at  2.15MiB/s ETA 00:02[download]   0.1% of 5.61MiB at  3.64MiB/s ETA 00:01[download]   0.3% of 5.61MiB at  6.08MiB/s ETA 00:00[download]   0.5% of 5.61MiB at  9.69MiB/s ETA 00:00[download]   1.1% of 5.61MiB at  1.85MiB/s ETA 00:02[download]   2.2% of 5.61MiB at  1.74MiB/s ETA 00:03[download]   4.4% of 5.61MiB at  2.81MiB/s ETA 00:01[download]   8.9% of 5.61MiB at  3.84MiB/s ETA 00:01[download]  17.8% of 5.61MiB at  5.77MiB/s ETA 00:00[download]  35.7% of 5.61MiB at  8.71MiB/s ETA 00:00[download]  71.3% of 5.61MiB at  9.88MiB/s ETA 00:00[download] 100.0% of 5.61MiB at 12.20MiB/s ETA 00:00[download] 100% of 5.61MiB in 00:00
+[download] Downloading video 3 of 53
+[pluralsight] csharp-extension-methods-m1-intro-2: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-2: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-2: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805309/42e633181f8cd320e9104a6a6583979e/clips/resolution/64a4fa48-149f-4f03-80fe-64ad5bc584fc/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 03-1-Demo 1 - Extending System Types-1024x768.mp4
+[download]   0.0% of 12.15MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 12.15MiB at  2.47MiB/s ETA 00:05[download]   0.1% of 12.15MiB at  3.84MiB/s ETA 00:03[download]   0.1% of 12.15MiB at  6.29MiB/s ETA 00:01[download]   0.2% of 12.15MiB at 10.16MiB/s ETA 00:01[download]   0.5% of 12.15MiB at 737.42KiB/s ETA 00:16[download]   1.0% of 12.15MiB at 1008.07KiB/s ETA 00:12[download]   2.0% of 12.15MiB at  1.44MiB/s ETA 00:08[download]   4.1% of 12.15MiB at  2.26MiB/s ETA 00:05[download]   8.2% of 12.15MiB at  3.30MiB/s ETA 00:03[download]  16.5% of 12.15MiB at  4.26MiB/s ETA 00:02[download]  32.9% of 12.15MiB at  6.87MiB/s ETA 00:01[download]  65.8% of 12.15MiB at  9.00MiB/s ETA 00:00[download]  98.8% of 12.15MiB at 10.18MiB/s ETA 00:00[download] 100.0% of 12.15MiB at 10.27MiB/s ETA 00:00[download] 100% of 12.15MiB in 00:01
+[download] Downloading video 4 of 53
+[pluralsight] csharp-extension-methods-m1-intro-3: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-3: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-3: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/73492953-48e0-40ab-b908-68e9262ab1f8/current/mp4/1024x768.mp4?d4E0JIomVRlJcaW5Vqkzgswbhh5QjbS8P7AcMhJaJUfhbNnZ68AaKdzgBJ3MarzvR2dqsB835bz2TloUiz7BfHfSO6k9YmknaMTyN9ZJT8BaNv5Zd1TvqxBBdlAZgSsUjLGOGyQnRfEsdnK-54xOMX5SfNL862n4WXMJdwKENQYWscDJKe78B4NjaYOS'
+[download] Sleeping 120 seconds...
+[download] Destination: 04-1-Demo 1 - Extending System Types (part 2)-1024x768.mp4
+[download]   0.0% of 9.46MiB at 556.35KiB/s ETA 00:18[download]   0.0% of 9.46MiB at  1.17MiB/s ETA 00:08[download]   0.1% of 9.46MiB at  2.13MiB/s ETA 00:04[download]   0.2% of 9.46MiB at  3.89MiB/s ETA 00:02[download]   0.3% of 9.46MiB at  6.74MiB/s ETA 00:01[download]   0.7% of 9.46MiB at  5.31MiB/s ETA 00:01[download]   1.3% of 9.46MiB at  4.92MiB/s ETA 00:01[download]   2.6% of 9.46MiB at  6.15MiB/s ETA 00:01[download]   5.3% of 9.46MiB at  7.43MiB/s ETA 00:01[download]  10.6% of 9.46MiB at  8.46MiB/s ETA 00:01[download]  21.1% of 9.46MiB at  6.06MiB/s ETA 00:01[download]  42.3% of 9.46MiB at  8.51MiB/s ETA 00:00[download]  84.6% of 9.46MiB at  8.77MiB/s ETA 00:00[download] 100.0% of 9.46MiB at  9.59MiB/s ETA 00:00[download] 100% of 9.46MiB in 00:01
+[download] Downloading video 5 of 53
+[pluralsight] csharp-extension-methods-m1-intro-4: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-4: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-4: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805562/511c6fc26081ebdc2c6d332c59f10c98/clips/resolution/3254b2ec-b2c0-42f1-ab62-3e9837549e96/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 05-1-Extending System Types-1024x768.mp4
+[download]   0.0% of 7.44MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 7.44MiB at Unknown speed ETA 00:02[download]   0.1% of 7.44MiB at  4.47MiB/s ETA 00:01[download]   0.2% of 7.44MiB at  7.24MiB/s ETA 00:01[download]   0.4% of 7.44MiB at 11.11MiB/s ETA 00:00[download]   0.8% of 7.44MiB at  1.69MiB/s ETA 00:04[download]   1.7% of 7.44MiB at  1.50MiB/s ETA 00:04[download]   3.3% of 7.44MiB at  2.15MiB/s ETA 00:03[download]   6.7% of 7.44MiB at  2.88MiB/s ETA 00:02[download]  13.4% of 7.44MiB at  4.27MiB/s ETA 00:01[download]  26.9% of 7.44MiB at  6.72MiB/s ETA 00:00[download]  53.8% of 7.44MiB at  9.81MiB/s ETA 00:00[download] 100.0% of 7.44MiB at 12.18MiB/s ETA 00:00[download] 100% of 7.44MiB in 00:00
+[download] Downloading video 6 of 53
+[pluralsight] csharp-extension-methods-m1-intro-5: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-5: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-5: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805685/b581b53bb02fef763ad916c7e05b8ae3/clips/resolution/ff806f79-6982-4d31-a2a9-2149ca1ec8f3/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 06-1-Demo 2 - Piggybacking Namespaces-1024x768.mp4
+[download]   0.0% of 17.76MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 17.76MiB at  2.73MiB/s ETA 00:06[download]   0.0% of 17.76MiB at  4.19MiB/s ETA 00:04[download]   0.1% of 17.76MiB at  6.75MiB/s ETA 00:02[download]   0.2% of 17.76MiB at 10.28MiB/s ETA 00:01[download]   0.3% of 17.76MiB at  1.80MiB/s ETA 00:09[download]   0.7% of 17.76MiB at  1.85MiB/s ETA 00:09[download]   1.4% of 17.76MiB at  2.58MiB/s ETA 00:06[download]   2.8% of 17.76MiB at  3.52MiB/s ETA 00:04[download]   5.6% of 17.76MiB at  5.77MiB/s ETA 00:02[download]  11.3% of 17.76MiB at  8.51MiB/s ETA 00:01[download]  22.5% of 17.76MiB at  9.50MiB/s ETA 00:01[download]  45.0% of 17.76MiB at 13.85MiB/s ETA 00:00[download]  67.6% of 17.76MiB at 14.91MiB/s ETA 00:00[download]  90.1% of 17.76MiB at 15.96MiB/s ETA 00:00[download] 100.0% of 17.76MiB at 16.28MiB/s ETA 00:00[download] 100% of 17.76MiB in 00:01
+[download] Downloading video 7 of 53
+[pluralsight] csharp-extension-methods-m1-intro-6: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-6: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-6: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/ee5d357d-af4d-4e96-86f3-5197cbb88cef/current/mp4/1024x768.mp4?_7Zx7B3ce9T04NmErX12CQa2re6gXnaPsmRk_gXH4ggIRPURDK6YVlqI8ia7WjFcwN-KI5nMcXf1wohzD9pD1oZ4oQ2mONPsSKyDLnLCofZFyzNsd-OqeODUr2zrp95lLXfrscTSPo256cJOeAmcroq3GlPr2q33okhTHn506jg4P5zeu1Z-dozTedsl'
+[download] Sleeping 120 seconds...
+[download] Destination: 07-1-Piggybacking Namespaces-1024x768.mp4
+[download]   0.0% of 7.11MiB at Unknown speed ETA 00:07[download]   0.0% of 7.11MiB at  1.93MiB/s ETA 00:03[download]   0.1% of 7.11MiB at  3.34MiB/s ETA 00:02[download]   0.2% of 7.11MiB at  4.94MiB/s ETA 00:01[download]   0.4% of 7.11MiB at  8.03MiB/s ETA 00:00[download]   0.9% of 7.11MiB at  7.41MiB/s ETA 00:00[download]   1.7% of 7.11MiB at  5.84MiB/s ETA 00:01[download]   3.5% of 7.11MiB at  6.75MiB/s ETA 00:01[download]   7.0% of 7.11MiB at  9.35MiB/s ETA 00:00[download]  14.1% of 7.11MiB at 11.98MiB/s ETA 00:00[download]  28.1% of 7.11MiB at 14.19MiB/s ETA 00:00[download]  56.3% of 7.11MiB at 15.05MiB/s ETA 00:00[download] 100.0% of 7.11MiB at 15.06MiB/s ETA 00:00[download] 100% of 7.11MiB in 00:00
+[download] Downloading video 8 of 53
+[pluralsight] csharp-extension-methods-m1-intro-7: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-7: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-7: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553805938/8eb731c4e3d3de72f4efde112a392b11/clips/resolution/7c9af5d7-908d-4b2e-9309-7d48aa4f31f0/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 08-1-Demo 3 - Extending Interfaces-1024x768.mp4
+[download]   0.0% of 13.63MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 13.63MiB at Unknown speed ETA 00:04[download]   0.1% of 13.63MiB at  4.58MiB/s ETA 00:03[download]   0.1% of 13.63MiB at  7.31MiB/s ETA 00:01[download]   0.2% of 13.63MiB at 10.83MiB/s ETA 00:01[download]   0.5% of 13.63MiB at  1.89MiB/s ETA 00:07[download]   0.9% of 13.63MiB at  1.75MiB/s ETA 00:07[download]   1.8% of 13.63MiB at  2.87MiB/s ETA 00:04[download]   3.7% of 13.63MiB at  3.93MiB/s ETA 00:03[download]   7.3% of 13.63MiB at  5.97MiB/s ETA 00:02[download]  14.7% of 13.63MiB at  8.93MiB/s ETA 00:01[download]  29.3% of 13.63MiB at  9.90MiB/s ETA 00:00[download]  58.7% of 13.63MiB at 13.76MiB/s ETA 00:00[download]  88.0% of 13.63MiB at 15.06MiB/s ETA 00:00[download] 100.0% of 13.63MiB at 15.67MiB/s ETA 00:00[download] 100% of 13.63MiB in 00:01
+[download] Downloading video 9 of 53
+[pluralsight] csharp-extension-methods-m1-intro-8: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-8: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-8: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806064/df68f1515430d237d603e9d061e74e70/clips/resolution/03883d5f-4feb-4665-81d6-6ef39120b217/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 09-1-Extending Interfaces-1024x768.mp4
+[download]   0.0% of 6.19MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 6.19MiB at  2.90MiB/s ETA 00:02[download]   0.1% of 6.19MiB at  4.71MiB/s ETA 00:01[download]   0.2% of 6.19MiB at  7.53MiB/s ETA 00:00[download]   0.5% of 6.19MiB at 11.64MiB/s ETA 00:00[download]   1.0% of 6.19MiB at  1.65MiB/s ETA 00:03[download]   2.0% of 6.19MiB at  1.70MiB/s ETA 00:03[download]   4.0% of 6.19MiB at  2.68MiB/s ETA 00:02[download]   8.1% of 6.19MiB at  3.73MiB/s ETA 00:01[download]  16.1% of 6.19MiB at  5.65MiB/s ETA 00:00[download]  32.3% of 6.19MiB at  8.63MiB/s ETA 00:00[download]  64.6% of 6.19MiB at  9.68MiB/s ETA 00:00[download] 100.0% of 6.19MiB at 13.51MiB/s ETA 00:00[download] 100% of 6.19MiB in 00:00
+[download] Downloading video 10 of 53
+[pluralsight] csharp-extension-methods-m1-intro-9: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-9: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-9: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806189/d0d6e95a89cf4f4ac63d5a6228d1e66a/clips/resolution/622a735a-fe4b-4578-9b52-5f394e8fdba9/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 10-1-Demo 4 - Extending Collections-1024x768.mp4
+[download]   0.0% of 21.99MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 21.99MiB at  2.17MiB/s ETA 00:10[download]   0.0% of 21.99MiB at  3.33MiB/s ETA 00:06[download]   0.1% of 21.99MiB at  5.33MiB/s ETA 00:04[download]   0.1% of 21.99MiB at  8.14MiB/s ETA 00:02[download]   0.3% of 21.99MiB at  1.60MiB/s ETA 00:13[download]   0.6% of 21.99MiB at  1.58MiB/s ETA 00:13[download]   1.1% of 21.99MiB at  2.27MiB/s ETA 00:09[download]   2.3% of 21.99MiB at  3.06MiB/s ETA 00:07[download]   4.5% of 21.99MiB at  4.63MiB/s ETA 00:04[download]   9.1% of 21.99MiB at  7.20MiB/s ETA 00:02[download]  18.2% of 21.99MiB at 10.28MiB/s ETA 00:01[download]  36.4% of 21.99MiB at 13.08MiB/s ETA 00:01[download]  54.6% of 21.99MiB at 14.55MiB/s ETA 00:00[download]  72.8% of 21.99MiB at 15.41MiB/s ETA 00:00[download]  91.0% of 21.99MiB at 15.98MiB/s ETA 00:00[download] 100.0% of 21.99MiB at 16.24MiB/s ETA 00:00[download] 100% of 21.99MiB in 00:01
+[download] Downloading video 11 of 53
+[pluralsight] csharp-extension-methods-m1-intro-10: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-10: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-10: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/592ad7ef-9056-4ddf-beaa-5d7247b572a0/current/mp4/1024x768.mp4?RSxHtcLA1IebEpk7vTDF1gFEXJLybeLCUDsS89dUxpD0Zb-e_Ns0AWlnB2BLCRMHB6bM0aS1UUG-xYwUKH_kI-XYPLUMv1w1fOWo121NHrsUjrEloyMCjQyj9b7u1fdAQoNJP2Hf8dXbdH13kP5PkSijqoYHHYy0iLapQdqu55YwzfsYc3ZUKbKjMiDd'
+[download] Sleeping 120 seconds...
+[download] Destination: 11-1-Extending Collections-1024x768.mp4
+[download]   0.0% of 6.95MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 6.95MiB at  2.81MiB/s ETA 00:02[download]   0.1% of 6.95MiB at  5.06MiB/s ETA 00:01[download]   0.2% of 6.95MiB at  8.57MiB/s ETA 00:00[download]   0.4% of 6.95MiB at 14.35MiB/s ETA 00:00[download]   0.9% of 6.95MiB at  4.46MiB/s ETA 00:01[download]   1.8% of 6.95MiB at  4.26MiB/s ETA 00:01[download]   3.6% of 6.95MiB at  6.58MiB/s ETA 00:01[download]   7.2% of 6.95MiB at  8.60MiB/s ETA 00:00[download]  14.4% of 6.95MiB at 11.75MiB/s ETA 00:00[download]  28.8% of 6.95MiB at 14.26MiB/s ETA 00:00[download]  57.6% of 6.95MiB at 15.23MiB/s ETA 00:00[download] 100.0% of 6.95MiB at 16.27MiB/s ETA 00:00[download] 100% of 6.95MiB in 00:00
+[download] Downloading video 12 of 53
+[pluralsight] csharp-extension-methods-m1-intro-11: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-11: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-11: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806440/1f8a491fd0fd8584f852b0faf3efa7c2/clips/resolution/9fd11eac-697e-45ae-9275-815c7975128a/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 12-1-Demo 5 - Extending Everything-1024x768.mp4
+[download]   0.0% of 10.81MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 10.81MiB at  2.69MiB/s ETA 00:04[download]   0.1% of 10.81MiB at  4.47MiB/s ETA 00:02[download]   0.1% of 10.81MiB at  7.29MiB/s ETA 00:01[download]   0.3% of 10.81MiB at 10.81MiB/s ETA 00:01[download]   0.6% of 10.81MiB at  1.61MiB/s ETA 00:06[download]   1.1% of 10.81MiB at  1.58MiB/s ETA 00:06[download]   2.3% of 10.81MiB at  2.32MiB/s ETA 00:04[download]   4.6% of 10.81MiB at  3.19MiB/s ETA 00:03[download]   9.2% of 10.81MiB at  4.73MiB/s ETA 00:02[download]  18.5% of 10.81MiB at  7.38MiB/s ETA 00:01[download]  37.0% of 10.81MiB at  8.59MiB/s ETA 00:00[download]  74.0% of 10.81MiB at 13.08MiB/s ETA 00:00[download] 100.0% of 10.81MiB at 10.54MiB/s ETA 00:00[download] 100% of 10.81MiB in 00:01
+[download] Downloading video 13 of 53
+[pluralsight] csharp-extension-methods-m1-intro-12: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-12: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-12: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806567/30e4256779ee76de7d04099d7da4e51d/clips/resolution/68c7ccfc-c987-42b6-a73f-11950e821618/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 13-1-Demo 5 - Extending Everything (part 2)-1024x768.mp4
+[download]   0.0% of 9.69MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 9.69MiB at  2.87MiB/s ETA 00:03[download]   0.1% of 9.69MiB at  4.68MiB/s ETA 00:02[download]   0.2% of 9.69MiB at  6.89MiB/s ETA 00:01[download]   0.3% of 9.69MiB at 10.86MiB/s ETA 00:00[download]   0.6% of 9.69MiB at  1.90MiB/s ETA 00:05[download]   1.3% of 9.69MiB at  1.79MiB/s ETA 00:05[download]   2.6% of 9.69MiB at  2.73MiB/s ETA 00:03[download]   5.2% of 9.69MiB at  3.85MiB/s ETA 00:02[download]  10.3% of 9.69MiB at  5.84MiB/s ETA 00:01[download]  20.6% of 9.69MiB at  8.72MiB/s ETA 00:00[download]  41.3% of 9.69MiB at  9.59MiB/s ETA 00:00[download]  82.6% of 9.69MiB at 14.01MiB/s ETA 00:00[download] 100.0% of 9.69MiB at 14.88MiB/s ETA 00:00[download] 100% of 9.69MiB in 00:00
+[download] Downloading video 14 of 53
+[pluralsight] csharp-extension-methods-m1-intro-13: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-13: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-13: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806693/d521ec899bafaf4d9861d33011cca98d/clips/resolution/a8c523ae-ced6-4ddd-8277-6931987455d2/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 14-1-Extending Everything-1024x768.mp4
+[download]   0.0% of 4.09MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.09MiB at  2.23MiB/s ETA 00:01[download]   0.2% of 4.09MiB at  3.88MiB/s ETA 00:01[download]   0.4% of 4.09MiB at  6.45MiB/s ETA 00:00[download]   0.7% of 4.09MiB at 10.13MiB/s ETA 00:00[download]   1.5% of 4.09MiB at  1.63MiB/s ETA 00:02[download]   3.0% of 4.09MiB at  1.55MiB/s ETA 00:02[download]   6.1% of 4.09MiB at  2.14MiB/s ETA 00:01[download]  12.2% of 4.09MiB at  3.04MiB/s ETA 00:01[download]  24.4% of 4.09MiB at  4.61MiB/s ETA 00:00[download]  48.9% of 4.09MiB at  7.17MiB/s ETA 00:00[download]  97.8% of 4.09MiB at 10.25MiB/s ETA 00:00[download] 100.0% of 4.09MiB at 10.42MiB/s ETA 00:00[download] 100% of 4.09MiB in 00:00
+[download] Downloading video 15 of 53
+[pluralsight] csharp-extension-methods-m1-intro-14: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m1-intro-14: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m1-intro-14: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806818/1b59a6b79dd7721d39e7770fb76af5af/clips/resolution/4952b607-9b8d-4f8b-9710-947ad6e9f9e4/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 15-1-Module Summary-1024x768.mp4
+[download]   0.0% of 4.32MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.32MiB at  2.55MiB/s ETA 00:01[download]   0.2% of 4.32MiB at  4.36MiB/s ETA 00:01[download]   0.3% of 4.32MiB at  6.52MiB/s ETA 00:00[download]   0.7% of 4.32MiB at 10.19MiB/s ETA 00:00[download]   1.4% of 4.32MiB at  1.94MiB/s ETA 00:02[download]   2.9% of 4.32MiB at  1.85MiB/s ETA 00:02[download]   5.8% of 4.32MiB at  2.92MiB/s ETA 00:01[download]  11.5% of 4.32MiB at  3.91MiB/s ETA 00:00[download]  23.1% of 4.32MiB at  5.88MiB/s ETA 00:00[download]  46.3% of 4.32MiB at  8.77MiB/s ETA 00:00[download]  92.5% of 4.32MiB at 10.83MiB/s ETA 00:00[download] 100.0% of 4.32MiB at 11.09MiB/s ETA 00:00[download] 100% of 4.32MiB in 00:00
+[download] Downloading video 16 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-0: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-0: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-0: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553806943/21be7f3464fd136b859734d33ba9ab55/clips/resolution/9b9ab670-51b7-46c2-92d8-0e314e296573/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 16-2-What you can't do with Extension Methods-1024x768.mp4
+[download]   0.0% of 6.84MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 6.84MiB at  2.76MiB/s ETA 00:02[download]   0.1% of 6.84MiB at  4.11MiB/s ETA 00:01[download]   0.2% of 6.84MiB at  6.62MiB/s ETA 00:01[download]   0.4% of 6.84MiB at 10.66MiB/s ETA 00:00[download]   0.9% of 6.84MiB at  1.81MiB/s ETA 00:03[download]   1.8% of 6.84MiB at  1.80MiB/s ETA 00:03[download]   3.6% of 6.84MiB at  2.71MiB/s ETA 00:02[download]   7.3% of 6.84MiB at  3.86MiB/s ETA 00:01[download]  14.6% of 6.84MiB at  5.84MiB/s ETA 00:00[download]  29.2% of 6.84MiB at  8.82MiB/s ETA 00:00[download]  58.5% of 6.84MiB at 10.19MiB/s ETA 00:00[download] 100.0% of 6.84MiB at  9.75MiB/s ETA 00:00[download] 100% of 6.84MiB in 00:00
+[download] Downloading video 17 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-1: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-1: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-1: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553807070/cc0934de593ccb4c6acf872a4c96d87f/clips/resolution/ab3da9f4-d99e-4d6b-a3fa-4a87a98e6583/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 17-2-Demo 1 - Extending State-1024x768.mp4
+[download]   0.0% of 23.99MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 23.99MiB at  2.26MiB/s ETA 00:10[download]   0.0% of 23.99MiB at  3.97MiB/s ETA 00:06[download]   0.1% of 23.99MiB at  6.45MiB/s ETA 00:03[download]   0.1% of 23.99MiB at 10.38MiB/s ETA 00:02[download]   0.3% of 23.99MiB at  1.94MiB/s ETA 00:12[download]   0.5% of 23.99MiB at  1.85MiB/s ETA 00:12[download]   1.0% of 23.99MiB at  2.35MiB/s ETA 00:10[download]   2.1% of 23.99MiB at  3.83MiB/s ETA 00:06[download]   4.2% of 23.99MiB at  5.81MiB/s ETA 00:03[download]   8.3% of 23.99MiB at  8.74MiB/s ETA 00:02[download]  16.7% of 23.99MiB at  9.72MiB/s ETA 00:02[download]  33.3% of 23.99MiB at 14.25MiB/s ETA 00:01[download]  50.0% of 23.99MiB at 13.48MiB/s ETA 00:00[download]  66.7% of 23.99MiB at 14.56MiB/s ETA 00:00[download]  83.4% of 23.99MiB at 14.85MiB/s ETA 00:00[download] 100.0% of 23.99MiB at 15.34MiB/s ETA 00:00[download] 100% of 23.99MiB in 00:01
+[download] Downloading video 18 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-2: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-2: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553807196/d3e48403362c3e88180e3cd276c35e08/clips/resolution/ca539bb4-4861-40e1-ae01-58324848f9b8/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 18-2-Extending State-1024x768.mp4
+[download]   0.0% of 7.37MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 7.37MiB at  2.49MiB/s ETA 00:03[download]   0.1% of 7.37MiB at  4.25MiB/s ETA 00:01[download]   0.2% of 7.37MiB at  6.61MiB/s ETA 00:01[download]   0.4% of 7.37MiB at  9.39MiB/s ETA 00:00[download]   0.8% of 7.37MiB at  1.65MiB/s ETA 00:04[download]   1.7% of 7.37MiB at  1.75MiB/s ETA 00:04[download]   3.4% of 7.37MiB at  2.67MiB/s ETA 00:02[download]   6.8% of 7.37MiB at  3.82MiB/s ETA 00:01[download]  13.6% of 7.37MiB at  5.80MiB/s ETA 00:01[download]  27.1% of 7.37MiB at  8.77MiB/s ETA 00:00[download]  54.3% of 7.37MiB at  9.71MiB/s ETA 00:00[download] 100.0% of 7.37MiB at 13.93MiB/s ETA 00:00[download] 100% of 7.37MiB in 00:00
+[download] Downloading video 19 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-3: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-3: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-3: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553807322/c65a8d8e33ebb49e1b22e3de0ce79035/clips/resolution/89c34c80-b17d-4bfe-aa9e-e768102bdcd8/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 19-2-Demo 2 - Bypassing Accessibility (part 1)-1024x768.mp4
+[download]   0.0% of 22.62MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 22.62MiB at  2.33MiB/s ETA 00:09[download]   0.0% of 22.62MiB at  4.05MiB/s ETA 00:05[download]   0.1% of 22.62MiB at  6.69MiB/s ETA 00:03[download]   0.1% of 22.62MiB at 10.51MiB/s ETA 00:02[download]   0.3% of 22.62MiB at  1.46MiB/s ETA 00:15[download]   0.5% of 22.62MiB at  1.52MiB/s ETA 00:14[download]   1.1% of 22.62MiB at  2.23MiB/s ETA 00:10[download]   2.2% of 22.62MiB at  3.09MiB/s ETA 00:07[download]   4.4% of 22.62MiB at  4.67MiB/s ETA 00:04[download]   8.8% of 22.62MiB at  7.23MiB/s ETA 00:02[download]  17.7% of 22.62MiB at 10.33MiB/s ETA 00:01[download]  35.4% of 22.62MiB at 12.88MiB/s ETA 00:01[download]  53.0% of 22.62MiB at 13.54MiB/s ETA 00:00[download]  70.7% of 22.62MiB at 15.21MiB/s ETA 00:00[download]  88.4% of 22.62MiB at 15.74MiB/s ETA 00:00[download] 100.0% of 22.62MiB at 16.12MiB/s ETA 00:00[download] 100% of 22.62MiB in 00:01
+[download] Downloading video 20 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-4: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-4: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-4: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/aeabc029-833d-4385-a8f7-e6b128374d06/current/mp4/1024x768.mp4?Zd8wEYZVS6_tmaPJLtOMEa3h8Sm4hvqQ-HgBqYg27U0MnzAHt5z3wBX2RHbo7z8Fwylzp5l1ap6Uey3JIOnCbTt646CuyrbXO5soLEcPVjMiaD-IfE39dneXx3MTDX5dp-F4KbbnkErjtGvtb-5ogsgd6w3zqVgZ26kUfhVjoiacvXmVWdv4Cq9Vrcj5'
+[download] Sleeping 120 seconds...
+[download] Destination: 20-2-Demo 2 - Bypassing Accessibility (part 2)-1024x768.mp4
+[download]   0.0% of 12.87MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 12.87MiB at  2.74MiB/s ETA 00:04[download]   0.1% of 12.87MiB at  4.75MiB/s ETA 00:02[download]   0.1% of 12.87MiB at  7.19MiB/s ETA 00:01[download]   0.2% of 12.87MiB at 11.28MiB/s ETA 00:01[download]   0.5% of 12.87MiB at  4.34MiB/s ETA 00:02[download]   1.0% of 12.87MiB at  4.64MiB/s ETA 00:02[download]   1.9% of 12.87MiB at  6.30MiB/s ETA 00:02[download]   3.9% of 12.87MiB at  9.40MiB/s ETA 00:01[download]   7.8% of 12.87MiB at 12.51MiB/s ETA 00:00[download]  15.5% of 12.87MiB at 14.86MiB/s ETA 00:00[download]  31.1% of 12.87MiB at 16.45MiB/s ETA 00:00[download]  62.1% of 12.87MiB at 15.54MiB/s ETA 00:00[download]  93.2% of 12.87MiB at 17.34MiB/s ETA 00:00[download] 100.0% of 12.87MiB at 17.74MiB/s ETA 00:00[download] 100% of 12.87MiB in 00:00
+[download] Downloading video 21 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-5: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-5: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-5: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/8fe0bf9e-fa39-4f83-be4e-c7dc4f00b866/current/mp4/1024x768.mp4?87DUkvEnE1ktWSRWsvucl--cBwzRSWfU9gOjd_VsdA9H8GrODhhi7jADOWiC1W1oc13fBQ3H8IJZrTi6ffRnwy2hDhz1415_PkHoUho-nM4YWpmaEAJn4GRIcxVqLfQTBsVgatdkTeJ87rhxGGOOT2f1-FQWphOhwLhYDVJDSaf_Q6q6ehMGrMRfZ-RS'
+[download] Sleeping 120 seconds...
+[download] Destination: 21-2-Demo 2 - Bypassing Accessibility-1024x768.mp4
+[download]   0.0% of 4.99MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.99MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.99MiB at  5.36MiB/s ETA 00:00[download]   0.3% of 4.99MiB at  8.07MiB/s ETA 00:00[download]   0.6% of 4.99MiB at 13.47MiB/s ETA 00:00[download]   1.2% of 4.99MiB at  8.42MiB/s ETA 00:00[download]   2.5% of 4.99MiB at  6.24MiB/s ETA 00:00[download]   5.0% of 4.99MiB at  7.35MiB/s ETA 00:00[download]  10.0% of 4.99MiB at  9.54MiB/s ETA 00:00[download]  20.0% of 4.99MiB at 12.70MiB/s ETA 00:00[download]  40.1% of 4.99MiB at 14.92MiB/s ETA 00:00[download]  80.1% of 4.99MiB at 15.95MiB/s ETA 00:00[download] 100.0% of 4.99MiB at 14.28MiB/s ETA 00:00[download] 100% of 4.99MiB in 00:00
+[download] Downloading video 22 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-6: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-6: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-6: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/54bc7292-f97b-4820-974a-2829866423d3/current/mp4/1024x768.mp4?Mkm3fiTLZGeT_3cNlC3c3Y4EL-wvm7-JPd6Ex89vpXBK4He21mi-G6icm6XwsytTOkqbm18OnFdVlFKlSShS67ttN5rJs_zWM7Am5MsDxREWv1qr4tPFbk5rT7Uo1BzmL33fcRjk926PjRQ5dtE-s4ymfTntQNcr6EVExJ8xkOMT8yLdv85LV1lr4D39'
+[download] Sleeping 120 seconds...
+[download] Destination: 22-2-Demo 3 - How Extension Methods Work-1024x768.mp4
+[download]   0.0% of 16.44MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 16.44MiB at  2.67MiB/s ETA 00:06[download]   0.0% of 16.44MiB at  4.67MiB/s ETA 00:03[download]   0.1% of 16.44MiB at  8.07MiB/s ETA 00:02[download]   0.2% of 16.44MiB at 13.37MiB/s ETA 00:01[download]   0.4% of 16.44MiB at  6.29MiB/s ETA 00:02[download]   0.8% of 16.44MiB at  4.91MiB/s ETA 00:03[download]   1.5% of 16.44MiB at  7.61MiB/s ETA 00:02[download]   3.0% of 16.44MiB at  9.76MiB/s ETA 00:01[download]   6.1% of 16.44MiB at 12.66MiB/s ETA 00:01[download]  12.2% of 16.44MiB at 12.97MiB/s ETA 00:01[download]  24.3% of 16.44MiB at  9.67MiB/s ETA 00:01[download]  48.7% of 16.44MiB at  9.75MiB/s ETA 00:00[download]  73.0% of 16.44MiB at 10.31MiB/s ETA 00:00[download]  97.3% of 16.44MiB at 11.33MiB/s ETA 00:00[download] 100.0% of 16.44MiB at 11.45MiB/s ETA 00:00[download] 100% of 16.44MiB in 00:01
+[download] Downloading video 23 of 53
+[pluralsight] csharp-extension-methods-m2-advanced-1-7: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m2-advanced-1-7: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m2-advanced-1-7: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553807822/4288a1c11e631e420e01e77d0cea3a1a/clips/resolution/66fa13a1-5c1b-4f84-affc-fe977438aedb/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 23-2-How Extension Methods Work-1024x768.mp4
+[download]   0.0% of 3.49MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 3.49MiB at  2.74MiB/s ETA 00:01[download]   0.2% of 3.49MiB at  4.56MiB/s ETA 00:00[download]   0.4% of 3.49MiB at  7.30MiB/s ETA 00:00[download]   0.9% of 3.49MiB at 11.41MiB/s ETA 00:00[download]   1.8% of 3.49MiB at  1.36MiB/s ETA 00:02[download]   3.5% of 3.49MiB at  1.24MiB/s ETA 00:02[download]   7.1% of 3.49MiB at  1.88MiB/s ETA 00:01[download]  14.3% of 3.49MiB at  2.70MiB/s ETA 00:01[download]  28.6% of 3.49MiB at  4.20MiB/s ETA 00:00[download]  57.2% of 3.49MiB at  6.69MiB/s ETA 00:00[download] 100.0% of 3.49MiB at  9.07MiB/s ETA 00:00[download] 100% of 3.49MiB in 00:00
+[download] Downloading video 24 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-0: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-0: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-0: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553807947/235ffb2241e3e2839d07d82f2cf26101/clips/resolution/dfd84831-260e-4ac9-86c2-2a72f51837ed/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 24-3-Module Introduction-1024x768.mp4
+[download]   0.0% of 4.25MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.25MiB at Unknown speed ETA Unknown ETA[download]   0.2% of 4.25MiB at  4.99MiB/s ETA 00:00[download]   0.3% of 4.25MiB at  6.98MiB/s ETA 00:00[download]   0.7% of 4.25MiB at 10.65MiB/s ETA 00:00[download]   1.4% of 4.25MiB at  1.79MiB/s ETA 00:02[download]   2.9% of 4.25MiB at  1.80MiB/s ETA 00:02[download]   5.9% of 4.25MiB at  2.76MiB/s ETA 00:01[download]  11.7% of 4.25MiB at  3.90MiB/s ETA 00:00[download]  23.5% of 4.25MiB at  5.96MiB/s ETA 00:00[download]  47.0% of 4.25MiB at  8.87MiB/s ETA 00:00[download]  94.0% of 4.25MiB at 10.59MiB/s ETA 00:00[download] 100.0% of 4.25MiB at 10.13MiB/s ETA 00:00[download] 100% of 4.25MiB in 00:00
+[download] Downloading video 25 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-1: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-1: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-1: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553808071/f801d2872dc55dd073305ce93d2d098e/clips/resolution/0da63bfb-766f-459c-a3b6-ee4b6d1fe1be/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 25-3-Demo 4 - Portable Extension Methods (part 1)-1024x768.mp4
+[download]   0.0% of 19.49MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 19.49MiB at  2.50MiB/s ETA 00:07[download]   0.0% of 19.49MiB at  4.32MiB/s ETA 00:04[download]   0.1% of 19.49MiB at  7.23MiB/s ETA 00:02[download]   0.2% of 19.49MiB at 11.12MiB/s ETA 00:01[download]   0.3% of 19.49MiB at  1.57MiB/s ETA 00:12[download]   0.6% of 19.49MiB at  1.51MiB/s ETA 00:12[download]   1.3% of 19.49MiB at  2.21MiB/s ETA 00:08[download]   2.6% of 19.49MiB at  3.01MiB/s ETA 00:06[download]   5.1% of 19.49MiB at  4.47MiB/s ETA 00:04[download]  10.3% of 19.49MiB at  6.91MiB/s ETA 00:02[download]  20.5% of 19.49MiB at  9.70MiB/s ETA 00:01[download]  41.1% of 19.49MiB at 12.38MiB/s ETA 00:00[download]  61.6% of 19.49MiB at 12.85MiB/s ETA 00:00[download]  82.1% of 19.49MiB at 14.74MiB/s ETA 00:00[download] 100.0% of 19.49MiB at 15.32MiB/s ETA 00:00[download] 100% of 19.49MiB in 00:01
+[download] Downloading video 26 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-2: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-2: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-2: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553808196/47c666e1c2ba611e0ac566ab647bb88b/clips/resolution/9760b956-e839-469b-a074-5b85cc1de5f2/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 26-3-Demo 4 - Portable Extension Methods (part 2)-1024x768.mp4
+[download]   0.0% of 16.25MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 16.25MiB at  1.92MiB/s ETA 00:08[download]   0.0% of 16.25MiB at  3.47MiB/s ETA 00:04[download]   0.1% of 16.25MiB at  6.09MiB/s ETA 00:02[download]   0.2% of 16.25MiB at  9.94MiB/s ETA 00:01[download]   0.4% of 16.25MiB at  1.78MiB/s ETA 00:09[download]   0.8% of 16.25MiB at  1.72MiB/s ETA 00:09[download]   1.5% of 16.25MiB at  2.74MiB/s ETA 00:05[download]   3.1% of 16.25MiB at  3.85MiB/s ETA 00:04[download]   6.1% of 16.25MiB at  5.91MiB/s ETA 00:02[download]  12.3% of 16.25MiB at  8.65MiB/s ETA 00:01[download]  24.6% of 16.25MiB at 10.24MiB/s ETA 00:01[download]  49.2% of 16.25MiB at 11.40MiB/s ETA 00:00[download]  73.8% of 16.25MiB at 11.02MiB/s ETA 00:00[download]  98.4% of 16.25MiB at 11.32MiB/s ETA 00:00[download] 100.0% of 16.25MiB at 11.46MiB/s ETA 00:00[download] 100% of 16.25MiB in 00:01
+[download] Downloading video 27 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-3: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-3: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-3: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/9bbd9949-a0f1-4a95-8a93-93b68aa5acde/current/mp4/1024x768.mp4?ZwYZfu3pHCDNoCbMKj9Ja7Lh61o8LUhTmxMWvEnQjVziESS-e0KkmApWNlJ416dlvkuTjhUkjA3zUzgD-YTb0fehI-Fy5OV32IXe6ltuLp5g85p0nSyhPaZ-ktVfKVizhjkyG-RFCNliAan76dSsjx0tYSn3WnDzvmQ7capOjfMyTL_Sgagii3K56Bd-'
+[download] Sleeping 120 seconds...
+[download] Destination: 27-3-Portable Extension Methods-1024x768.mp4
+[download]   0.0% of 4.80MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.80MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.80MiB at  6.02MiB/s ETA 00:00[download]   0.3% of 4.80MiB at  9.82MiB/s ETA 00:00[download]   0.6% of 4.80MiB at 15.08MiB/s ETA 00:00[download]   1.3% of 4.80MiB at  5.85MiB/s ETA 00:00[download]   2.6% of 4.80MiB at  3.55MiB/s ETA 00:01[download]   5.2% of 4.80MiB at  5.14MiB/s ETA 00:00[download]  10.4% of 4.80MiB at  7.88MiB/s ETA 00:00[download]  20.8% of 4.80MiB at 11.08MiB/s ETA 00:00[download]  41.7% of 4.80MiB at 13.78MiB/s ETA 00:00[download]  83.4% of 4.80MiB at 14.82MiB/s ETA 00:00[download] 100.0% of 4.80MiB at 16.26MiB/s ETA 00:00[download] 100% of 4.80MiB in 00:00
+[download] Downloading video 28 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-4: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-4: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-4: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/9c421856-8aaa-4c75-8691-7ef4f2aef307/current/mp4/1024x768.mp4?5smQYN7sZBGP7_UzFZATVR-eutxYNOs9rPgZBOyHXoAz1zZrD7q3i873wsagIfnwD8KWXwPzkdGPmq6hLZiNyJRB5iEdXc0S1rJnwf1ju6TK5nC5AMNEKehoRKycLaEtjqQmIJmDBVk0yeQEdGrvxnT227x0Mr-8RSVHp-dGmemwTKVBMVEA6E-YSUwF'
+[download] Sleeping 120 seconds...
+[download] Destination: 28-3-Demo 5 - Compiler Binding-1024x768.mp4
+[download]   0.0% of 18.15MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 18.15MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 18.15MiB at  5.72MiB/s ETA 00:03[download]   0.1% of 18.15MiB at  9.45MiB/s ETA 00:01[download]   0.2% of 18.15MiB at 15.48MiB/s ETA 00:01[download]   0.3% of 18.15MiB at  4.12MiB/s ETA 00:04[download]   0.7% of 18.15MiB at  4.57MiB/s ETA 00:03[download]   1.4% of 18.15MiB at  6.85MiB/s ETA 00:02[download]   2.8% of 18.15MiB at  9.83MiB/s ETA 00:01[download]   5.5% of 18.15MiB at 12.75MiB/s ETA 00:01[download]  11.0% of 18.15MiB at 14.99MiB/s ETA 00:01[download]  22.0% of 18.15MiB at 15.89MiB/s ETA 00:00[download]  44.1% of 18.15MiB at 15.36MiB/s ETA 00:00[download]  66.1% of 18.15MiB at 17.56MiB/s ETA 00:00[download]  88.2% of 18.15MiB at 17.87MiB/s ETA 00:00[download] 100.0% of 18.15MiB at 17.98MiB/s ETA 00:00[download] 100% of 18.15MiB in 00:01
+[download] Downloading video 29 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-5: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-5: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-5: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553808573/e0dc58d3f6185ab79721dcae02fbe780/clips/resolution/03fd4c53-5a9d-431d-9825-b6caaeca4427/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 29-3-Compiler Binding-1024x768.mp4
+[download]   0.0% of 7.00MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 7.00MiB at  2.24MiB/s ETA 00:03[download]   0.1% of 7.00MiB at  3.73MiB/s ETA 00:01[download]   0.2% of 7.00MiB at  6.34MiB/s ETA 00:01[download]   0.4% of 7.00MiB at 10.08MiB/s ETA 00:00[download]   0.9% of 7.00MiB at  1.53MiB/s ETA 00:04[download]   1.8% of 7.00MiB at  1.67MiB/s ETA 00:04[download]   3.6% of 7.00MiB at  2.64MiB/s ETA 00:02[download]   7.1% of 7.00MiB at  3.77MiB/s ETA 00:01[download]  14.3% of 7.00MiB at  5.76MiB/s ETA 00:01[download]  28.6% of 7.00MiB at  8.67MiB/s ETA 00:00[download]  57.2% of 7.00MiB at  8.26MiB/s ETA 00:00[download] 100.0% of 7.00MiB at 12.76MiB/s ETA 00:00[download] 100% of 7.00MiB in 00:00
+[download] Downloading video 30 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-6: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-6: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-6: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/33439f7a-b4ea-441e-ac84-b091da231b2c/current/mp4/1024x768.mp4?QmNpXkB6Vko5j-xW4yaFLzSiWnM4Dar2dNH-3iy2om_78qQshwmiVSpJNy6O6hVdwM-cclUwqP-V5onMtSlAOqFzmWfo_im5z_oADh1RPZilZBS4a_GSIpBq6mSCznqVdbcbYhIc6srK0fb7YWy2Nql-7j_-itzZuCd2igMiHa3tn2NwUPFWeRaWiAkY'
+[download] Sleeping 120 seconds...
+[download] Destination: 30-3-Demo 6 - Configuration Binding (part 1)-1024x768.mp4
+[download]   0.0% of 16.77MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 16.77MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 16.77MiB at  5.32MiB/s ETA 00:03[download]   0.1% of 16.77MiB at  8.68MiB/s ETA 00:01[download]   0.2% of 16.77MiB at 14.18MiB/s ETA 00:01[download]   0.4% of 16.77MiB at  3.60MiB/s ETA 00:04[download]   0.7% of 16.77MiB at  3.00MiB/s ETA 00:05[download]   1.5% of 16.77MiB at  5.31MiB/s ETA 00:03[download]   3.0% of 16.77MiB at  7.52MiB/s ETA 00:02[download]   6.0% of 16.77MiB at 10.65MiB/s ETA 00:01[download]  11.9% of 16.77MiB at 13.41MiB/s ETA 00:01[download]  23.8% of 16.77MiB at 14.45MiB/s ETA 00:00[download]  47.7% of 16.77MiB at 15.72MiB/s ETA 00:00[download]  71.6% of 16.77MiB at 17.12MiB/s ETA 00:00[download]  95.4% of 16.77MiB at 17.71MiB/s ETA 00:00[download] 100.0% of 16.77MiB at 17.87MiB/s ETA 00:00[download] 100% of 16.77MiB in 00:01
+[download] Downloading video 31 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-7: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-7: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-7: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553808825/feacca139438c3b3f97eee7f435c4aab/clips/resolution/e69c21da-b30b-4e0f-99c9-5de03cdb02de/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 31-3-Demo 6 - Configuration Binding (part 2)-1024x768.mp4
+[download]   0.0% of 29.33MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 29.33MiB at  2.89MiB/s ETA 00:10[download]   0.0% of 29.33MiB at  4.47MiB/s ETA 00:06[download]   0.0% of 29.33MiB at  7.06MiB/s ETA 00:04[download]   0.1% of 29.33MiB at 10.74MiB/s ETA 00:02[download]   0.2% of 29.33MiB at  1.83MiB/s ETA 00:16[download]   0.4% of 29.33MiB at  1.76MiB/s ETA 00:16[download]   0.8% of 29.33MiB at  2.56MiB/s ETA 00:11[download]   1.7% of 29.33MiB at  3.72MiB/s ETA 00:07[download]   3.4% of 29.33MiB at  5.65MiB/s ETA 00:05[download]   6.8% of 29.33MiB at  8.49MiB/s ETA 00:03[download]  13.6% of 29.33MiB at  9.57MiB/s ETA 00:02[download]  27.3% of 29.33MiB at 14.17MiB/s ETA 00:01[download]  40.9% of 29.33MiB at 15.32MiB/s ETA 00:01[download]  54.5% of 29.33MiB at 16.19MiB/s ETA 00:00[download]  68.2% of 29.33MiB at 16.61MiB/s ETA 00:00[download]  81.8% of 29.33MiB at 16.91MiB/s ETA 00:00[download]  95.4% of 29.33MiB at 17.16MiB/s ETA 00:00[download] 100.0% of 29.33MiB at 17.29MiB/s ETA 00:00[download] 100% of 29.33MiB in 00:02
+[download] Downloading video 32 of 53
+[pluralsight] csharp-extension-methods-m3-advanced-2-8: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m3-advanced-2-8: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m3-advanced-2-8: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/a1abd178-cd52-4c7c-ad58-afbe15719e89/current/mp4/1024x768.mp4?7kT9PkrzopEgZIxjcsroTB-jSQqjJSZnn7LFFmdTNBc0T6uSniaF7AVwFLlVGFIIVZRAu6PIAHjc2aHShtXbD9XLFvEJFbezaw-_i518De7WEb8UWeimK-aRrs8nnZjXpInAgcXlPnNwyh6dWmVTIpXpYXjH2s4CZVtyWhrBA9IWQVTagAqg5eTMbUqg'
+[download] Sleeping 120 seconds...
+[download] Destination: 32-3-Module Summary-1024x768.mp4
+[download]   0.0% of 8.14MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 8.14MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 8.14MiB at  5.64MiB/s ETA 00:01[download]   0.2% of 8.14MiB at  9.18MiB/s ETA 00:00[download]   0.4% of 8.14MiB at 14.98MiB/s ETA 00:00[download]   0.8% of 8.14MiB at  3.16MiB/s ETA 00:02[download]   1.5% of 8.14MiB at  3.70MiB/s ETA 00:02[download]   3.1% of 8.14MiB at  6.10MiB/s ETA 00:01[download]   6.1% of 8.14MiB at  8.81MiB/s ETA 00:00[download]  12.3% of 8.14MiB at 11.83MiB/s ETA 00:00[download]  24.5% of 8.14MiB at 14.40MiB/s ETA 00:00[download]  49.1% of 8.14MiB at 15.44MiB/s ETA 00:00[download]  98.2% of 8.14MiB at 15.94MiB/s ETA 00:00[download] 100.0% of 8.14MiB at 16.10MiB/s ETA 00:00[download] 100% of 8.14MiB in 00:00
+[download] Downloading video 33 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-0: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-0: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-0: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/d76b4447-8df8-4574-bda2-5e0c3c43e376/current/mp4/1024x768.mp4?EfDN5n5O1LRga6vqtV5Ep6_hiLTnbXOva800q06_XUoWiFkZjRVY1ihbN3-Zpj7n7FUM7HyZG0Z-iNlfo1sWIy136mNif-koeg05BiXOLwT8ampEDb5oJs6xR_Igwe_OmsAebWWDpl65K9vwIExgwcakrCZ6YFxlDkRngTpJvl3Mmmic9Xrgt8czGotE'
+[download] Sleeping 120 seconds...
+[download] Destination: 33-4-Introducing the Extension Method Library-1024x768.mp4
+[download]   0.0% of 7.37MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 7.37MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 7.37MiB at  6.39MiB/s ETA 00:01[download]   0.2% of 7.37MiB at 10.64MiB/s ETA 00:00[download]   0.4% of 7.37MiB at 16.96MiB/s ETA 00:00[download]   0.8% of 7.37MiB at  3.52MiB/s ETA 00:02[download]   1.7% of 7.37MiB at  3.74MiB/s ETA 00:01[download]   3.4% of 7.37MiB at  5.73MiB/s ETA 00:01[download]   6.8% of 7.37MiB at  8.66MiB/s ETA 00:00[download]  13.6% of 7.37MiB at 11.74MiB/s ETA 00:00[download]  27.1% of 7.37MiB at 14.36MiB/s ETA 00:00[download]  54.2% of 7.37MiB at 15.68MiB/s ETA 00:00[download] 100.0% of 7.37MiB at 16.67MiB/s ETA 00:00[download] 100% of 7.37MiB in 00:00
+[download] Downloading video 34 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-1: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-1: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-1: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553809200/cabf21ad35da93516433ebedbbebe86b/clips/resolution/4f5ae353-8e58-4d80-9899-fe5e806b90c3/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 34-4-Demo 1 - Exceptions and Enums (part 1)-1024x768.mp4
+[download]   0.0% of 10.88MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 10.88MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 10.88MiB at  4.46MiB/s ETA 00:02[download]   0.1% of 10.88MiB at  7.29MiB/s ETA 00:01[download]   0.3% of 10.88MiB at 11.11MiB/s ETA 00:00[download]   0.6% of 10.88MiB at  1.76MiB/s ETA 00:06[download]   1.1% of 10.88MiB at  1.74MiB/s ETA 00:06[download]   2.3% of 10.88MiB at  2.82MiB/s ETA 00:03[download]   4.6% of 10.88MiB at  4.04MiB/s ETA 00:02[download]   9.2% of 10.88MiB at  6.07MiB/s ETA 00:01[download]  18.4% of 10.88MiB at  9.00MiB/s ETA 00:00[download]  36.8% of 10.88MiB at  9.78MiB/s ETA 00:00[download]  73.5% of 10.88MiB at 14.12MiB/s ETA 00:00[download] 100.0% of 10.88MiB at 15.35MiB/s ETA 00:00[download] 100% of 10.88MiB in 00:00
+[download] Downloading video 35 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-2: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-2: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553809324/847c7efc3de74beb6b96585522a20ec3/clips/resolution/1e37cd31-0d17-45dd-b6f4-b043b4d5f263/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 35-4-Demo 1 - Exceptions and Enums (part 2)-1024x768.mp4
+[download]   0.0% of 14.95MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 14.95MiB at  2.64MiB/s ETA 00:05[download]   0.0% of 14.95MiB at  4.34MiB/s ETA 00:03[download]   0.1% of 14.95MiB at  6.78MiB/s ETA 00:02[download]   0.2% of 14.95MiB at 10.41MiB/s ETA 00:01[download]   0.4% of 14.95MiB at  1.90MiB/s ETA 00:07[download]   0.8% of 14.95MiB at  1.75MiB/s ETA 00:08[download]   1.7% of 14.95MiB at  2.85MiB/s ETA 00:05[download]   3.3% of 14.95MiB at  4.00MiB/s ETA 00:03[download]   6.7% of 14.95MiB at  6.03MiB/s ETA 00:02[download]  13.4% of 14.95MiB at  9.01MiB/s ETA 00:01[download]  26.8% of 14.95MiB at  9.84MiB/s ETA 00:01[download]  53.5% of 14.95MiB at 14.24MiB/s ETA 00:00[download]  80.3% of 14.95MiB at 15.70MiB/s ETA 00:00[download] 100.0% of 14.95MiB at 16.21MiB/s ETA 00:00[download] 100% of 14.95MiB in 00:01
+[download] Downloading video 36 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-3: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-3: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-3: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553809450/a18638be739608eef97956ce19b792a7/clips/resolution/ce9ab7cb-0981-4507-8afc-cb1328d71636/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 36-4-Exceptions and Enums-1024x768.mp4
+[download]   0.0% of 5.82MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.82MiB at  2.43MiB/s ETA 00:02[download]   0.1% of 5.82MiB at  4.06MiB/s ETA 00:01[download]   0.3% of 5.82MiB at  6.80MiB/s ETA 00:00[download]   0.5% of 5.82MiB at 10.67MiB/s ETA 00:00[download]   1.1% of 5.82MiB at  1.85MiB/s ETA 00:03[download]   2.1% of 5.82MiB at  1.84MiB/s ETA 00:03[download]   4.3% of 5.82MiB at  2.85MiB/s ETA 00:01[download]   8.6% of 5.82MiB at  4.00MiB/s ETA 00:01[download]  17.2% of 5.82MiB at  6.08MiB/s ETA 00:00[download]  34.4% of 5.82MiB at  8.97MiB/s ETA 00:00[download]  68.7% of 5.82MiB at  9.98MiB/s ETA 00:00[download] 100.0% of 5.82MiB at 12.73MiB/s ETA 00:00[download] 100% of 5.82MiB in 00:00
+[download] Downloading video 37 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-4: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-4: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-4: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553809576/80dd56f4a19e968e808e999dfe8d3cef/clips/resolution/29105cff-a008-436a-a8e4-1dea843c5f44/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 37-4-Demo 2 - Reflection and Expressions (part 1)-1024x768.mp4
+[download]   0.0% of 15.19MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 15.19MiB at  2.90MiB/s ETA 00:05[download]   0.0% of 15.19MiB at  4.34MiB/s ETA 00:03[download]   0.1% of 15.19MiB at  7.06MiB/s ETA 00:02[download]   0.2% of 15.19MiB at 11.10MiB/s ETA 00:01[download]   0.4% of 15.19MiB at  1.37MiB/s ETA 00:11[download]   0.8% of 15.19MiB at  1.47MiB/s ETA 00:10[download]   1.6% of 15.19MiB at  2.09MiB/s ETA 00:07[download]   3.3% of 15.19MiB at  3.00MiB/s ETA 00:04[download]   6.6% of 15.19MiB at  4.49MiB/s ETA 00:03[download]  13.2% of 15.19MiB at  7.06MiB/s ETA 00:01[download]  26.3% of 15.19MiB at 10.19MiB/s ETA 00:01[download]  52.7% of 15.19MiB at 12.99MiB/s ETA 00:00[download]  79.0% of 15.19MiB at 13.23MiB/s ETA 00:00[download] 100.0% of 15.19MiB at 15.18MiB/s ETA 00:00[download] 100% of 15.19MiB in 00:01
+[download] Downloading video 38 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-5: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-5: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-5: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/6eafe9ba-c3b7-4b90-875a-39f5171b52ec/current/mp4/1024x768.mp4?heRDdf0X1qjOl5Qw_lo8ziZHAXwRUaTzZrdBwiG-gn4CPlV6PTyVD8V1SVlLYmGY0089kmihSCx8OlGeNAs7sW5aLGbWbAdR1gnTyb14pTYHUpfyRX4-QR-oRi5QI5_AuC7oKDJjNFD1xSQKbtghO-Whwoa4bpzbfBnuM9AIakqXvPNxLgwYt5H2CqGs'
+[download] Sleeping 120 seconds...
+[download] Destination: 38-4-Demo 2 - Reflection and Expressions (part 2)-1024x768.mp4
+[download]   0.0% of 11.01MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 11.01MiB at  2.21MiB/s ETA 00:05[download]   0.1% of 11.01MiB at  4.01MiB/s ETA 00:02[download]   0.1% of 11.01MiB at  7.27MiB/s ETA 00:01[download]   0.3% of 11.01MiB at 12.25MiB/s ETA 00:00[download]   0.6% of 11.01MiB at  3.94MiB/s ETA 00:02[download]   1.1% of 11.01MiB at  4.56MiB/s ETA 00:02[download]   2.3% of 11.01MiB at  6.89MiB/s ETA 00:01[download]   4.5% of 11.01MiB at  9.46MiB/s ETA 00:01[download]   9.1% of 11.01MiB at 12.30MiB/s ETA 00:00[download]  18.2% of 11.01MiB at 14.66MiB/s ETA 00:00[download]  36.3% of 11.01MiB at 15.40MiB/s ETA 00:00[download]  72.7% of 11.01MiB at 15.24MiB/s ETA 00:00[download] 100.0% of 11.01MiB at 17.23MiB/s ETA 00:00[download] 100% of 11.01MiB in 00:00
+[download] Downloading video 39 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-6: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-6: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-6: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/f529a313-1679-4269-98ca-05004e24b8ee/current/mp4/1024x768.mp4?pAhEjEPN72lUnYlLa6MQCGL5WzFEZdW5CLtji8I6Nd0h1fXRPt3OEg5UzFTgM-3T57jvOVtxQ_LohYV5HNY44Ati4s2EQyad6wT5s-it-CoBA0TgEnDEV-gZGBy6HPS9tKFaEh2X4GQdSti6BYpXhaBr2W69FuUhnNrxBzCy-4thXTfvEEhG0OhUOAp5'
+[download] Sleeping 120 seconds...
+[download] Destination: 39-4-Reflection and Expressions-1024x768.mp4
+[download]   0.0% of 5.45MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.45MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.45MiB at  6.12MiB/s ETA 00:00[download]   0.3% of 5.45MiB at  8.58MiB/s ETA 00:00[download]   0.6% of 5.45MiB at 13.92MiB/s ETA 00:00[download]   1.1% of 5.45MiB at  5.26MiB/s ETA 00:01[download]   2.3% of 5.45MiB at  5.39MiB/s ETA 00:00[download]   4.6% of 5.45MiB at  7.87MiB/s ETA 00:00[download]   9.2% of 5.45MiB at 10.87MiB/s ETA 00:00[download]  18.3% of 5.45MiB at 13.77MiB/s ETA 00:00[download]  36.7% of 5.45MiB at 15.74MiB/s ETA 00:00[download]  73.4% of 5.45MiB at 16.03MiB/s ETA 00:00[download] 100.0% of 5.45MiB at 15.61MiB/s ETA 00:00[download] 100% of 5.45MiB in 00:00
+[download] Downloading video 40 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-7: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-7: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-7: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/b7702d05-5acb-40b7-bec4-d150f081976a/current/mp4/1024x768.mp4?koE5wgb_rACUqFWTY0VjJgFuPXDDtzxjZQYPO8MoqYMbMTIAqLui3QW2dvkNZCHup1aCBG5-Kk2WrtD_KwPHFP3kdpKVWEkMmWwcn0iSsff_vM5-Zwd3aqCs6MJsUHxoTKuslsBghm-2ncBgFBMOKkWjbc_f8h9RjTpul8tDU41cf3Kvb7PPjVRxp_kg'
+[download] Sleeping 120 seconds...
+[download] Destination: 40-4-Demo 3 - Entity Framework (part 1)-1024x768.mp4
+[download]   0.0% of 12.69MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 12.69MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 12.69MiB at  5.68MiB/s ETA 00:02[download]   0.1% of 12.69MiB at  9.55MiB/s ETA 00:01[download]   0.2% of 12.69MiB at 15.58MiB/s ETA 00:00[download]   0.5% of 12.69MiB at  3.92MiB/s ETA 00:03[download]   1.0% of 12.69MiB at  5.24MiB/s ETA 00:02[download]   2.0% of 12.69MiB at  6.87MiB/s ETA 00:01[download]   3.9% of 12.69MiB at  9.48MiB/s ETA 00:01[download]   7.9% of 12.69MiB at 12.49MiB/s ETA 00:00[download]  15.8% of 12.69MiB at 14.07MiB/s ETA 00:00[download]  31.5% of 12.69MiB at 15.93MiB/s ETA 00:00[download]  63.1% of 12.69MiB at 16.69MiB/s ETA 00:00[download]  94.6% of 12.69MiB at 16.67MiB/s ETA 00:00[download] 100.0% of 12.69MiB at 17.45MiB/s ETA 00:00[download] 100% of 12.69MiB in 00:00
+[download] Downloading video 41 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-8: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-8: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-8: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553810080/a155e1d9f0b88d9989c8a7a6113ff108/clips/resolution/20140dfe-efe3-4c04-ae34-3858aaea8780/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 41-4-Demo 3 - Entity Framework (part 2)-1024x768.mp4
+[download]   0.0% of 10.83MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 10.83MiB at  2.80MiB/s ETA 00:03[download]   0.1% of 10.83MiB at  4.63MiB/s ETA 00:02[download]   0.1% of 10.83MiB at  7.39MiB/s ETA 00:01[download]   0.3% of 10.83MiB at  6.67MiB/s ETA 00:01[download]   0.6% of 10.83MiB at  1.70MiB/s ETA 00:06[download]   1.1% of 10.83MiB at  1.74MiB/s ETA 00:06[download]   2.3% of 10.83MiB at  2.67MiB/s ETA 00:03[download]   4.6% of 10.83MiB at  3.88MiB/s ETA 00:02[download]   9.2% of 10.83MiB at  5.84MiB/s ETA 00:01[download]  18.5% of 10.83MiB at  8.70MiB/s ETA 00:01[download]  36.9% of 10.83MiB at  9.53MiB/s ETA 00:00[download]  73.8% of 10.83MiB at 14.15MiB/s ETA 00:00[download] 100.0% of 10.83MiB at 15.05MiB/s ETA 00:00[download] 100% of 10.83MiB in 00:00
+[download] Downloading video 42 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-9: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-9: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-9: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/81f02fa0-082b-423a-af8e-3ba9c51b2c67/current/mp4/1024x768.mp4?7wi0K7LZOBkrzm9klabPjZIfuJgjlQvQjjbXgio9tTEaRci8WdTsBlLJH_wjhDmiR5p73J1UqXdQ7_5_kCLB5a28GBXq338LaugmP40J7wBMjWy2ScEv78YZW_o1lT4adSQVFc3FBNMb1jIg1s42OQsTyYP3w3qbYV3z8lKz6ujILkgug9gvDQrs582B'
+[download] Sleeping 120 seconds...
+[download] Destination: 42-4-Demo 3 - Entity Framework (part 3)-1024x768.mp4
+[download]   0.0% of 11.31MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 11.31MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 11.31MiB at  5.49MiB/s ETA 00:02[download]   0.1% of 11.31MiB at  9.17MiB/s ETA 00:01[download]   0.3% of 11.31MiB at 14.47MiB/s ETA 00:00[download]   0.5% of 11.31MiB at  5.62MiB/s ETA 00:02[download]   1.1% of 11.31MiB at  4.52MiB/s ETA 00:02[download]   2.2% of 11.31MiB at  6.25MiB/s ETA 00:01[download]   4.4% of 11.31MiB at  9.44MiB/s ETA 00:01[download]   8.8% of 11.31MiB at 12.41MiB/s ETA 00:00[download]  17.7% of 11.31MiB at 14.80MiB/s ETA 00:00[download]  35.3% of 11.31MiB at 15.83MiB/s ETA 00:00[download]  70.7% of 11.31MiB at 15.78MiB/s ETA 00:00[download] 100.0% of 11.31MiB at 16.85MiB/s ETA 00:00[download] 100% of 11.31MiB in 00:00
+[download] Downloading video 43 of 53
+[pluralsight] csharp-extension-methods-m4-library-1-10: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m4-library-1-10: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m4-library-1-10: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553810331/697df2ef727aef541edb7f4b08863e6b/clips/resolution/64f01cb1-1706-40ea-bf60-f55cf0b09b87/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 43-4-Entity Framework-1024x768.mp4
+[download]   0.0% of 7.39MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 7.39MiB at  2.58MiB/s ETA 00:02[download]   0.1% of 7.39MiB at  4.10MiB/s ETA 00:01[download]   0.2% of 7.39MiB at  6.68MiB/s ETA 00:01[download]   0.4% of 7.39MiB at 10.04MiB/s ETA 00:00[download]   0.8% of 7.39MiB at  1.94MiB/s ETA 00:03[download]   1.7% of 7.39MiB at  1.71MiB/s ETA 00:04[download]   3.4% of 7.39MiB at  2.83MiB/s ETA 00:02[download]   6.8% of 7.39MiB at  3.91MiB/s ETA 00:01[download]  13.5% of 7.39MiB at  5.96MiB/s ETA 00:01[download]  27.0% of 7.39MiB at  8.94MiB/s ETA 00:00[download]  54.1% of 7.39MiB at  9.82MiB/s ETA 00:00[download] 100.0% of 7.39MiB at 14.09MiB/s ETA 00:00[download] 100% of 7.39MiB in 00:00
+[download] Downloading video 44 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-0: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-0: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-0: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/c8f1d137-c049-4cd9-86f0-514639d37263/current/mp4/1024x768.mp4?JU-1rSItxe7hlAvbCGxbZiGjK7GNUxXGpPoDdn0cRaTcXdRbDzMu28sl1T-T2iVkYOG9Tj-Go1osVo3dFDsN5egbqX3fis-U0xq7CTkG-wraaIoBQR05u6uVJYVAj8Mr-mte6eDOcUTgOJrHETav6dcZXv7A6s4V_VU9BzyXj-qtL_ULZfTv1g8Wext7'
+[download] Sleeping 120 seconds...
+[download] Destination: 44-5-Module Introduction-1024x768.mp4
+[download]   0.0% of 4.87MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.87MiB at  2.85MiB/s ETA 00:01[download]   0.1% of 4.87MiB at  5.01MiB/s ETA 00:00[download]   0.3% of 4.87MiB at  8.65MiB/s ETA 00:00[download]   0.6% of 4.87MiB at 14.02MiB/s ETA 00:00[download]   1.3% of 4.87MiB at  3.63MiB/s ETA 00:01[download]   2.5% of 4.87MiB at  4.39MiB/s ETA 00:01[download]   5.1% of 4.87MiB at  6.32MiB/s ETA 00:00[download]  10.3% of 4.87MiB at  9.32MiB/s ETA 00:00[download]  20.5% of 4.87MiB at 12.23MiB/s ETA 00:00[download]  41.1% of 4.87MiB at 14.64MiB/s ETA 00:00[download]  82.1% of 4.87MiB at 14.05MiB/s ETA 00:00[download] 100.0% of 4.87MiB at 16.33MiB/s ETA 00:00[download] 100% of 4.87MiB in 00:00
+[download] Downloading video 45 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-1: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-1: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-1: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/f9da2191-fa72-4216-81f0-b56ed1159665/current/mp4/1024x768.mp4?XcYnn3XqsG6lQQyp2gky5GHs7iUl8SBDOaN5p-9HfKL1a7WGQiw2IR5BqKJ8ftp58eV45bybxzhu4a5QRt6bcLCU4ldZZGio-Qpk3kKBAZKbKiXkjQ1-TndmZXyBeufI__d5JfixMldSSCbGid2dbj2gv5w6MUU6dqKnFjo09-Nl6ynrezmO5ENxkLGM'
+[download] Sleeping 120 seconds...
+[download] Destination: 45-5-Demo 4 - WCF Clients (part 1)-1024x768.mp4
+[download]   0.0% of 13.87MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 13.87MiB at Unknown speed ETA 00:04[download]   0.0% of 13.87MiB at  5.20MiB/s ETA 00:02[download]   0.1% of 13.87MiB at  9.00MiB/s ETA 00:01[download]   0.2% of 13.87MiB at 15.02MiB/s ETA 00:00[download]   0.4% of 13.87MiB at  7.17MiB/s ETA 00:01[download]   0.9% of 13.87MiB at  4.98MiB/s ETA 00:02[download]   1.8% of 13.87MiB at  7.06MiB/s ETA 00:01[download]   3.6% of 13.87MiB at 10.00MiB/s ETA 00:01[download]   7.2% of 13.87MiB at 13.08MiB/s ETA 00:00[download]  14.4% of 13.87MiB at 14.84MiB/s ETA 00:00[download]  28.8% of 13.87MiB at 16.44MiB/s ETA 00:00[download]  57.7% of 13.87MiB at 17.29MiB/s ETA 00:00[download]  86.5% of 13.87MiB at 15.96MiB/s ETA 00:00[download] 100.0% of 13.87MiB at 16.88MiB/s ETA 00:00[download] 100% of 13.87MiB in 00:01
+[download] Downloading video 46 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-2: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-2: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553810709/3818c9b913d4d9ca322addef73b6ef34/clips/resolution/757eb3d5-a6ec-417e-9112-cbd4d05e4837/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 46-5-Demo 4 - WCF Clients (part 2)-1024x768.mp4
+[download]   0.0% of 14.42MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 14.42MiB at  2.66MiB/s ETA 00:05[download]   0.0% of 14.42MiB at  4.19MiB/s ETA 00:03[download]   0.1% of 14.42MiB at  6.85MiB/s ETA 00:02[download]   0.2% of 14.42MiB at 10.88MiB/s ETA 00:01[download]   0.4% of 14.42MiB at  1.37MiB/s ETA 00:10[download]   0.9% of 14.42MiB at  1.44MiB/s ETA 00:09[download]   1.7% of 14.42MiB at  2.09MiB/s ETA 00:06[download]   3.5% of 14.42MiB at  2.85MiB/s ETA 00:04[download]   6.9% of 14.42MiB at  4.28MiB/s ETA 00:03[download]  13.9% of 14.42MiB at  6.61MiB/s ETA 00:01[download]  27.7% of 14.42MiB at  9.61MiB/s ETA 00:01[download]  55.5% of 14.42MiB at 12.56MiB/s ETA 00:00[download]  83.2% of 14.42MiB at 14.12MiB/s ETA 00:00[download] 100.0% of 14.42MiB at 14.88MiB/s ETA 00:00[download] 100% of 14.42MiB in 00:01
+[download] Downloading video 47 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-3: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-3: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-3: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553810835/399a62c5c4ea62bc46bc6192f7eba2f0/clips/resolution/c5caa1b5-60f4-4013-a9c6-b312c22020b1/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 47-5-WCF Clients-1024x768.mp4
+[download]   0.0% of 4.83MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.83MiB at Unknown speed ETA 00:01[download]   0.1% of 4.83MiB at  4.96MiB/s ETA 00:00[download]   0.3% of 4.83MiB at  7.84MiB/s ETA 00:00[download]   0.6% of 4.83MiB at 11.73MiB/s ETA 00:00[download]   1.3% of 4.83MiB at  1.58MiB/s ETA 00:03[download]   2.6% of 4.83MiB at  1.58MiB/s ETA 00:02[download]   5.2% of 4.83MiB at  2.28MiB/s ETA 00:02[download]  10.3% of 4.83MiB at  3.15MiB/s ETA 00:01[download]  20.7% of 4.83MiB at  4.69MiB/s ETA 00:00[download]  41.4% of 4.83MiB at  7.15MiB/s ETA 00:00[download]  82.8% of 4.83MiB at 10.26MiB/s ETA 00:00[download] 100.0% of 4.83MiB at 11.20MiB/s ETA 00:00[download] 100% of 4.83MiB in 00:00
+[download] Downloading video 48 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-4: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-4: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-4: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/3d0d8389-d597-4849-a2d3-1dd0cfe2fd4d/current/mp4/1024x768.mp4?KCJiE_u8BfvLil-5rYk3odv3V5iWi3FEc4atZNiIWq19ekRwuG1ph7HT5g6EvmIConVF-qiDsZM_x_wjRjQd0AD6PBpqwmhaEq9y57NCGFiKzq3xwdoM1dDKEiUBPG91YjcfwAmS3Z8MLZcF6GeBXTxWwIzM49UIWxLB_-50pAr8pBX69kwMN_NHlY_r'
+[download] Sleeping 120 seconds...
+[download] Destination: 48-5-Demo 5 - Web Api POST Responses-1024x768.mp4
+[download]   0.0% of 14.63MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 14.63MiB at  2.83MiB/s ETA 00:05[download]   0.0% of 14.63MiB at  4.32MiB/s ETA 00:03[download]   0.1% of 14.63MiB at  7.36MiB/s ETA 00:02[download]   0.2% of 14.63MiB at 12.13MiB/s ETA 00:01[download]   0.4% of 14.63MiB at  4.84MiB/s ETA 00:03[download]   0.8% of 14.63MiB at  4.79MiB/s ETA 00:03[download]   1.7% of 14.63MiB at  7.39MiB/s ETA 00:01[download]   3.4% of 14.63MiB at  9.00MiB/s ETA 00:01[download]   6.8% of 14.63MiB at 12.19MiB/s ETA 00:01[download]  13.7% of 14.63MiB at 14.08MiB/s ETA 00:00[download]  27.3% of 14.63MiB at 15.44MiB/s ETA 00:00[download]  54.7% of 14.63MiB at 12.84MiB/s ETA 00:00[download]  82.0% of 14.63MiB at 14.84MiB/s ETA 00:00[download] 100.0% of 14.63MiB at 15.59MiB/s ETA 00:00[download] 100% of 14.63MiB in 00:01
+[download] Downloading video 49 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-5: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-5: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-5: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/9dbd9ed9-48d9-4a66-84e6-3a0b667ddd1d/current/mp4/1024x768.mp4?w_apGsyb6UboVAT30N7Y3Uc3VF4KVR4WSp0ai4V9pmP1H5uD8i9ddjjDRJhzuJerAIwcLHSFduHyZyOEHVu3Vd5lyXRtB804BeEvNXsoNju9KtuzlagSE3cDJL7_Ss0BQMlOXq_zPiygcc1hMaI64u75Z98UjAvfRjDu8_hEO0twSprClYoRpuckugeb'
+[download] Sleeping 120 seconds...
+[download] Destination: 49-5-Web Api POST Responses-1024x768.mp4
+[download]   0.0% of 4.11MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 4.11MiB at Unknown speed ETA Unknown ETA[download]   0.2% of 4.11MiB at  5.72MiB/s ETA 00:00[download]   0.4% of 4.11MiB at  9.51MiB/s ETA 00:00[download]   0.7% of 4.11MiB at 14.94MiB/s ETA 00:00[download]   1.5% of 4.11MiB at  3.15MiB/s ETA 00:01[download]   3.0% of 4.11MiB at  4.49MiB/s ETA 00:00[download]   6.1% of 4.11MiB at  6.77MiB/s ETA 00:00[download]  12.1% of 4.11MiB at  9.44MiB/s ETA 00:00[download]  24.3% of 4.11MiB at 11.45MiB/s ETA 00:00[download]  48.6% of 4.11MiB at 13.72MiB/s ETA 00:00[download]  97.2% of 4.11MiB at 15.04MiB/s ETA 00:00[download] 100.0% of 4.11MiB at 14.98MiB/s ETA 00:00[download] 100% of 4.11MiB in 00:00
+[download] Downloading video 50 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-6: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-6: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-6: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/33f0c1f8-31c1-4d54-a545-43a78dee263c/current/mp4/1024x768.mp4?RiRtgov0FFZD4X_aTwEt_A8djUivCzBzxYElHWnK5gBL-cHFw6_jda6bzOssT_eLM5pdRjTS09jEn73UA30tad0c0uYlfIVPQs2ImYecH9vOtorEwnj-9hlC9nDt8M0NtCVhmuhPEnkQqsc2gsXERcozMcxzyq_OmYAhn2c6kg-0Yl4HJvLwTjSXfLcV'
+[download] Sleeping 120 seconds...
+[download] Destination: 50-5-Demo 6 - ASP.NET MVC HtmlHelper (part 1)-1024x768.mp4
+[download]   0.0% of 17.25MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 17.25MiB at  2.59MiB/s ETA 00:06[download]   0.0% of 17.25MiB at  4.65MiB/s ETA 00:03[download]   0.1% of 17.25MiB at  8.09MiB/s ETA 00:02[download]   0.2% of 17.25MiB at 13.45MiB/s ETA 00:01[download]   0.4% of 17.25MiB at  4.85MiB/s ETA 00:03[download]   0.7% of 17.25MiB at  4.68MiB/s ETA 00:03[download]   1.4% of 17.25MiB at  6.37MiB/s ETA 00:02[download]   2.9% of 17.25MiB at  8.69MiB/s ETA 00:01[download]   5.8% of 17.25MiB at 11.46MiB/s ETA 00:01[download]  11.6% of 17.25MiB at 14.12MiB/s ETA 00:01[download]  23.2% of 17.25MiB at 15.18MiB/s ETA 00:00[download]  46.4% of 17.25MiB at 14.59MiB/s ETA 00:00[download]  69.6% of 17.25MiB at 16.34MiB/s ETA 00:00[download]  92.7% of 17.25MiB at 17.20MiB/s ETA 00:00[download] 100.0% of 17.25MiB at 17.46MiB/s ETA 00:00[download] 100% of 17.25MiB in 00:01
+[download] Downloading video 51 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-7: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-7: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-7: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553811334/4ece17d53bc9dec3ffb88d8380a5e33f/clips/resolution/27e3a154-80ea-4b5a-9f52-ea01e38d2514/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 51-5-Demo 6 - ASP.NET MVC HtmlHelper (part 2)-1024x768.mp4
+[download]   0.0% of 10.78MiB at Unknown speed ETA Unknown ETA[download]   0.0% of 10.78MiB at  2.71MiB/s ETA 00:04[download]   0.1% of 10.78MiB at  4.65MiB/s ETA 00:02[download]   0.1% of 10.78MiB at  7.44MiB/s ETA 00:01[download]   0.3% of 10.78MiB at 11.63MiB/s ETA 00:00[download]   0.6% of 10.78MiB at  1.59MiB/s ETA 00:06[download]   1.2% of 10.78MiB at  1.54MiB/s ETA 00:06[download]   2.3% of 10.78MiB at  2.22MiB/s ETA 00:04[download]   4.6% of 10.78MiB at  3.11MiB/s ETA 00:03[download]   9.3% of 10.78MiB at  4.68MiB/s ETA 00:02[download]  18.5% of 10.78MiB at  7.24MiB/s ETA 00:01[download]  37.1% of 10.78MiB at 10.29MiB/s ETA 00:00[download]  74.2% of 10.78MiB at 12.67MiB/s ETA 00:00[download] 100.0% of 10.78MiB at 14.01MiB/s ETA 00:00[download] 100% of 10.78MiB in 00:01
+[download] Downloading video 52 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-8: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-8: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-8: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/c7546e4c-bf51-4eb0-9f00-9074f5eca593/current/mp4/1024x768.mp4?ft5RocBQ9afp5HXX_2396DTDqj-O93VJDxKYpsTKsXZ5FucCFom6q3yU9WCzZATst3LRxAl2qaLk1geTNSci_wriKIBaRmISNIYVqnh4y1_CZCQwJsBttcn-L954cagUWrpWE_TyAFUXwCtJCa2_-svYjHb_CsNpH3ZnSgyS7vLFzCOuhsk_GaBPpHV4'
+[download] Sleeping 120 seconds...
+[download] Destination: 52-5-ASP.NET MVC HtmlHelper-1024x768.mp4
+[download]   0.0% of 5.06MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 5.06MiB at  2.59MiB/s ETA 00:02[download]   0.1% of 5.06MiB at  4.32MiB/s ETA 00:01[download]   0.3% of 5.06MiB at  7.41MiB/s ETA 00:00[download]   0.6% of 5.06MiB at 12.57MiB/s ETA 00:00[download]   1.2% of 5.06MiB at  4.39MiB/s ETA 00:01[download]   2.4% of 5.06MiB at  4.81MiB/s ETA 00:01[download]   4.9% of 5.06MiB at  7.55MiB/s ETA 00:00[download]   9.9% of 5.06MiB at  9.45MiB/s ETA 00:00[download]  19.7% of 5.06MiB at 12.48MiB/s ETA 00:00[download]  39.5% of 5.06MiB at 14.73MiB/s ETA 00:00[download]  79.0% of 5.06MiB at 15.47MiB/s ETA 00:00[download] 100.0% of 5.06MiB at 11.27MiB/s ETA 00:00[download] 100% of 5.06MiB in 00:00
+[download] Downloading video 53 of 53
+[pluralsight] csharp-extension-methods-m5-library-2-9: Downloading JSON metadata
+[pluralsight] csharp-extension-methods-m5-library-2-9: Downloading mp4-high viewclip graphql
+[pluralsight] csharp-extension-methods-m5-library-2-9: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: best/bestvideo+bestaudio
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1553811588/bff09b940c15af0221182fa4d5896996/clips/resolution/24c9def4-95aa-4ca7-9005-99e7d4384cb8/current/mp4/1024x768.mp4'
+[download] Sleeping 120 seconds...
+[download] Destination: 53-5-Course Summary-1024x768.mp4
+[download]   0.0% of 3.73MiB at Unknown speed ETA Unknown ETA[download]   0.1% of 3.73MiB at  2.76MiB/s ETA 00:01[download]   0.2% of 3.73MiB at  4.15MiB/s ETA 00:00[download]   0.4% of 3.73MiB at  6.05MiB/s ETA 00:00[download]   0.8% of 3.73MiB at  9.69MiB/s ETA 00:00[download]   1.6% of 3.73MiB at  1.89MiB/s ETA 00:01[download]   3.3% of 3.73MiB at  1.79MiB/s ETA 00:02[download]   6.7% of 3.73MiB at  2.85MiB/s ETA 00:01[download]  13.4% of 3.73MiB at  3.93MiB/s ETA 00:00[download]  26.8% of 3.73MiB at  5.97MiB/s ETA 00:00[download]  53.5% of 3.73MiB at  8.93MiB/s ETA 00:00[download] 100.0% of 3.73MiB at 11.58MiB/s ETA 00:00[download] 100% of 3.73MiB in 00:00
+[download] Finished downloading playlist: C# Extension Methods
