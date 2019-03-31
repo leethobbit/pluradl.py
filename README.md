@@ -1,6 +1,6 @@
 # Automated download from Pluralsight with `pluradl.py`
 
-You can download whole courses from an array of tutorial sites with the CLI tool `youtube-dl`. However, in this Git I have provided an python script, `pluradl.py`,  for automated download of a **whole sequence of Pluralsight courses** at once using `youtube-dl` as a subprocess. Below I give an example of how to use the `pluradl.py` script with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
+You can download whole courses from a number of tutorial sites with the CLI tool `youtube-dl`, however, in this Git I have provided an Python script, `pluradl.py`,  for automated download of a **whole sequence of Pluralsight courses** at once using `youtube-dl` as a subprocess. Below I give an example of how to use the `pluradl.py` script with a Pluralsight account to get videos from an arbitrary large list of courses at their site.
 
 **You can get a free 1 month trial to Pluralsight by signing up for free to [Visual Studio Dev Essentials](https://www.visualstudio.com/dev-essentials/)**
 
