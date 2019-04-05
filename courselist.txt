@@ -67,3 +67,5 @@ linux-server-virtualization-lpic3-304-1
 design-patterns-java-creational
 design-patterns-java-structural
 design-patterns-java-behavioral
+matlab-fundamentals
+building-your-first-data-analysis-workflow-matlab

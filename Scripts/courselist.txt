@@ -105,3 +105,5 @@ integrating-linux-windows-enterprise-environment
 red-hat-enterprise-linux-storage-fundamentals
 red-hat-enterprise-linux-6-booting-runlevels
 linux-server-virtualization-lpic3-304-1
+matlab-fundamentals
+building-your-first-data-analysis-workflow-matlab
