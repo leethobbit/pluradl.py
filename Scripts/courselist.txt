@@ -107,3 +107,11 @@ red-hat-enterprise-linux-6-booting-runlevels
 linux-server-virtualization-lpic3-304-1
 matlab-fundamentals
 building-your-first-data-analysis-workflow-matlab
+aspnet-core-fundamentals
+building-first-aspdotnet-core-2-mvc-application
+building-api-aspdotnet-core
+aspdotnet-core-dependency-injection
+dotnet-core-mvc-apps-extensions
+aspdotnet-core-tag-helpers
+asp-dot-net-core-security-understanding
+aspdotnet-core-signalr-getting-started
