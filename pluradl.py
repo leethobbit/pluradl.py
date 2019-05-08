@@ -17,7 +17,7 @@ def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
     usr = sp + qu + USERNAME + qu
     usrpass = sp + qu + PASSWORD + qu
     # IMPORTANT SETTING TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT
-    sleep = 120 # <- Change this at your own risk.
+    sleep = 150 # <- Change this at your own risk.
     # # # # # # #
     
     # CMD Tool parameters - useful settings for the download process (youtube-dl)
