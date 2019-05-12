@@ -27,7 +27,7 @@ def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
     passc = sp + "--password"
     sleepc = sp + "--sleep-interval" + sp + str(sleep)
     template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
-    filenamec = " -o " + template
+    filenamec = sp + "-o" + sp + template
     courseurlc = sp + qu + pluraurl + COURSE + qu
     
     # Command string
