@@ -429,3 +429,4 @@ algorithms-recommendation-systems
 understanding-applying-linear-regression
 pytorch-building-deep-learning-models
 apache-mxnet-building-deep-learning-models
+debugging-visual-studio-2019
