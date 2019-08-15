@@ -19,6 +19,12 @@ With [`npm`](https://www.npmjs.com/):
 ```bash
 npm install youtube-dl
 ```
+with [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/)
+
+```
+pacman -S youtube-dl
+```
+Alternatively compile developement version from AUR  [`youtube-dl-git`](https://aur.archlinux.org/youtube-dl-git.git)
 
 Or you can `curl`/`wget` the thing:
 
