@@ -52,7 +52,7 @@ Or download with `npm` like above.
 ### Download from **Pluralsight** with `pluradl.py`
 After installation of youtube-dl (thus is avaiable to the environment) make sure that [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt) is in the same directory as [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) with the course ID's of your choice **listed row by row**. Example files and scripts is provided in [Scripts](https://github.com/rojter-tech/pluradl.py/tree/master/Scripts). The course ID can be found via the course URL from the Pluralsight website, e.g [https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents](https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents) where the ID is "c-sharp-fundamentals-with-visual-studio-2015".
 
-Run the command below in your terminal to download all the videos from all the courses in `courselist.txt`. The videos will be automatically placed in course specific folders and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
+Run the command below in your terminal to download all the videos from all the courses in [`courselist.txt`](https://github.com/rojter-tech/pluradl.py/blob/master/courselist.txt). The videos will be automatically placed in course specific folders and named by playlist order number. Substitute the example credentials with your own and supply courselist.txt with your desired courses ...
 
 ```bash
 python pluradl.py "youremail@example.com" "yourPassword"
