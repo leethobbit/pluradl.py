@@ -19,6 +19,7 @@ With [`npm`](https://www.npmjs.com/):
 ```bash
 npm install youtube-dl
 ```
+
 with [`pacman`](https://www.archlinux.org/packages/community/any/youtube-dl/)
 
 ```
