@@ -74,6 +74,6 @@ linq-fundamentals-csharp-6
 ```
 
 # IMPORTANT
-The argument `--sleep-interval 150` used in the `pluradl.py` script is important. It means that the program will wait 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
+The argument `--sleep-interval 150` used in the [`pluradl.py`](https://github.com/rojter-tech/pluradl.py/blob/master/pluradl.py) script is important. It means that the program will wait 150s (2.5 minutes) before it downloads the next video. If you don't use this flag _Pluralsight_ will ban you because you are doing too many requests under a short period of time.
 
 >We have blocked your account because our security systems have flagged your Pluralsight account for an unusual amount activity. This does mean a high volume of requests that are in the realm of a request every 10-30 seconds for a prolonged period of time. Please note that this high volume of activity is in violation of our terms of service [https://www.pluralsight.com/terms].
