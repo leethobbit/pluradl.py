@@ -17,7 +17,7 @@ def fail_print():
 
 
 def _cmd_request(command, logpath, bufflen=512):
-    """Create and OS command line request
+    """Invokes an OS command line request
     
     Arguments:
         command {str} -- Full command string
