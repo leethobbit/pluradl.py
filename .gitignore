@@ -137,6 +137,7 @@ dmypy.json
 .pyre/
 
 # local files
+*.log
 *.mp4
 .logs
 .logs/
