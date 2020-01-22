@@ -1,8 +1,53 @@
-import sys, os
+import sys, os, re
 from subprocess import Popen, PIPE, STDOUT
 
-def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
 
+def fail_print():
+        print("usage: python _pluradl.py [username] [password]")
+        print("")
+        print("You need to pass your Pluralsight username and password as argument")
+        print("")
+        print("Example:")
+        print("$ python _pluradl.py myUsername myPassword")
+        print("")
+        print("Example of download request command execution invoked internally:")
+        print('$ youtube-dl --verbose --username "myUsername" --password "myPassword" \\ ')
+        print('             --sleep-interval 150 -o "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" \\')
+        print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
+
+
+def _cmd_request(command, logpath, bufflen=512):
+    """Create and OS command line request
+    
+    Arguments:
+        command {str} -- Full command string
+        logpath {str} -- Path to stdout/stderror log file
+    
+    Keyword Arguments:
+        bufflen {int} -- [description] (default: {512})
+    """
+    os.chdir(os.path.dirname(logpath))
+    print(os.path.dirname(logpath))
+
+    from subprocess import Popen, PIPE, STDOUT
+    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT, bufsize=bufflen) as process, \
+        open(logpath, 'ab', bufflen) as file:
+            for line in process.stdout:
+                sys.stdout.buffer.write(line)
+                file.flush()
+                file.write(line)
+                file.flush()
+
+
+def _pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
+    """Handling the video downloading requests for a single course
+    
+    Arguments:
+        COURSE {str} -- Course identifier
+        DLPATH {str} -- Course path
+        USERNAME {str} -- Pluralsight username
+        PASSWORD {str} -- Pluralsight password
+    """
     # OS parameters - Creates course path and sets current course directory
     coursepath = os.path.join(DLPATH,COURSE)
     if not os.path.exists(coursepath):
@@ -20,7 +65,7 @@ def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
     sleep = 150 # <- Change this at your own risk.
     # # # # # # #
     
-    # CMD Tool parameters - useful settings for the download process (youtube-dl)
+    # CMD Tool parameters - useful settings when invoking download request
     cmdtool = "youtube-dl"
     verbc = sp + "--verbose"
     usrc = sp + "--username"
@@ -34,54 +79,68 @@ def pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
     dlstr1 = cmdtool + verbc
     dlstr2 = usrc + usr + passc + usrpass
     dlstr3 = sleepc + filenamec + courseurlc
-    cmd = dlstr1 + dlstr2 + dlstr3
+    command = dlstr1 + dlstr2 + dlstr3
     
     # Command execution and logging
-    bufflen = 512
     logile = COURSE + ".log"
     logpath = os.path.join(coursepath,logile)
-    with Popen(cmd, shell=True, stdout=PIPE, stderr=STDOUT, bufsize=bufflen) as process, \
-        open(logpath, 'ab',bufflen) as file:
-        for line in process.stdout:
-            sys.stdout.buffer.write(line)
-            file.flush()
-            file.write(line)
-            file.flush()
+    _cmd_request(command, logpath, bufflen=512)
 
-def courselist(scriptpath):
 
-    # Courselist textfile prelocated in the same directory as this script
+def _get_courses(scriptpath):
+    """Parsing courselist.txt in _pluradl.py script directory path
+    
+    Arguments:
+        scriptpath {str} -- Absolute path to _pluradl.py directory
+    
+    Returns:
+        [str] -- List of course identifiers exposed by courselist.txt
+    """
+    # courses textfile prelocated in the same directory as this script
     filelist = "courselist.txt"
     
     # Loops the list's lines and stores it as a python list
     filepath = os.path.join(scriptpath,filelist)
-    lines = "notNull"
-    courseList = []
-    with open(filepath, 'r+') as file:
-        while lines != "":
-            lines = file.readline()
-            if lines != "":
-                course = lines.split("\n")[0]
-                courseList.append(course)
-    return courseList
+    courses = []
+    try:
+        with open(filepath, 'r+') as file:
+            for line in file.readlines():
+                if re.search(r'\S', line):
+                    courses.append(line.strip())
+        return courses
+    except FileNotFoundError:
+        print("There is no courselist.txt in script path. Terminating script ...")
 
-if __name__ == "__main__":
+
+def main():
+    """Main execution
+    Using command line arguments to pass username and password.
+    """
 
     # Script's absolute directory path
-    sysfile = sys.argv[0]
-    scriptabspath = os.path.abspath(sysfile)
-    scriptpath = os.path.dirname(scriptabspath)
+    scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
     
     # Download directory path
     dldirname = "Courses"
     DLPATH = os.path.join(scriptpath,dldirname)
     if not os.path.exists(DLPATH):
         os.mkdir(DLPATH)
+    
     # Script's call arguments for username and password
     USERNAME = sys.argv[1]
     PASSWORD = sys.argv[2]
     
-    # Looping through the courselist determined by courselist()
-    courseList = courselist(scriptpath)
-    for COURSE in courseList:
-        pluradl(COURSE,DLPATH,USERNAME,PASSWORD)
+    # Looping through the courses determined by _get_courses() and invoke
+    # download requests via youtube-dl
+    courses = _get_courses(scriptpath)
+    if courses:
+        for COURSE in courses:
+            _pluradl(COURSE,DLPATH,USERNAME,PASSWORD)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) >= 2:
+        main()
+    else:
+        fail_print()
+
