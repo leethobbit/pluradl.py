@@ -139,7 +139,7 @@ def main():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
+    if len(sys.argv) >= 3:
         main()
     else:
         fail_print()
