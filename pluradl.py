@@ -3,12 +3,12 @@ from subprocess import Popen, PIPE, STDOUT
 
 
 def fail_print():
-        print("usage: python _pluradl.py [username] [password]")
+        print("usage: python pluradl.py [username] [password]")
         print("")
         print("You need to pass your Pluralsight username and password as argument")
         print("")
         print("Example:")
-        print("$ python _pluradl.py myUsername myPassword")
+        print("$ python pluradl.py myUsername myPassword")
         print("")
         print("Example of download request command execution invoked internally:")
         print('$ youtube-dl --verbose --username "myUsername" --password "myPassword" \\ ')
@@ -88,10 +88,10 @@ def _pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
 
 
 def _get_courses(scriptpath):
-    """Parsing courselist.txt in _pluradl.py script directory path
+    """Parsing courselist.txt in pluradl.py script directory path
     
     Arguments:
-        scriptpath {str} -- Absolute path to _pluradl.py directory
+        scriptpath {str} -- Absolute path to pluradl.py directory
     
     Returns:
         [str] -- List of course identifiers exposed by courselist.txt
