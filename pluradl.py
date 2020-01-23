@@ -59,26 +59,31 @@ def _pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
     qu = '"';  sp = " "   # 
     # Download parameters - important parameters for the Pluralsight webservice
     pluraurl = "https://app.pluralsight.com/library/courses/"
-    usr = sp + qu + USERNAME + qu
-    usrpass = sp + qu + PASSWORD + qu
-    # IMPORTANT SETTING TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT
-    sleep = 150 # <- Change this at your own risk.
-    # # # # # # #
-    
-    # CMD Tool parameters - useful settings when invoking download request
-    cmdtool = "youtube-dl"
-    verbc = sp + "--verbose"
-    usrc = sp + "--username"
-    passc = sp + "--password"
-    sleepc = sp + "--sleep-interval" + sp + str(sleep)
+    username = qu + USERNAME + qu
+    password = qu + PASSWORD + qu
     template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
-    filenamec = sp + "-o" + sp + template
-    courseurlc = sp + qu + pluraurl + COURSE + qu
+    # IMPORTANT SETTING TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT
+    minsleep = 150    # <-| Change this at your own risk.
+    sleep_offset = 50 # <-|
+    ratelimit = "1M"  # <-|
+    # # # # # # # # # #
+    
+    # CMD Tool
+    cmdtool = "youtube-dl"
+    # Flags - useful settings when invoking download request
+    verbose_flag =   sp + "--verbose"
+    limitrate_flag = sp + "--limit-rate" + sp + ratelimit
+    username_flag =  sp + "--username" + sp + username
+    password_flag =  sp + "--password" + sp + password
+    minsleep_flag =  sp + "--sleep-interval" + sp + str(minsleep)
+    maxsleep_flag =  sp + "--max-sleep-interval" + sp + str(minsleep + sleep_offset)
+    filename_flag =  sp + "-o" + sp + template
+    courseurl_flag = sp + qu + pluraurl + COURSE + qu
     
     # Command string
-    dlstr1 = cmdtool + verbc
-    dlstr2 = usrc + usr + passc + usrpass
-    dlstr3 = sleepc + filenamec + courseurlc
+    dlstr1 = cmdtool + verbose_flag + limitrate_flag
+    dlstr2 = username_flag + password_flag
+    dlstr3 = minsleep_flag + maxsleep_flag + filename_flag + courseurl_flag
     command = dlstr1 + dlstr2 + dlstr3
     
     # Command execution and logging
