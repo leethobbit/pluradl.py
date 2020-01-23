@@ -149,8 +149,8 @@ def main():
     
     # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
     SLEEP_INTERVAL = 150 #                                                          #
-    SLEEP_OFFSET = 50 #                Change this at your own risk.                #
-    RATE_LIMIT = "1M" #                                                             #
+    SLEEP_OFFSET = 50    #               Change this at your own risk.              #
+    RATE_LIMIT = "1M"    #                                                          #
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
     # Looping through the courses determined by _get_courses() invoking download requests
