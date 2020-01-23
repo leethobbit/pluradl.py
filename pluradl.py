@@ -1,22 +1,26 @@
 import sys, os, re
 from subprocess import Popen, PIPE, STDOUT
 
+DLPATH, USERNAME, PASSWORD = "", "", ""
 
 def fail_print():
-        print("usage: python pluradl.py [username] [password]")
-        print("")
-        print("You need to pass your Pluralsight username and password as argument")
-        print("")
-        print("Example:")
-        print("$ python pluradl.py myUsername myPassword")
-        print("")
-        print("Example of download request command execution invoked internally:")
-        print('$ youtube-dl --verbose --username "myUsername" --password "myPassword" \\ ')
-        print('             --sleep-interval 150 -o "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" \\')
-        print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
+    """Prints out a default message to user when there is not enough arguments
+    passed to pluradl.py.
+    """
+    print("usage: python pluradl.py [username] [password]")
+    print("")
+    print("You need to pass your Pluralsight username and password as argument")
+    print("")
+    print("Example:")
+    print('$ python pluradl.py "youremail@example.com" "yourPassword"')
+    print("")
+    print("Example of download request command execution string:")
+    print('$ youtube-dl --verbose --username "user@mymail.com" --password "myPassword" \\ ')
+    print('             --sleep-interval 150 -o "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" \\')
+    print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
 
 
-def _cmd_request(command, logpath, bufflen=512):
+def _cmd_request(command, logpath):
     """Invokes an OS command line request
     
     Arguments:
@@ -27,81 +31,72 @@ def _cmd_request(command, logpath, bufflen=512):
         bufflen {int} -- Buffering size for command line output (default: {512})
     """
     os.chdir(os.path.dirname(logpath))
-    print(os.path.dirname(logpath))
+    print("Logging stdout/stderror to:\n" + logpath + "\n")
 
-    from subprocess import Popen, PIPE, STDOUT
-    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT, bufsize=bufflen) as process, \
-        open(logpath, 'ab', bufflen) as file:
+    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT, encoding="utf8") as process, \
+        open(file=logpath, mode='wt', buffering=1) as file:
             for line in process.stdout:
-                sys.stdout.buffer.write(line)
-                file.flush()
                 file.write(line)
-                file.flush()
+                sys.stdout.write(line)
 
 
-def _pluradl(COURSE,DLPATH,USERNAME,PASSWORD):
+def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     """Handling the video downloading requests for a single course
     
     Arguments:
-        COURSE {str} -- Course identifier
+        course {str} -- Course identifier
         DLPATH {str} -- Course path
         USERNAME {str} -- Pluralsight username
         PASSWORD {str} -- Pluralsight password
     """
     # OS parameters - Creates course path and sets current course directory
-    coursepath = os.path.join(DLPATH,COURSE)
+    coursepath = os.path.join(DLPATH,course)
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
     # Quote and space char
     # # # # # # # # # # # #
-    qu = '"';  sp = " "   # 
-    # Download parameters - important parameters for the Pluralsight webservice
+    qu = '"';  sp = ' '   # 
+    # Download parameters #
     pluraurl = "https://app.pluralsight.com/library/courses/"
     username = qu + USERNAME + qu
     password = qu + PASSWORD + qu
-    template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
-    # IMPORTANT SETTING TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT
-    minsleep = 150    # <-| Change this at your own risk.
-    sleep_offset = 50 # <-|
-    ratelimit = "1M"  # <-|
-    # # # # # # # # # #
+    filename_template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
+    minsleep = sleep_interval
     
-    # CMD Tool
-    cmdtool = "youtube-dl"
+    # CMD Tool # # # # # #
+    tool = "youtube-dl"  #
     # Flags - useful settings when invoking download request
-    verbose_flag =   sp + "--verbose"
-    limitrate_flag = sp + "--limit-rate" + sp + ratelimit
-    username_flag =  sp + "--username" + sp + username
-    password_flag =  sp + "--password" + sp + password
-    minsleep_flag =  sp + "--sleep-interval" + sp + str(minsleep)
-    maxsleep_flag =  sp + "--max-sleep-interval" + sp + str(minsleep + sleep_offset)
-    filename_flag =  sp + "-o" + sp + template
-    courseurl_flag = sp + qu + pluraurl + COURSE + qu
+    usr =  "--username" + sp + username
+    pw =  "--password" + sp + password
+    minsl =  "--sleep-interval" + sp + str(minsleep)
+    maxsl =  "--max-sleep-interval" + sp + str(minsleep + sleep_offset)
+    lrate = "--limit-rate" + sp + rate_limit
+    fn =  "-o" + sp + filename_template
+    vrb =   "--verbose"
+    curl = qu + pluraurl + course + qu
+
+    # Join command
+    cmdline = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, curl]
+    command = sp.join(cmdline)
     
-    # Command string
-    dlstr1 = cmdtool + verbose_flag + limitrate_flag
-    dlstr2 = username_flag + password_flag
-    dlstr3 = minsleep_flag + maxsleep_flag + filename_flag + courseurl_flag
-    command = dlstr1 + dlstr2 + dlstr3
-    
-    # Command execution and logging
-    logile = COURSE + ".log"
+    # Execute command and log stdout/stderror
+    logile = course + ".log"
     logpath = os.path.join(coursepath,logile)
-    _cmd_request(command, logpath, bufflen=512)
+    _cmd_request(command, logpath)
 
 
 def _get_courses(scriptpath):
-    """Parsing courselist.txt in pluradl.py script directory path
+    """Parsing courselist.txt
     
     Arguments:
-        scriptpath {str} -- Absolute path to pluradl.py directory
+        scriptpath {str} -- Absolute path to script directory
     
     Returns:
         [str] -- List of course identifiers exposed by courselist.txt
     """
-    # courses textfile prelocated in the same directory as this script
+    # courses textfile prelocated inside script directory
     filelist = "courselist.txt"
     
     # Loops the list's lines and stores it as a python list
@@ -117,10 +112,29 @@ def _get_courses(scriptpath):
         print("There is no courselist.txt in script path. Terminating script ...")
 
 
+def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+    """Dowloading all courses listed in courselist.txt
+    
+    Arguments:
+        courses {[type]} -- List of course ID
+    
+    Keyword Arguments:
+        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
+        sleep_offset {int} -- Randomize sleep time from minimum sleep time plus this value (default: {50})
+        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
+    """
+    for course in courses:
+        _pluradl(course, sleep_interval=sleep_interval, sleep_offset=sleep_offset, rate_limit=rate_limit)
+
+
 def main():
     """Main execution
-    Using command line arguments to pass username and password.
+    Using command line arguments to store username and password,
+    loops through the course IDs and invoking download requests.
     """
+    global DLPATH
+    global USERNAME
+    global PASSWORD
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -135,12 +149,19 @@ def main():
     USERNAME = sys.argv[1]
     PASSWORD = sys.argv[2]
     
-    # Looping through the courses determined by _get_courses() and invoke
-    # download requests via youtube-dl
+    # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
+    SLEEP_INTERVAL = 150 #                                                          #
+    SLEEP_OFFSET = 50 #                Change this at your own risk.                #
+    RATE_LIMIT = "1M" #                                                             #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+    # Looping through the courses determined by _get_courses() invoking download requests
     courses = _get_courses(scriptpath)
     if courses:
-        for COURSE in courses:
-            _pluradl(COURSE,DLPATH,USERNAME,PASSWORD)
+        download_courses(courses,
+                         sleep_interval=SLEEP_INTERVAL,
+                         sleep_offset=SLEEP_OFFSET,
+                         rate_limit=RATE_LIMIT)
 
 
 if __name__ == "__main__":
