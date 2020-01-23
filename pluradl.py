@@ -124,7 +124,7 @@ def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1
     
     Keyword Arguments:
         sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
-        sleep_offset {int} -- Randomize sleep time from minimum sleep time plus this value (default: {50})
+        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
         rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
     """
     for course in courses:
