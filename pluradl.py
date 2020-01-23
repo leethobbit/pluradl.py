@@ -27,8 +27,6 @@ def _cmd_request(command, logpath):
         command {str} -- Full command string
         logpath {str} -- Path to stdout/stderror log file
     
-    Keyword Arguments:
-        bufflen {int} -- Buffering size for command line output (default: {512})
     """
     os.chdir(os.path.dirname(logpath))
     print("Logging stdout/stderror to:\n" + logpath + "\n")
