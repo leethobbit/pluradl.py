@@ -1,6 +1,12 @@
 import sys, os, re
 from subprocess import Popen, PIPE, STDOUT
 
+# IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
+SLEEP_INTERVAL = 150 #                                                          #
+SLEEP_OFFSET = 50    #               Change this at your own risk.              #
+RATE_LIMIT = "1M"    #                                                          #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 DLPATH, USERNAME, PASSWORD = "", "", ""
 
 def fail_print():
@@ -146,12 +152,6 @@ def main():
     # Script's call arguments for username and password
     USERNAME = sys.argv[1]
     PASSWORD = sys.argv[2]
-    
-    # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
-    SLEEP_INTERVAL = 150 #                                                          #
-    SLEEP_OFFSET = 50    #               Change this at your own risk.              #
-    RATE_LIMIT = "1M"    #                                                          #
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
     # Looping through the courses determined by _get_courses() invoking download requests
     courses = _get_courses(scriptpath)
