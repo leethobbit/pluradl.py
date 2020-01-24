@@ -1,0 +1,1110 @@
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['--verbose', '--limit-rate', '1M', '--username', 'PRIVATE', '--password', 'PRIVATE', '--sleep-interval', '150', '--max-sleep-interval', '200', '-o', '%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s', 'https://app.pluralsight.com/library/courses/building-classification-models-scikit-learn']
+[debug] Encodings: locale UTF-8, fs utf-8, out utf-8, pref UTF-8
+[debug] youtube-dl version 2019.11.28
+[debug] Python version 3.8.0 (CPython) - Linux-5.2.9-arch1-1-ARCH-x86_64-with-glibc2.2.5
+[debug] exe versions: ffmpeg 4.2.1, ffprobe 4.2.1, rtmpdump 2.4
+[debug] Proxy map: {}
+[pluralsight:course] building-classification-models-scikit-learn: Downloading JSON metadata
+[download] Downloading playlist: Building Classification Models with scikit-learn
+[pluralsight:course] playlist Building Classification Models with scikit-learn: Collected 45 video ids (downloading 45 of them)
+[download] Downloading video 1 of 45
+[pluralsight] Downloading login page
+[pluralsight] Logging in
+[pluralsight] 2e1a950b-1f39-4e7f-ba93-37fd38a1b05c-0: Downloading JSON metadata
+[pluralsight] 2e1a950b-1f39-4e7f-ba93-37fd38a1b05c-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 2e1a950b-1f39-4e7f-ba93-37fd38a1b05c-0: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579760168/210c0b5f070bb1363cda6f780ed3d0be/clips/resolution/60f4d217-f7db-47f0-8e27-5a7a948a272b/current/mp4/1280x720.mp4'
+[download] Sleeping 180.18 seconds...
+[download] Destination: 01-1-Course Overview-1280x720.mp4
+[download]   0.0% of 3.07MiB at 864.45KiB/s ETA 00:03
+[download]   0.1% of 3.07MiB at 785.60KiB/s ETA 00:04
+[download]   0.2% of 3.07MiB at 922.00KiB/s ETA 00:03
+[download]   0.5% of 3.07MiB at 965.38KiB/s ETA 00:03
+[download]   1.0% of 3.07MiB at 989.08KiB/s ETA 00:03
+[download]   2.0% of 3.07MiB at 830.54KiB/s ETA 00:03
+[download]   4.0% of 3.07MiB at 765.87KiB/s ETA 00:03
+[download]   8.1% of 3.07MiB at 1011.58KiB/s ETA 00:02
+[download]  16.2% of 3.07MiB at 1014.89KiB/s ETA 00:02
+[download]  32.5% of 3.07MiB at 1015.87KiB/s ETA 00:02
+[download]  64.8% of 3.07MiB at 1016.92KiB/s ETA 00:01
+[download]  97.2% of 3.07MiB at 1018.10KiB/s ETA 00:00
+[download] 100.0% of 3.07MiB at 1022.51KiB/s ETA 00:00
+[download] 100% of 3.07MiB in 00:03
+[download] Downloading video 2 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-0: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-0: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579760357/2481c54a726872ec943076d25ffbd09a/clips/resolution/53abc147-27db-4cd2-af7a-15aeab1042b4/current/mp4/1280x720.mp4'
+[download] Sleeping 184.96 seconds...
+[download] Destination: 02-2-Module Overview-1280x720.mp4
+[download]   0.1% of 1.84MiB at 878.20KiB/s ETA 00:02
+[download]   0.2% of 1.84MiB at 828.15KiB/s ETA 00:02
+[download]   0.4% of 1.84MiB at 885.97KiB/s ETA 00:02
+[download]   0.8% of 1.84MiB at 935.56KiB/s ETA 00:02
+[download]   1.6% of 1.84MiB at 986.58KiB/s ETA 00:01
+[download]   3.3% of 1.84MiB at 891.34KiB/s ETA 00:02
+[download]   6.7% of 1.84MiB at 779.57KiB/s ETA 00:02
+[download]  13.5% of 1.84MiB at 1008.22KiB/s ETA 00:01
+[download]  27.1% of 1.84MiB at 1013.99KiB/s ETA 00:01
+[download]  54.3% of 1.84MiB at 1015.03KiB/s ETA 00:00
+[download] 100.0% of 1.84MiB at 1016.51KiB/s ETA 00:00
+[download] 100% of 1.84MiB in 00:02
+[download] Downloading video 3 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-1: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-1: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-1: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/7f714cc6-7532-4c72-bd74-fcda2c355ed8/current/mp4/1280x720.mp4?cpD2MkVYDJ_0jMO1AVMGslVauatyYq6Uh3icLAqzSYE8eZwYw5dTi5XhqtRX3J8ZIAzsY3f3mDzATTJ5xDasWHh40YpE1lIBgbdkEqUWpvVJM_SiLtn_plEtLEHE68G_KC71K5p21XsxYSBunqNdyijrGCAqK10iBVEo9WBYL9rwtaVbS9ajrPC5nVDc'
+[download] Sleeping 197.17 seconds...
+[download] Destination: 03-2-Prerequisites and Course Outline-1280x720.mp4
+[download]   0.0% of 1.99MiB at 939.79KiB/s ETA 00:02
+[download]   0.1% of 1.99MiB at 847.16KiB/s ETA 00:02
+[download]   0.3% of 1.99MiB at 941.66KiB/s ETA 00:02
+[download]   0.7% of 1.99MiB at 983.04KiB/s ETA 00:02
+[download]   1.5% of 1.99MiB at 995.52KiB/s ETA 00:02
+[download]   3.1% of 1.99MiB at 1003.39KiB/s ETA 00:01
+[download]   6.2% of 1.99MiB at 1004.62KiB/s ETA 00:01
+[download]  12.5% of 1.99MiB at 1011.38KiB/s ETA 00:01
+[download]  25.1% of 1.99MiB at 1013.67KiB/s ETA 00:01
+[download]  50.3% of 1.99MiB at 1015.80KiB/s ETA 00:00
+[download] 100.0% of 1.99MiB at 1016.01KiB/s ETA 00:00
+[download] 100% of 1.99MiB in 00:02
+[download] Downloading video 4 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-2: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-2: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-2: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/bc93208b-396f-4a58-b8b2-2013933c28da/current/mp4/1280x720.mp4?uPahisc-gndzDpgx8epesYls97tGpT4rUtb6KkNK1ZIId01Dwf_Aobv9OGzz9R9UvDEaL9ewbro9IokMmdpQYv1jxD3i2ZGGQJg9Hoqn8O4GczR8G7KB-mCF-CsUYkgEwDH6_LG1SXPOLbGPV6scH-LPPOjf3jEmdIV0kBVVHsfLlBxsNKQdXjk1Vl-h'
+[download] Sleeping 167.02 seconds...
+[download] Destination: 04-2-Classification as a Machine Learning Problem-1280x720.mp4
+[download]   0.0% of 5.53MiB at 844.09KiB/s ETA 00:07
+[download]   0.1% of 5.53MiB at 836.35KiB/s ETA 00:06
+[download]   0.1% of 5.53MiB at 933.64KiB/s ETA 00:06
+[download]   0.3% of 5.53MiB at 974.74KiB/s ETA 00:05
+[download]   0.5% of 5.53MiB at 990.30KiB/s ETA 00:05
+[download]   1.1% of 5.53MiB at 1006.08KiB/s ETA 00:05
+[download]   2.2% of 5.53MiB at 779.88KiB/s ETA 00:07
+[download]   4.5% of 5.53MiB at 1009.96KiB/s ETA 00:05
+[download]   9.0% of 5.53MiB at 1013.12KiB/s ETA 00:05
+[download]  18.1% of 5.53MiB at 1014.39KiB/s ETA 00:04
+[download]  36.0% of 5.53MiB at 1015.21KiB/s ETA 00:03
+[download]  53.9% of 5.53MiB at 1019.45KiB/s ETA 00:02
+[download]  72.1% of 5.53MiB at 1020.33KiB/s ETA 00:01
+[download]  90.1% of 5.53MiB at 1020.68KiB/s ETA 00:00
+[download] 100.0% of 5.53MiB at 1022.11KiB/s ETA 00:00
+[download] 100% of 5.53MiB in 00:05
+[download] Downloading video 5 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-3: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-3: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-3: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579760930/ba906e2a1a406ab64a4ca9884c70112f/clips/resolution/23c8e1f9-9fb2-41cc-81e5-0027a585405a/current/mp4/1280x720.mp4'
+[download] Sleeping 194.66 seconds...
+[download] Destination: 05-2-Logistic Regression Intuition-1280x720.mp4
+[download]   0.0% of 8.34MiB at Unknown speed ETA 00:09
+[download]   0.0% of 8.34MiB at 798.76KiB/s ETA 00:10
+[download]   0.1% of 8.34MiB at 906.32KiB/s ETA 00:09
+[download]   0.2% of 8.34MiB at 958.41KiB/s ETA 00:08
+[download]   0.4% of 8.34MiB at 988.19KiB/s ETA 00:08
+[download]   0.7% of 8.34MiB at 848.79KiB/s ETA 00:09
+[download]   1.5% of 8.34MiB at 789.70KiB/s ETA 00:10
+[download]   3.0% of 8.34MiB at 1011.74KiB/s ETA 00:08
+[download]   6.0% of 8.34MiB at 1015.16KiB/s ETA 00:07
+[download]  12.0% of 8.34MiB at 1015.30KiB/s ETA 00:07
+[download]  23.9% of 8.34MiB at 1017.05KiB/s ETA 00:06
+[download]  35.8% of 8.34MiB at 1019.73KiB/s ETA 00:05
+[download]  47.8% of 8.34MiB at 1021.82KiB/s ETA 00:04
+[download]  59.8% of 8.34MiB at 1022.30KiB/s ETA 00:03
+[download]  71.8% of 8.34MiB at 1021.83KiB/s ETA 00:02
+[download]  83.8% of 8.34MiB at 1021.95KiB/s ETA 00:01
+[download]  95.7% of 8.34MiB at 1022.40KiB/s ETA 00:00
+[download] 100.0% of 8.34MiB at 1023.18KiB/s ETA 00:00
+[download] 100% of 8.34MiB in 00:08
+[download] Downloading video 6 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-4: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-4: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-4: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579761140/5e3ae56d7f8b825322f34b77d1ac3359/clips/resolution/30742b8c-870b-49b4-8eb5-4bcfab65622b/current/mp4/1280x720.mp4'
+[download] Sleeping 187.49 seconds...
+[download] Destination: 06-2-Cross Entropy Intuition-1280x720.mp4
+[download]   0.0% of 3.43MiB at 890.32KiB/s ETA 00:04
+[download]   0.1% of 3.43MiB at 768.19KiB/s ETA 00:04
+[download]   0.2% of 3.43MiB at 888.76KiB/s ETA 00:03
+[download]   0.4% of 3.43MiB at 953.92KiB/s ETA 00:03
+[download]   0.9% of 3.43MiB at 982.61KiB/s ETA 00:03
+[download]   1.8% of 3.43MiB at 886.29KiB/s ETA 00:03
+[download]   3.6% of 3.43MiB at 784.11KiB/s ETA 00:04
+[download]   7.3% of 3.43MiB at 1008.12KiB/s ETA 00:03
+[download]  14.6% of 3.43MiB at 1013.69KiB/s ETA 00:02
+[download]  29.1% of 3.43MiB at 1015.26KiB/s ETA 00:02
+[download]  58.1% of 3.43MiB at 1017.23KiB/s ETA 00:01
+[download]  87.1% of 3.43MiB at 1019.54KiB/s ETA 00:00
+[download] 100.0% of 3.43MiB at 1021.63KiB/s ETA 00:00
+[download] 100% of 3.43MiB in 00:03
+[download] Downloading video 7 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-5: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-5: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-5: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579761335/6340dc62f0102d181c6301f2e0563a08/clips/resolution/5377339c-bc12-44b1-8dc8-30152bf150ea/current/mp4/1280x720.mp4'
+[download] Sleeping 190.67 seconds...
+[download] Destination: 07-2-Accuracy, Precision, and Recall-1280x720.mp4
+[download]   0.0% of 8.75MiB at 913.00KiB/s ETA 00:10
+[download]   0.0% of 8.75MiB at 766.32KiB/s ETA 00:11
+[download]   0.1% of 8.75MiB at 873.76KiB/s ETA 00:10
+[download]   0.2% of 8.75MiB at 949.50KiB/s ETA 00:09
+[download]   0.3% of 8.75MiB at 983.22KiB/s ETA 00:09
+[download]   0.7% of 8.75MiB at 855.96KiB/s ETA 00:10
+[download]   1.4% of 8.75MiB at 777.32KiB/s ETA 00:11
+[download]   2.8% of 8.75MiB at 1008.15KiB/s ETA 00:08
+[download]   5.7% of 8.75MiB at 1014.71KiB/s ETA 00:08
+[download]  11.4% of 8.75MiB at 1015.76KiB/s ETA 00:07
+[download]  22.8% of 8.75MiB at 1017.33KiB/s ETA 00:06
+[download]  34.1% of 8.75MiB at 1019.48KiB/s ETA 00:05
+[download]  45.6% of 8.75MiB at 1020.90KiB/s ETA 00:04
+[download]  57.0% of 8.75MiB at 1021.49KiB/s ETA 00:03
+[download]  68.4% of 8.75MiB at 1021.43KiB/s ETA 00:02
+[download]  79.8% of 8.75MiB at 1022.02KiB/s ETA 00:01
+[download]  91.3% of 8.75MiB at 1022.29KiB/s ETA 00:00
+[download] 100.0% of 8.75MiB at 1022.76KiB/s ETA 00:00
+[download] 100% of 8.75MiB in 00:08
+[download] Downloading video 8 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-6: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-6: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-6: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/15e0bc58-50e6-4a12-ab6e-b7a63fa80d9a/current/mp4/1280x720.mp4?ZXaWLirBKCVnpLvsdEVixbV8hD91NTv958i2jWwe6E_h3tJHvlM2OKMeUjMPunq1zTcPo85q-EtR45dpjMibp6LjwqEpnOiXjRaIZHYE_WYM6AB520r84K0D2Kj84lfPaBxeb27LMPUmyOEENSnQgfHuaWKqM3qeUA_bhoXqwQjUxU457qKKLtpL0Tib'
+[download] Sleeping 180.83 seconds...
+[download] Destination: 08-2-Determining Decision Threshold Using ROC Curves-1280x720.mp4
+[download]   0.0% of 9.52MiB at 944.45KiB/s ETA 00:10
+[download]   0.0% of 9.52MiB at 841.05KiB/s ETA 00:11
+[download]   0.1% of 9.52MiB at 920.06KiB/s ETA 00:10
+[download]   0.2% of 9.52MiB at 977.98KiB/s ETA 00:09
+[download]   0.3% of 9.52MiB at 991.92KiB/s ETA 00:09
+[download]   0.6% of 9.52MiB at 998.05KiB/s ETA 00:09
+[download]   1.3% of 9.52MiB at 790.57KiB/s ETA 00:12
+[download]   2.6% of 9.52MiB at 1010.92KiB/s ETA 00:09
+[download]   5.2% of 9.52MiB at 994.40KiB/s ETA 00:09
+[download]  10.5% of 9.52MiB at 1014.75KiB/s ETA 00:08
+[download]  21.0% of 9.52MiB at 1016.39KiB/s ETA 00:07
+[download]  31.4% of 9.52MiB at 1018.87KiB/s ETA 00:06
+[download]  41.9% of 9.52MiB at 1019.96KiB/s ETA 00:05
+[download]  52.4% of 9.52MiB at 1021.18KiB/s ETA 00:04
+[download]  63.0% of 9.52MiB at 1021.45KiB/s ETA 00:03
+[download]  73.5% of 9.52MiB at 1022.06KiB/s ETA 00:02
+[download]  84.0% of 9.52MiB at 1022.15KiB/s ETA 00:01
+[download]  94.5% of 9.52MiB at 1022.54KiB/s ETA 00:00
+[download] 100.0% of 9.52MiB at 1022.94KiB/s ETA 00:00
+[download] 100% of 9.52MiB in 00:09
+[download] Downloading video 9 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-7: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-7: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-7: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/01df034e-22cc-4f5f-9bc8-a1f869c464ca/current/mp4/1280x720.mp4?xz75UsRvvWgdS0bKnP9NsFyvgi5GM1jKYaCzCqDRmWjNwBweRhvU_M7ITFhuQnZhrqKDx3SOvJDg2Z3Vwxpqp8P1jrHHjatnsTOXjjDuYM9_14U5S3fsU5zxmHJKZK6dyE0nE-0MhA18DO7v0s_OVEhguGIoGP79S7UTOye3yQk0jQcMV1oUDOZUqiLh'
+[download] Sleeping 188.87 seconds...
+[download] Destination: 09-2-Types of Classification-1280x720.mp4
+[download]   0.0% of 5.92MiB at 937.27KiB/s ETA 00:06
+[download]   0.0% of 5.92MiB at 828.59KiB/s ETA 00:07
+[download]   0.1% of 5.92MiB at 943.93KiB/s ETA 00:06
+[download]   0.2% of 5.92MiB at 981.95KiB/s ETA 00:06
+[download]   0.5% of 5.92MiB at 995.92KiB/s ETA 00:06
+[download]   1.0% of 5.92MiB at 1003.86KiB/s ETA 00:05
+[download]   2.1% of 5.92MiB at 1009.85KiB/s ETA 00:05
+[download]   4.2% of 5.92MiB at 1012.62KiB/s ETA 00:05
+[download]   8.4% of 5.92MiB at 1013.62KiB/s ETA 00:05
+[download]  16.9% of 5.92MiB at 1015.57KiB/s ETA 00:04
+[download]  33.7% of 5.92MiB at 1015.86KiB/s ETA 00:03
+[download]  50.4% of 5.92MiB at 1019.54KiB/s ETA 00:02
+[download]  67.4% of 5.92MiB at 1020.59KiB/s ETA 00:01
+[download]  84.3% of 5.92MiB at 1021.23KiB/s ETA 00:00
+[download] 100.0% of 5.92MiB at 1021.60KiB/s ETA 00:00
+[download] 100% of 5.92MiB in 00:06
+[download] Downloading video 10 of 45
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-8: Downloading JSON metadata
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-8: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8d204725-4e5e-4944-af0d-e501c7b1c28e-8: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579761933/9cf33dc66bd360a448854753b58f6d02/clips/resolution/a2ee47b4-f218-4349-b6fa-b64d23144fbf/current/mp4/1280x720.mp4'
+[download] Sleeping 157.66 seconds...
+[download] Destination: 10-2-Module Summary-1280x720.mp4
+[download]   0.1% of 1.58MiB at 893.36KiB/s ETA 00:01
+[download]   0.2% of 1.58MiB at 799.73KiB/s ETA 00:02
+[download]   0.4% of 1.58MiB at 921.42KiB/s ETA 00:01
+[download]   0.9% of 1.58MiB at 960.23KiB/s ETA 00:01
+[download]   1.9% of 1.58MiB at 985.57KiB/s ETA 00:01
+[download]   3.9% of 1.58MiB at 903.58KiB/s ETA 00:01
+[download]   7.8% of 1.58MiB at 790.04KiB/s ETA 00:01
+[download]  15.7% of 1.58MiB at 1012.03KiB/s ETA 00:01
+[download]  31.5% of 1.58MiB at 1014.14KiB/s ETA 00:01
+[download]  63.1% of 1.58MiB at 1015.50KiB/s ETA 00:00
+[download] 100.0% of 1.58MiB at 1015.90KiB/s ETA 00:00
+[download] 100% of 1.58MiB in 00:02
+[download] Downloading video 11 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-0: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-0: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/905446a8-89e2-478c-aa05-b02552edc80e/current/mp4/1280x720.mp4?1KmARyt7zfhCX8wf84fg1vQHAUOOy71dNgmuv8UVRrUHscyISO_9qrhuzfFj3s7owTKvVvrMln7WeTg5o7deVBs0P0Gz_IaLz6E_GXzRHL3faAqAxvzKImJxNvOwJvOdhO9LhYS8CfW5BnGyckrgYdL2DUXgPkJHMGRglBuNw6B1qM5b0zl2U3sT7K4v'
+[download] Sleeping 182.93 seconds...
+[download] Destination: 11-3-Module Overview-1280x720.mp4
+[download]   0.1% of 1.55MiB at 890.13KiB/s ETA 00:01
+[download]   0.2% of 1.55MiB at 845.11KiB/s ETA 00:01
+[download]   0.4% of 1.55MiB at 854.09KiB/s ETA 00:01
+[download]   0.9% of 1.55MiB at 975.69KiB/s ETA 00:01
+[download]   2.0% of 1.55MiB at 995.20KiB/s ETA 00:01
+[download]   4.0% of 1.55MiB at 1002.99KiB/s ETA 00:01
+[download]   8.0% of 1.55MiB at 787.51KiB/s ETA 00:01
+[download]  16.1% of 1.55MiB at 1012.36KiB/s ETA 00:01
+[download]  32.2% of 1.55MiB at 1008.73KiB/s ETA 00:01
+[download]  64.4% of 1.55MiB at 1015.75KiB/s ETA 00:00
+[download] 100.0% of 1.55MiB at 1018.08KiB/s ETA 00:00
+[download] 100% of 1.55MiB in 00:01
+[download] Downloading video 12 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-1: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-1: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-1: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/59bfb200-aa1e-4538-a82a-0752657315e5/current/mp4/1280x720.mp4?9zeAgaH0A6KSfYkr-uXUIDH7kz2viy3rBGnJAUMy--F7LV4oKifAenBC25uV5wmewlazGPmrCW_gSIVG4PzPL_9F8IFyM6bp1X-Xy0XcnmCk-Lm2psq8ZoJVfCkLRzbIMLGQYy4PXP8YrF9uhba26yBMgVCAespafqkNE8iRcMx-L5YOypCI-3rWGwK6'
+[download] Sleeping 154.58 seconds...
+[download] Destination: 12-3-Installing and Setting up scikit-learn-1280x720.mp4
+[download]   0.0% of 5.39MiB at 985.27KiB/s ETA 00:05
+[download]   0.1% of 5.39MiB at 854.70KiB/s ETA 00:06
+[download]   0.1% of 5.39MiB at 936.68KiB/s ETA 00:05
+[download]   0.3% of 5.39MiB at 983.26KiB/s ETA 00:05
+[download]   0.6% of 5.39MiB at 994.25KiB/s ETA 00:05
+[download]   1.1% of 5.39MiB at 1003.56KiB/s ETA 00:05
+[download]   2.3% of 5.39MiB at 1010.85KiB/s ETA 00:05
+[download]   4.6% of 5.39MiB at 1014.31KiB/s ETA 00:05
+[download]   9.3% of 5.39MiB at 1015.45KiB/s ETA 00:04
+[download]  18.5% of 5.39MiB at 1014.88KiB/s ETA 00:04
+[download]  36.9% of 5.39MiB at 1016.50KiB/s ETA 00:03
+[download]  55.3% of 5.39MiB at 1018.99KiB/s ETA 00:02
+[download]  73.9% of 5.39MiB at 1020.57KiB/s ETA 00:01
+[download]  92.5% of 5.39MiB at 1020.90KiB/s ETA 00:00
+[download] 100.0% of 5.39MiB at 1022.74KiB/s ETA 00:00
+[download] 100% of 5.39MiB in 00:05
+[download] Downloading video 13 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-2: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-2: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579762453/c4e9a48f03fb19e94b96715b8764ab1b/clips/resolution/f90a54d1-1b40-43f0-83a3-ab138b9e1b59/current/mp4/1280x720.mp4'
+[download] Sleeping 189.19 seconds...
+[download] Destination: 13-3-Exploring the Titanic Dataset-1280x720.mp4
+[download]   0.0% of 14.48MiB at 892.03KiB/s ETA 00:17
+[download]   0.0% of 14.48MiB at 845.34KiB/s ETA 00:17
+[download]   0.0% of 14.48MiB at 911.21KiB/s ETA 00:16
+[download]   0.1% of 14.48MiB at 967.16KiB/s ETA 00:15
+[download]   0.2% of 14.48MiB at 982.58KiB/s ETA 00:15
+[download]   0.4% of 14.48MiB at 928.05KiB/s ETA 00:15
+[download]   0.9% of 14.48MiB at 792.83KiB/s ETA 00:18
+[download]   1.7% of 14.48MiB at 1011.58KiB/s ETA 00:14
+[download]   3.4% of 14.48MiB at 1014.43KiB/s ETA 00:14
+[download]   6.9% of 14.48MiB at 1016.46KiB/s ETA 00:13
+[download]  13.8% of 14.48MiB at 1017.05KiB/s ETA 00:12
+[download]  20.6% of 14.48MiB at 1019.28KiB/s ETA 00:11
+[download]  27.5% of 14.48MiB at 1020.75KiB/s ETA 00:10
+[download]  34.5% of 14.48MiB at 1020.95KiB/s ETA 00:09
+[download]  41.3% of 14.48MiB at 1021.92KiB/s ETA 00:08
+[download]  48.3% of 14.48MiB at 1020.78KiB/s ETA 00:07
+[download]  55.1% of 14.48MiB at 1022.99KiB/s ETA 00:06
+[download]  62.1% of 14.48MiB at 1022.90KiB/s ETA 00:05
+[download]  69.0% of 14.48MiB at 1022.51KiB/s ETA 00:04
+[download]  75.9% of 14.48MiB at 1022.71KiB/s ETA 00:03
+[download]  82.8% of 14.48MiB at 1022.83KiB/s ETA 00:02
+[download]  89.7% of 14.48MiB at 1023.07KiB/s ETA 00:01
+[download]  96.6% of 14.48MiB at 1022.89KiB/s ETA 00:00
+[download] 100.0% of 14.48MiB at 1023.49KiB/s ETA 00:00
+[download] 100% of 14.48MiB in 00:14
+[download] Downloading video 14 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-3: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-3: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-3: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579762662/e5aa5adb76be008d2837563fa1b7e20e/clips/resolution/2a50991a-2db3-4ee2-b213-09ae92025ca2/current/mp4/1280x720.mp4'
+[download] Sleeping 193.77 seconds...
+[download] Destination: 14-3-Visualizing Relationships in the Data-1280x720.mp4
+[download]   0.0% of 9.09MiB at 899.10KiB/s ETA 00:10
+[download]   0.0% of 9.09MiB at 835.08KiB/s ETA 00:11
+[download]   0.1% of 9.09MiB at 910.22KiB/s ETA 00:10
+[download]   0.2% of 9.09MiB at 970.26KiB/s ETA 00:09
+[download]   0.3% of 9.09MiB at 947.46KiB/s ETA 00:09
+[download]   0.7% of 9.09MiB at 860.98KiB/s ETA 00:10
+[download]   1.4% of 9.09MiB at 783.78KiB/s ETA 00:11
+[download]   2.7% of 9.09MiB at 1012.62KiB/s ETA 00:08
+[download]   5.5% of 9.09MiB at 1016.80KiB/s ETA 00:08
+[download]  11.0% of 9.09MiB at 1016.18KiB/s ETA 00:08
+[download]  21.9% of 9.09MiB at 1017.24KiB/s ETA 00:07
+[download]  32.8% of 9.09MiB at 1019.30KiB/s ETA 00:06
+[download]  43.8% of 9.09MiB at 1020.68KiB/s ETA 00:05
+[download]  54.8% of 9.09MiB at 1021.32KiB/s ETA 00:04
+[download]  65.8% of 9.09MiB at 1021.59KiB/s ETA 00:03
+[download]  76.8% of 9.09MiB at 1022.05KiB/s ETA 00:02
+[download]  87.8% of 9.09MiB at 1022.10KiB/s ETA 00:01
+[download]  98.8% of 9.09MiB at 1022.45KiB/s ETA 00:00
+[download] 100.0% of 9.09MiB at 1023.46KiB/s ETA 00:00
+[download] 100% of 9.09MiB in 00:09
+[download] Downloading video 15 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-4: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-4: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-4: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/73bd1eb4-fd35-4304-9fab-ff307d3225eb/current/mp4/1280x720.mp4?iPeps4VLQeejKz6uLTFAZH26IbegY73PTteUPn5p5rZkNXhbbjByEqE7RhofgC2i6AjoSFuSM7eK0Qq7dbxJ2DeIL9T6fYLa9QY0fj0gYdJLflsrrA9925kFLfrSWqegeFyY1wRLPrAK0RV-ElEVcnPcEyosBY0cmAvl3XzeOFhJQPWSno4YBv8Rl8Jl'
+[download] Sleeping 184.22 seconds...
+[download] Destination: 15-3-Preprocessing the Data-1280x720.mp4
+[download]   0.0% of 9.09MiB at 860.55KiB/s ETA 00:11
+[download]   0.0% of 9.09MiB at 862.55KiB/s ETA 00:10
+[download]   0.1% of 9.09MiB at 919.95KiB/s ETA 00:10
+[download]   0.2% of 9.09MiB at 986.20KiB/s ETA 00:09
+[download]   0.3% of 9.09MiB at 996.13KiB/s ETA 00:09
+[download]   0.7% of 9.09MiB at 1005.51KiB/s ETA 00:09
+[download]   1.4% of 9.09MiB at 767.19KiB/s ETA 00:11
+[download]   2.7% of 9.09MiB at 1013.40KiB/s ETA 00:08
+[download]   5.5% of 9.09MiB at 1013.94KiB/s ETA 00:08
+[download]  11.0% of 9.09MiB at 1015.26KiB/s ETA 00:08
+[download]  21.9% of 9.09MiB at 1016.88KiB/s ETA 00:07
+[download]  32.9% of 9.09MiB at 1019.03KiB/s ETA 00:06
+[download]  43.8% of 9.09MiB at 1020.55KiB/s ETA 00:05
+[download]  54.9% of 9.09MiB at 1021.29KiB/s ETA 00:04
+[download]  65.9% of 9.09MiB at 1021.85KiB/s ETA 00:03
+[download]  76.9% of 9.09MiB at 1021.13KiB/s ETA 00:02
+[download]  87.8% of 9.09MiB at 1022.26KiB/s ETA 00:01
+[download]  98.9% of 9.09MiB at 1022.12KiB/s ETA 00:00
+[download] 100.0% of 9.09MiB at 1023.54KiB/s ETA 00:00
+[download] 100% of 9.09MiB in 00:09
+[download] Downloading video 16 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-5: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-5: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-5: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579763071/f5fe8456c1518ba66887d920e91b63ff/clips/resolution/96751965-f1bf-459d-adfd-97ab956de751/current/mp4/1280x720.mp4'
+[download] Sleeping 162.22 seconds...
+[download] Destination: 16-3-Training a Logistic Regression Binary Classifier-1280x720.mp4
+[download]   0.0% of 9.81MiB at 962.44KiB/s ETA 00:11
+[download]   0.0% of 9.81MiB at 796.79KiB/s ETA 00:12
+[download]   0.1% of 9.81MiB at 913.05KiB/s ETA 00:11
+[download]   0.1% of 9.81MiB at 953.84KiB/s ETA 00:10
+[download]   0.3% of 9.81MiB at 987.08KiB/s ETA 00:10
+[download]   0.6% of 9.81MiB at 876.17KiB/s ETA 00:11
+[download]   1.3% of 9.81MiB at 803.24KiB/s ETA 00:12
+[download]   2.5% of 9.81MiB at 1007.82KiB/s ETA 00:09
+[download]   5.1% of 9.81MiB at 1016.53KiB/s ETA 00:09
+[download]  10.2% of 9.81MiB at 1015.70KiB/s ETA 00:08
+[download]  20.3% of 9.81MiB at 1017.29KiB/s ETA 00:07
+[download]  30.4% of 9.81MiB at 1019.33KiB/s ETA 00:06
+[download]  40.6% of 9.81MiB at 1020.53KiB/s ETA 00:05
+[download]  50.8% of 9.81MiB at 1021.25KiB/s ETA 00:04
+[download]  61.0% of 9.81MiB at 1021.85KiB/s ETA 00:03
+[download]  71.2% of 9.81MiB at 1021.88KiB/s ETA 00:02
+[download]  81.3% of 9.81MiB at 1022.40KiB/s ETA 00:01
+[download]  91.6% of 9.81MiB at 1022.35KiB/s ETA 00:00
+[download] 100.0% of 9.81MiB at 1022.91KiB/s ETA 00:00
+[download] 100% of 9.81MiB in 00:10
+[download] Downloading video 17 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-6: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-6: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-6: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/9ac45c48-c00b-4484-a3ad-9465492fffd2/current/mp4/1280x720.mp4?kRsy6M58tikYo1eYcjak6m1ti3bhvCiBeZ8MqBRDNtNf_a0DlnX7D67aqq9_b5KUmBDo1Jxs75NCyH_2EMNtWJOLu75SOhRcD_gKJf3vQ9Ah95jO7t-lh4o_jK-RGlJs8Ot_oH-mqVZZcYwnDzsz2tk9xjeYeZ4QMFRMP1EoBOW_n8eCO1W-he4tBQPJ'
+[download] Sleeping 192.77 seconds...
+[download] Destination: 17-3-Calculating Accuracy, Precision and Recall for the Classification Model-1280x720.mp4
+[download]   0.0% of 9.82MiB at 991.80KiB/s ETA 00:10
+[download]   0.0% of 9.82MiB at 772.91KiB/s ETA 00:13
+[download]   0.1% of 9.82MiB at 932.30KiB/s ETA 00:10
+[download]   0.1% of 9.82MiB at 841.53KiB/s ETA 00:11
+[download]   0.3% of 9.82MiB at 993.93KiB/s ETA 00:10
+[download]   0.6% of 9.82MiB at 1004.69KiB/s ETA 00:09
+[download]   1.3% of 9.82MiB at 1009.11KiB/s ETA 00:09
+[download]   2.5% of 9.82MiB at 1011.69KiB/s ETA 00:09
+[download]   5.1% of 9.82MiB at 1013.92KiB/s ETA 00:09
+[download]  10.2% of 9.82MiB at 1015.69KiB/s ETA 00:08
+[download]  20.3% of 9.82MiB at 1014.95KiB/s ETA 00:07
+[download]  30.4% of 9.82MiB at 1019.59KiB/s ETA 00:06
+[download]  40.6% of 9.82MiB at 1019.62KiB/s ETA 00:05
+[download]  50.7% of 9.82MiB at 1021.19KiB/s ETA 00:04
+[download]  60.9% of 9.82MiB at 1021.19KiB/s ETA 00:03
+[download]  71.1% of 9.82MiB at 1021.93KiB/s ETA 00:02
+[download]  81.3% of 9.82MiB at 1022.07KiB/s ETA 00:01
+[download]  91.5% of 9.82MiB at 1022.39KiB/s ETA 00:00
+[download] 100.0% of 9.82MiB at 1022.76KiB/s ETA 00:00
+[download] 100% of 9.82MiB in 00:10
+[download] Downloading video 18 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-7: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-7: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-7: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/eff4959d-112c-431e-b4d8-a3eb698beff2/current/mp4/1280x720.mp4?jC5SsLdXcc_LmRVADn1Jpky-MwYlP9xC9seJhQe7og5ctu0pWQBWOHnYHZ-yew_ikoSXSdcmFVY-7KWivezapQ3FGtTyqWSgmZwzfor454j1qbaWT61Cjt1q-agdGROOdibko34qX26qHotCxHL5ptHs88nx7K46HU8BzTYItfP6I03vqivTOQJxUMCP'
+[download] Sleeping 157.07 seconds...
+[download] Destination: 18-3-Defining Helper Functions to Train and Evaluate Classification Models-1280x720.mp4
+[download]   0.0% of 12.67MiB at 972.93KiB/s ETA 00:14
+[download]   0.0% of 12.67MiB at 855.51KiB/s ETA 00:15
+[download]   0.1% of 12.67MiB at 943.99KiB/s ETA 00:13
+[download]   0.1% of 12.67MiB at 976.65KiB/s ETA 00:13
+[download]   0.2% of 12.67MiB at 992.85KiB/s ETA 00:13
+[download]   0.5% of 12.67MiB at 1000.30KiB/s ETA 00:12
+[download]   1.0% of 12.67MiB at 1009.95KiB/s ETA 00:12
+[download]   2.0% of 12.67MiB at 1011.91KiB/s ETA 00:12
+[download]   3.9% of 12.67MiB at 1013.66KiB/s ETA 00:12
+[download]   7.9% of 12.67MiB at 1015.41KiB/s ETA 00:11
+[download]  15.7% of 12.67MiB at 1015.86KiB/s ETA 00:10
+[download]  23.6% of 12.67MiB at 1018.73KiB/s ETA 00:09
+[download]  31.5% of 12.67MiB at 1020.38KiB/s ETA 00:08
+[download]  39.4% of 12.67MiB at 1021.27KiB/s ETA 00:07
+[download]  47.3% of 12.67MiB at 1021.73KiB/s ETA 00:06
+[download]  55.2% of 12.67MiB at 1022.12KiB/s ETA 00:05
+[download]  63.1% of 12.67MiB at 1022.25KiB/s ETA 00:04
+[download]  70.9% of 12.67MiB at 1022.57KiB/s ETA 00:03
+[download]  78.8% of 12.67MiB at 1022.56KiB/s ETA 00:02
+[download]  86.7% of 12.67MiB at 1022.73KiB/s ETA 00:01
+[download]  94.6% of 12.67MiB at 1022.83KiB/s ETA 00:00
+[download] 100.0% of 12.67MiB at 1023.21KiB/s ETA 00:00
+[download] 100% of 12.67MiB in 00:12
+[download] Downloading video 19 of 45
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-8: Downloading JSON metadata
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-8: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 8740fe8a-4ed0-44c2-bd67-12c92fe15870-8: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/3ea91b15-f370-482b-a306-73fbd3b0d1a5/current/mp4/1280x720.mp4?iUMmKgZFF4YWq1H0uPRcGX7emBGwcsibKKFunFP5y6FceJqfS_oyEuLfS2uitYgpl39sdtW6nyxIY4SMndWv6AvOKOr9WGN8Q3OK0hHTFOYKg8n56TQWWe6w23wXiHfqaU9Ey8r4zmIAY3f7OWz6IR5K_fetgYeWe4WWRxUHXTLK2tS0JFzzuHyHlicZ'
+[download] Sleeping 151.14 seconds...
+[download] Destination: 19-3-Module Summary-1280x720.mp4
+[download]   0.1% of 1.89MiB at 916.19KiB/s ETA 00:02
+[download]   0.2% of 1.89MiB at 839.36KiB/s ETA 00:02
+[download]   0.4% of 1.89MiB at 936.86KiB/s ETA 00:02
+[download]   0.8% of 1.89MiB at 971.11KiB/s ETA 00:01
+[download]   1.6% of 1.89MiB at 996.36KiB/s ETA 00:01
+[download]   3.3% of 1.89MiB at 474.82KiB/s ETA 00:03
+[download]   6.6% of 1.89MiB at 621.10KiB/s ETA 00:02
+[download]  13.2% of 1.89MiB at 723.76KiB/s ETA 00:02
+[download]  26.4% of 1.89MiB at 913.92KiB/s ETA 00:01
+[download]  52.9% of 1.89MiB at 1016.95KiB/s ETA 00:00
+[download] 100.0% of 1.89MiB at 1016.16KiB/s ETA 00:00
+[download] 100% of 1.89MiB in 00:02
+[download] Downloading video 20 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-0: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-0: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/d197d5fd-2825-4609-893c-338b503485ed/current/mp4/1280x720.mp4?it4Ime6go_nXQh6RPAYIjLTVCAE1MMPw4AtKhjVkNbK43SEWAIxhZwhdxoWeVK1QNi0-3-TNKlC3TB03SCrN9udgnx3cSwV8zzd3_-UbfKn_GlMkW6B-5WwVabG8BbUzv3srcyM-tmv8zSaWoFDq7M0TAAcV78HM_bCW-x2VBj0-Urjfy17h44V-jOwV'
+[download] Sleeping 192.66 seconds...
+[download] Destination: 20-4-Module Overview-1280x720.mp4
+[download]   0.1% of 1.91MiB at 919.20KiB/s ETA 00:02
+[download]   0.2% of 1.91MiB at 854.30KiB/s ETA 00:02
+[download]   0.4% of 1.91MiB at 944.24KiB/s ETA 00:02
+[download]   0.8% of 1.91MiB at 983.39KiB/s ETA 00:01
+[download]   1.6% of 1.91MiB at 994.77KiB/s ETA 00:01
+[download]   3.2% of 1.91MiB at 1005.63KiB/s ETA 00:01
+[download]   6.5% of 1.91MiB at 1011.48KiB/s ETA 00:01
+[download]  13.1% of 1.91MiB at 1012.28KiB/s ETA 00:01
+[download]  26.2% of 1.91MiB at 1013.72KiB/s ETA 00:01
+[download]  52.4% of 1.91MiB at 1015.56KiB/s ETA 00:00
+[download] 100.0% of 1.91MiB at 1016.17KiB/s ETA 00:00
+[download] 100% of 1.91MiB in 00:02
+[download] Downloading video 21 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-1: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-1: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-1: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/e7bba081-ec16-4fe9-a9d0-f48a9631ca7f/current/mp4/1280x720.mp4?nmHJOgExz_zQ80-IAtbU4N-2vKREjAKE0IBo2LDEQ-ibaDA7Q4Ei8AbfWZEAHmBaLglZjO7lIU_ycgFrc1rIEMYLUivHyh6yCi219w_mr8qX4MlC0gnzTLxs7PFETRrJilBwRk_WMNbZPlfYqFKHH2bsT_8Qk6ACOmDE3WBpjF0FARv8xs1fwFKijqon'
+[download] Sleeping 152.35 seconds...
+[download] Destination: 21-4-Choosing Classification Algorithms-1280x720.mp4
+[download]   0.0% of 3.37MiB at 910.82KiB/s ETA 00:03
+[download]   0.1% of 3.37MiB at 848.31KiB/s ETA 00:04
+[download]   0.2% of 3.37MiB at 940.76KiB/s ETA 00:03
+[download]   0.4% of 3.37MiB at 981.25KiB/s ETA 00:03
+[download]   0.9% of 3.37MiB at 997.81KiB/s ETA 00:03
+[download]   1.8% of 3.37MiB at 1005.18KiB/s ETA 00:03
+[download]   3.7% of 3.37MiB at 1008.23KiB/s ETA 00:03
+[download]   7.4% of 3.37MiB at 1012.55KiB/s ETA 00:03
+[download]  14.8% of 3.37MiB at 1012.90KiB/s ETA 00:02
+[download]  29.6% of 3.37MiB at 1014.81KiB/s ETA 00:02
+[download]  59.0% of 3.37MiB at 1016.05KiB/s ETA 00:01
+[download]  88.5% of 3.37MiB at 1019.69KiB/s ETA 00:00
+[download] 100.0% of 3.37MiB at 1022.04KiB/s ETA 00:00
+[download] 100% of 3.37MiB in 00:03
+[download] Downloading video 22 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-2: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-2: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/2cf2f146-730d-4ce4-acc7-e35711bb9173/current/mp4/1280x720.mp4?P-LGLmPCnM4A-4Da1wEDLLcUBbc54ZErVm8R4QObpvOEdhR2IqeEsU8RJCrbVFZpSXT--GrZq7N7Fthd3WjoZgsAU-PweRbutfAobWnQSKCesAU8y06mDMSrX-jo9FXOcWpTFlZW-hysA_2waucR3cJG_9LDuMdeLSsK2lVfF6o2Y3dMP6fPpAS3XCSq'
+[download] Sleeping 174.95 seconds...
+[download] Destination: 22-4-Linear Discriminant Analysis and Quadratic Discriminant Analysis-1280x720.mp4
+[download]   0.0% of 11.35MiB at Unknown speed ETA 00:12
+[download]   0.0% of 11.35MiB at 857.09KiB/s ETA 00:13
+[download]   0.1% of 11.35MiB at 943.87KiB/s ETA 00:12
+[download]   0.1% of 11.35MiB at 984.90KiB/s ETA 00:11
+[download]   0.3% of 11.35MiB at 998.04KiB/s ETA 00:11
+[download]   0.5% of 11.35MiB at 1004.74KiB/s ETA 00:11
+[download]   1.1% of 11.35MiB at 1011.75KiB/s ETA 00:11
+[download]   2.2% of 11.35MiB at 1011.27KiB/s ETA 00:11
+[download]   4.4% of 11.35MiB at 1014.41KiB/s ETA 00:10
+[download]   8.8% of 11.35MiB at 1016.30KiB/s ETA 00:10
+[download]  17.6% of 11.35MiB at 1016.35KiB/s ETA 00:09
+[download]  26.3% of 11.35MiB at 1019.09KiB/s ETA 00:08
+[download]  35.1% of 11.35MiB at 1020.45KiB/s ETA 00:07
+[download]  44.0% of 11.35MiB at 1021.14KiB/s ETA 00:06
+[download]  52.8% of 11.35MiB at 1021.73KiB/s ETA 00:05
+[download]  61.6% of 11.35MiB at 1021.91KiB/s ETA 00:04
+[download]  70.4% of 11.35MiB at 1022.32KiB/s ETA 00:03
+[download]  79.2% of 11.35MiB at 1022.21KiB/s ETA 00:02
+[download]  88.0% of 11.35MiB at 1022.75KiB/s ETA 00:01
+[download]  96.9% of 11.35MiB at 1022.63KiB/s ETA 00:00
+[download] 100.0% of 11.35MiB at 1023.45KiB/s ETA 00:00
+[download] 100% of 11.35MiB in 00:11
+[download] Downloading video 23 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-3: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-3: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-3: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579764338/24bee162ae369c411accc46167e84e06/clips/resolution/4caf9bd0-c53e-4da1-ab13-64e65d49af58/current/mp4/1280x720.mp4'
+[download] Sleeping 162.52 seconds...
+[download] Destination: 23-4-Implementing Linear Discriminant Analysis Classification-1280x720.mp4
+[download]   0.0% of 8.90MiB at 881.16KiB/s ETA 00:11
+[download]   0.0% of 8.90MiB at 811.91KiB/s ETA 00:11
+[download]   0.1% of 8.90MiB at 908.11KiB/s ETA 00:10
+[download]   0.2% of 8.90MiB at 958.54KiB/s ETA 00:09
+[download]   0.3% of 8.90MiB at 988.19KiB/s ETA 00:09
+[download]   0.7% of 8.90MiB at 895.47KiB/s ETA 00:10
+[download]   1.4% of 8.90MiB at 1009.85KiB/s ETA 00:08
+[download]   2.8% of 8.90MiB at 1007.83KiB/s ETA 00:08
+[download]   5.6% of 8.90MiB at 1015.92KiB/s ETA 00:08
+[download]  11.2% of 8.90MiB at 1016.09KiB/s ETA 00:07
+[download]  22.4% of 8.90MiB at 1016.74KiB/s ETA 00:06
+[download]  33.5% of 8.90MiB at 1018.79KiB/s ETA 00:05
+[download]  44.7% of 8.90MiB at 1021.02KiB/s ETA 00:04
+[download]  56.0% of 8.90MiB at 1021.21KiB/s ETA 00:03
+[download]  67.2% of 8.90MiB at 1021.71KiB/s ETA 00:02
+[download]  78.5% of 8.90MiB at 1022.01KiB/s ETA 00:01
+[download]  89.7% of 8.90MiB at 1022.46KiB/s ETA 00:00
+[download] 100.0% of 8.90MiB at 1022.42KiB/s ETA 00:00
+[download] 100% of 8.90MiB in 00:09
+[download] Downloading video 24 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-4: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-4: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-4: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579764516/29d2e0a33d1d74b6d4732108cc0fc50c/clips/resolution/1aad5b52-1797-42f8-8991-f97e1b9e68d1/current/mp4/1280x720.mp4'
+[download] Sleeping 178.30 seconds...
+[download] Destination: 24-4-Implementing Quadratic Discriminant Analysis Classification-1280x720.mp4
+[download]   0.0% of 4.11MiB at 934.14KiB/s ETA 00:04
+[download]   0.1% of 4.11MiB at 671.63KiB/s ETA 00:06
+[download]   0.2% of 4.11MiB at 889.19KiB/s ETA 00:04
+[download]   0.4% of 4.11MiB at 961.38KiB/s ETA 00:04
+[download]   0.7% of 4.11MiB at 982.43KiB/s ETA 00:04
+[download]   1.5% of 4.11MiB at 996.69KiB/s ETA 00:04
+[download]   3.0% of 4.11MiB at 765.63KiB/s ETA 00:05
+[download]   6.1% of 4.11MiB at 1010.37KiB/s ETA 00:03
+[download]  12.2% of 4.11MiB at 1013.67KiB/s ETA 00:03
+[download]  24.3% of 4.11MiB at 1016.54KiB/s ETA 00:03
+[download]  48.6% of 4.11MiB at 1016.45KiB/s ETA 00:02
+[download]  72.8% of 4.11MiB at 1019.64KiB/s ETA 00:01
+[download]  97.2% of 4.11MiB at 1020.74KiB/s ETA 00:00
+[download] 100.0% of 4.11MiB at 1023.04KiB/s ETA 00:00
+[download] 100% of 4.11MiB in 00:04
+[download] Downloading video 25 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-5: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-5: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-5: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579764705/ac191840447e9a683b3b6530e11017ac/clips/resolution/8c21d3c5-37e1-4e9a-aff6-ad472ceb2281/current/mp4/1280x720.mp4'
+[download] Sleeping 179.32 seconds...
+[download] Destination: 25-4-Stochastic Gradient Descent-1280x720.mp4
+[download]   0.0% of 3.87MiB at 911.21KiB/s ETA 00:04
+[download]   0.1% of 3.87MiB at 812.32KiB/s ETA 00:04
+[download]   0.2% of 3.87MiB at 869.65KiB/s ETA 00:04
+[download]   0.4% of 3.87MiB at 959.97KiB/s ETA 00:04
+[download]   0.8% of 3.87MiB at 981.14KiB/s ETA 00:04
+[download]   1.6% of 3.87MiB at 899.32KiB/s ETA 00:04
+[download]   3.2% of 3.87MiB at 789.49KiB/s ETA 00:04
+[download]   6.4% of 3.87MiB at 1011.69KiB/s ETA 00:03
+[download]  12.9% of 3.87MiB at 1009.66KiB/s ETA 00:03
+[download]  25.8% of 3.87MiB at 1016.29KiB/s ETA 00:02
+[download]  51.6% of 3.87MiB at 1016.87KiB/s ETA 00:01
+[download]  77.3% of 3.87MiB at 1020.12KiB/s ETA 00:00
+[download] 100.0% of 3.87MiB at 1020.86KiB/s ETA 00:00
+[download] 100% of 3.87MiB in 00:04
+[download] Downloading video 26 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-6: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-6: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-6: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/ca82b713-7199-4fe3-9eee-57fcd81a9f72/current/mp4/1280x720.mp4?4tTkLBWWYkLDpSWyiyUL7baTXMyeTbMJ0Er8pIIon0qh9YPYDLyedzhrjpj2NF0cJtiJXJt42U83hPxDtdc-8fKeNG4PmRbWHbWZCe5MtM5UZLk_pmdOOHuZCfz1n_cgH4IsiavUrYNa-DoKSIo3BHN2mMQkQ3Q1AyyepgkeHZ6ibBEEvJYtK_kLjZJ7'
+[download] Sleeping 181.71 seconds...
+[download] Destination: 26-4-Implementing Stochastic Gradient Descent Classification-1280x720.mp4
+[download]   0.0% of 5.55MiB at 910.02KiB/s ETA 00:06
+[download]   0.1% of 5.55MiB at 822.31KiB/s ETA 00:06
+[download]   0.1% of 5.55MiB at 938.50KiB/s ETA 00:06
+[download]   0.3% of 5.55MiB at 979.43KiB/s ETA 00:05
+[download]   0.5% of 5.55MiB at 997.59KiB/s ETA 00:05
+[download]   1.1% of 5.55MiB at 1001.40KiB/s ETA 00:05
+[download]   2.2% of 5.55MiB at 749.89KiB/s ETA 00:07
+[download]   4.5% of 5.55MiB at 1014.51KiB/s ETA 00:05
+[download]   9.0% of 5.55MiB at 1015.72KiB/s ETA 00:05
+[download]  18.0% of 5.55MiB at 1010.35KiB/s ETA 00:04
+[download]  35.7% of 5.55MiB at 1016.99KiB/s ETA 00:03
+[download]  53.7% of 5.55MiB at 1019.36KiB/s ETA 00:02
+[download]  71.7% of 5.55MiB at 1019.80KiB/s ETA 00:01
+[download]  89.6% of 5.55MiB at 1022.39KiB/s ETA 00:00
+[download] 100.0% of 5.55MiB at 1022.97KiB/s ETA 00:00
+[download] 100% of 5.55MiB in 00:05
+[download] Downloading video 27 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-7: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-7: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-7: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/102cf6dc-4fb7-42e9-babb-b34a2bb55a11/current/mp4/1280x720.mp4?Q_uxxu_qhroE3qP6wcX0O4YP2A12ERQrbZCjz6SJbjgJ8L1CfbcxlZZX_aImCp5Tvo8cvrw_pAEnwYMWvLTmta3DAMToKHS2hggis43-x-wsXEZyofmPcgJfoJ-6jgkNi8ip05NRKjCcbGVv9F-0W58kpEqbQOIU68MMHcHTMqvrPU0gKV9xpjxuVKq_'
+[download] Sleeping 189.24 seconds...
+[download] Destination: 27-4-Support Vector Machines-1280x720.mp4
+[download]   0.0% of 11.49MiB at 879.68KiB/s ETA 00:14
+[download]   0.0% of 11.49MiB at 851.29KiB/s ETA 00:13
+[download]   0.1% of 11.49MiB at 935.21KiB/s ETA 00:12
+[download]   0.1% of 11.49MiB at 984.89KiB/s ETA 00:11
+[download]   0.3% of 11.49MiB at 997.14KiB/s ETA 00:11
+[download]   0.5% of 11.49MiB at 1005.32KiB/s ETA 00:11
+[download]   1.1% of 11.49MiB at 1014.12KiB/s ETA 00:11
+[download]   2.2% of 11.49MiB at 1013.62KiB/s ETA 00:11
+[download]   4.3% of 11.49MiB at 1015.80KiB/s ETA 00:11
+[download]   8.7% of 11.49MiB at 1016.38KiB/s ETA 00:10
+[download]  17.3% of 11.49MiB at 1016.56KiB/s ETA 00:09
+[download]  26.0% of 11.49MiB at 1019.45KiB/s ETA 00:08
+[download]  34.7% of 11.49MiB at 1020.39KiB/s ETA 00:07
+[download]  43.4% of 11.49MiB at 1021.37KiB/s ETA 00:06
+[download]  52.1% of 11.49MiB at 1022.00KiB/s ETA 00:05
+[download]  60.8% of 11.49MiB at 1022.21KiB/s ETA 00:04
+[download]  69.5% of 11.49MiB at 1022.51KiB/s ETA 00:03
+[download]  78.2% of 11.49MiB at 1022.49KiB/s ETA 00:02
+[download]  86.9% of 11.49MiB at 1022.74KiB/s ETA 00:01
+[download]  95.6% of 11.49MiB at 1011.37KiB/s ETA 00:00
+[download] 100.0% of 11.49MiB at 1023.32KiB/s ETA 00:00
+[download] 100% of 11.49MiB in 00:11
+[download] Downloading video 28 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-8: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-8: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-8: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579765291/3cb10b6ef5d1480167c166f4b1b18a18/clips/resolution/3c8fa01c-1d7a-42fa-89c6-620ebc7e751d/current/mp4/1280x720.mp4'
+[download] Sleeping 197.58 seconds...
+[download] Destination: 28-4-Implementing Support Vector Classification-1280x720.mp4
+[download]   0.0% of 5.62MiB at 886.93KiB/s ETA 00:06
+[download]   0.1% of 5.62MiB at 839.53KiB/s ETA 00:06
+[download]   0.1% of 5.62MiB at 923.83KiB/s ETA 00:06
+[download]   0.3% of 5.62MiB at 967.54KiB/s ETA 00:05
+[download]   0.5% of 5.62MiB at 991.08KiB/s ETA 00:05
+[download]   1.1% of 5.62MiB at 889.46KiB/s ETA 00:06
+[download]   2.2% of 5.62MiB at 789.27KiB/s ETA 00:07
+[download]   4.4% of 5.62MiB at 1013.87KiB/s ETA 00:05
+[download]   8.9% of 5.62MiB at 1016.68KiB/s ETA 00:05
+[download]  17.8% of 5.62MiB at 1016.18KiB/s ETA 00:04
+[download]  35.4% of 5.62MiB at 1017.37KiB/s ETA 00:03
+[download]  53.1% of 5.62MiB at 1019.52KiB/s ETA 00:02
+[download]  70.9% of 5.62MiB at 1021.12KiB/s ETA 00:01
+[download]  88.8% of 5.62MiB at 1021.71KiB/s ETA 00:00
+[download] 100.0% of 5.62MiB at 1022.33KiB/s ETA 00:00
+[download] 100% of 5.62MiB in 00:06
+[download] Downloading video 29 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-9: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-9: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-9: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579765498/0eb0b707709f1cb28d0ee09c8325c837/clips/resolution/8d005178-f6a7-4fd3-80cc-7ff49dcedfa8/current/mp4/1280x720.mp4'
+[download] Sleeping 178.07 seconds...
+[download] Destination: 29-4-Nearest Neighbors-1280x720.mp4
+[download]   0.0% of 5.03MiB at 875.64KiB/s ETA 00:06
+[download]   0.1% of 5.03MiB at 822.74KiB/s ETA 00:06
+[download]   0.1% of 5.03MiB at 920.32KiB/s ETA 00:05
+[download]   0.3% of 5.03MiB at 961.13KiB/s ETA 00:05
+[download]   0.6% of 5.03MiB at 992.48KiB/s ETA 00:05
+[download]   1.2% of 5.03MiB at 349.81KiB/s ETA 00:14
+[download]   2.5% of 5.03MiB at 698.82KiB/s ETA 00:07
+[download]   5.0% of 5.03MiB at 673.93KiB/s ETA 00:07
+[download]   9.9% of 5.03MiB at 878.92KiB/s ETA 00:05
+[download]  19.9% of 5.03MiB at 980.16KiB/s ETA 00:04
+[download]  39.7% of 5.03MiB at 1017.99KiB/s ETA 00:03
+[download]  60.3% of 5.03MiB at 1019.10KiB/s ETA 00:02
+[download]  80.1% of 5.03MiB at 1020.47KiB/s ETA 00:01
+[download] 100.0% of 5.03MiB at 1021.30KiB/s ETA 00:00
+[download] 100% of 5.03MiB in 00:06
+[download] Downloading video 30 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-10: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-10: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-10: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579765687/93d040dba4b37cb73a74bfea90963d96/clips/resolution/fdf762c2-b726-44ba-9db7-303673d26aeb/current/mp4/1280x720.mp4'
+[download] Sleeping 183.59 seconds...
+[download] Destination: 30-4-Implementing K-nearest-neighbors Classification-1280x720.mp4
+[download]   0.0% of 2.80MiB at 977.69KiB/s ETA 00:03
+[download]   0.1% of 2.80MiB at 797.85KiB/s ETA 00:03
+[download]   0.2% of 2.80MiB at 920.78KiB/s ETA 00:03
+[download]   0.5% of 2.80MiB at 961.14KiB/s ETA 00:02
+[download]   1.1% of 2.80MiB at 987.31KiB/s ETA 00:02
+[download]   2.2% of 2.80MiB at 910.64KiB/s ETA 00:03
+[download]   4.4% of 2.80MiB at 791.03KiB/s ETA 00:03
+[download]   8.9% of 2.80MiB at 1012.24KiB/s ETA 00:02
+[download]  17.8% of 2.80MiB at 1015.70KiB/s ETA 00:02
+[download]  35.7% of 2.80MiB at 1016.36KiB/s ETA 00:01
+[download]  71.3% of 2.80MiB at 1016.98KiB/s ETA 00:00
+[download] 100.0% of 2.80MiB at 1019.90KiB/s ETA 00:00
+[download] 100% of 2.80MiB in 00:03
+[download] Downloading video 31 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-11: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-11: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-11: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579765878/aaab1de6a79b8d8904d7be436ed3e15d/clips/resolution/bf9ffb91-c856-4d69-a3af-4a784f385222/current/mp4/1280x720.mp4'
+[download] Sleeping 158.62 seconds...
+[download] Destination: 31-4-Decision Trees-1280x720.mp4
+[download]   0.0% of 4.54MiB at 892.60KiB/s ETA 00:05
+[download]   0.1% of 4.54MiB at 839.53KiB/s ETA 00:05
+[download]   0.2% of 4.54MiB at 915.42KiB/s ETA 00:05
+[download]   0.3% of 4.54MiB at 971.16KiB/s ETA 00:04
+[download]   0.7% of 4.54MiB at 985.75KiB/s ETA 00:04
+[download]   1.4% of 4.54MiB at 944.36KiB/s ETA 00:04
+[download]   2.7% of 4.54MiB at 793.88KiB/s ETA 00:05
+[download]   5.5% of 4.54MiB at 1006.79KiB/s ETA 00:04
+[download]  11.0% of 4.54MiB at 1013.27KiB/s ETA 00:04
+[download]  22.0% of 4.54MiB at 1015.46KiB/s ETA 00:03
+[download]  43.9% of 4.54MiB at 1016.96KiB/s ETA 00:02
+[download]  65.9% of 4.54MiB at 1019.49KiB/s ETA 00:01
+[download]  87.9% of 4.54MiB at 1020.62KiB/s ETA 00:00
+[download] 100.0% of 4.54MiB at 1022.21KiB/s ETA 00:00
+[download] 100% of 4.54MiB in 00:04
+[download] Downloading video 32 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-12: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-12: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-12: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579766046/83b2cfefcc99255f96ffffd031e63e3c/clips/resolution/dcebb7fc-012d-4cd0-91fb-4ea825d4c6d7/current/mp4/1280x720.mp4'
+[download] Sleeping 169.00 seconds...
+[download] Destination: 32-4-Implementing Decision Tree Classification-1280x720.mp4
+[download]   0.0% of 5.54MiB at 891.46KiB/s ETA 00:06
+[download]   0.1% of 5.54MiB at 824.03KiB/s ETA 00:06
+[download]   0.1% of 5.54MiB at 918.68KiB/s ETA 00:06
+[download]   0.3% of 5.54MiB at 971.74KiB/s ETA 00:05
+[download]   0.5% of 5.54MiB at 986.14KiB/s ETA 00:05
+[download]   1.1% of 5.54MiB at 351.73KiB/s ETA 00:15
+[download]   2.2% of 5.54MiB at 692.45KiB/s ETA 00:08
+[download]   4.5% of 5.54MiB at 678.31KiB/s ETA 00:07
+[download]   9.0% of 5.54MiB at 870.36KiB/s ETA 00:05
+[download]  18.0% of 5.54MiB at 995.67KiB/s ETA 00:04
+[download]  36.1% of 5.54MiB at 1017.02KiB/s ETA 00:03
+[download]  54.4% of 5.54MiB at 1019.57KiB/s ETA 00:02
+[download]  72.5% of 5.54MiB at 1020.99KiB/s ETA 00:01
+[download]  90.5% of 5.54MiB at 1021.45KiB/s ETA 00:00
+[download] 100.0% of 5.54MiB at 1022.39KiB/s ETA 00:00
+[download] 100% of 5.54MiB in 00:06
+[download] Downloading video 33 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-13: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-13: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-13: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579766227/e16262b76807a1dc2153f107e4accbbb/clips/resolution/861d87f9-f9ea-4061-9598-0ae6b08286de/current/mp4/1280x720.mp4'
+[download] Sleeping 150.02 seconds...
+[download] Destination: 33-4-Naive Bayes-1280x720.mp4
+[download]   0.0% of 5.90MiB at 975.65KiB/s ETA 00:06
+[download]   0.0% of 5.90MiB at 826.41KiB/s ETA 00:07
+[download]   0.1% of 5.90MiB at 910.19KiB/s ETA 00:06
+[download]   0.2% of 5.90MiB at 966.27KiB/s ETA 00:06
+[download]   0.5% of 5.90MiB at 989.18KiB/s ETA 00:06
+[download]   1.0% of 5.90MiB at 899.39KiB/s ETA 00:06
+[download]   2.1% of 5.90MiB at 794.19KiB/s ETA 00:07
+[download]   4.2% of 5.90MiB at 1011.80KiB/s ETA 00:05
+[download]   8.5% of 5.90MiB at 1015.71KiB/s ETA 00:05
+[download]  16.9% of 5.90MiB at 1016.04KiB/s ETA 00:04
+[download]  33.8% of 5.90MiB at 1017.17KiB/s ETA 00:03
+[download]  50.6% of 5.90MiB at 1019.46KiB/s ETA 00:02
+[download]  67.6% of 5.90MiB at 1021.02KiB/s ETA 00:01
+[download]  84.6% of 5.90MiB at 1021.44KiB/s ETA 00:00
+[download] 100.0% of 5.90MiB at 1022.01KiB/s ETA 00:00
+[download] 100% of 5.90MiB in 00:06
+[download] Downloading video 34 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-14: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-14: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-14: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/fa57c42b-341e-44be-baa2-47cb9c96eec3/current/mp4/1280x720.mp4?TscmBK0IfsZJxRsPkP8IFM_nF18bz8JtOrahfxemahaj3LGWq6sn1huarz6mA0_qhE2QOga9qpsfZtwN_uYRbxVkUTWrK1UugRotIiBsI0NdHwfFcfoa9tottt4WaBUAaE-9MHTsu-QTNgYfObQlpi9B4b0YDdSqoD6yMFcj33TBuU3syP0NDX71JsQ7'
+[download] Sleeping 167.83 seconds...
+[download] Destination: 34-4-Implementing Naive Bayes Classification-1280x720.mp4
+[download]   0.0% of 3.44MiB at 890.89KiB/s ETA 00:04
+[download]   0.1% of 3.44MiB at 835.24KiB/s ETA 00:04
+[download]   0.2% of 3.44MiB at 948.20KiB/s ETA 00:03
+[download]   0.4% of 3.44MiB at 978.58KiB/s ETA 00:03
+[download]   0.9% of 3.44MiB at 1001.98KiB/s ETA 00:03
+[download]   1.8% of 3.44MiB at 470.18KiB/s ETA 00:07
+[download]   3.6% of 3.44MiB at 669.75KiB/s ETA 00:05
+[download]   7.2% of 3.44MiB at 929.54KiB/s ETA 00:03
+[download]  14.5% of 3.44MiB at 950.92KiB/s ETA 00:03
+[download]  29.1% of 3.44MiB at 1015.77KiB/s ETA 00:02
+[download]  58.2% of 3.44MiB at 1014.11KiB/s ETA 00:01
+[download]  87.0% of 3.44MiB at 1019.45KiB/s ETA 00:00
+[download] 100.0% of 3.44MiB at 1021.79KiB/s ETA 00:00
+[download] 100% of 3.44MiB in 00:04
+[download] Downloading video 35 of 45
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-15: Downloading JSON metadata
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-15: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] f9a578e9-86db-430a-a838-d180b4991353-15: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579766563/6b73e47c63024c75e05714bce5c4f084/clips/resolution/e0283ff9-f1d3-4e46-b99f-7ab7c60d96ee/current/mp4/1280x720.mp4'
+[download] Sleeping 164.69 seconds...
+[download] Destination: 35-4-Module Summary-1280x720.mp4
+[download]   0.0% of 2.22MiB at 891.84KiB/s ETA 00:02
+[download]   0.1% of 2.22MiB at 798.46KiB/s ETA 00:02
+[download]   0.3% of 2.22MiB at 915.07KiB/s ETA 00:02
+[download]   0.7% of 2.22MiB at 960.81KiB/s ETA 00:02
+[download]   1.4% of 2.22MiB at 980.85KiB/s ETA 00:02
+[download]   2.8% of 2.22MiB at 906.59KiB/s ETA 00:02
+[download]   5.6% of 2.22MiB at 811.89KiB/s ETA 00:02
+[download]  11.2% of 2.22MiB at 1010.15KiB/s ETA 00:01
+[download]  22.5% of 2.22MiB at 1014.48KiB/s ETA 00:01
+[download]  45.0% of 2.22MiB at 1016.95KiB/s ETA 00:01
+[download]  89.9% of 2.22MiB at 1016.96KiB/s ETA 00:00
+[download] 100.0% of 2.22MiB at 1021.41KiB/s ETA 00:00
+[download] 100% of 2.22MiB in 00:02
+[download] Downloading video 36 of 45
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-0: Downloading JSON metadata
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-0: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/ef8921ab-984f-4a79-93e4-3310f8b26757/current/mp4/1280x720.mp4?KV_vhH4Bpvf1AxdQ-xJ_i1egu5BJref5EGHljA-PsZJwNqf0Rq4H8PFknxlM2m8FWHl4_6FNumthKQpOnVSessZELK-AfpKEhiM02VbGf7bMnabK-dh0DJ0JjdMVp1r7-3peR1qGNcHY4Wn1RHRJfoOdieWMs2uVH9ZSw06CZz4e1tdpkyvUejTRFrzl'
+[download] Sleeping 180.73 seconds...
+[download] Destination: 36-5-Module Overview-1280x720.mp4
+[download]   0.1% of 1.41MiB at 922.64KiB/s ETA 00:01
+[download]   0.2% of 1.41MiB at 852.85KiB/s ETA 00:01
+[download]   0.5% of 1.41MiB at 944.63KiB/s ETA 00:01
+[download]   1.0% of 1.41MiB at 970.62KiB/s ETA 00:01
+[download]   2.2% of 1.41MiB at 994.82KiB/s ETA 00:01
+[download]   4.4% of 1.41MiB at 1005.64KiB/s ETA 00:01
+[download]   8.8% of 1.41MiB at 785.42KiB/s ETA 00:01
+[download]  17.7% of 1.41MiB at 1011.04KiB/s ETA 00:01
+[download]  35.5% of 1.41MiB at 1013.78KiB/s ETA 00:00
+[download]  71.0% of 1.41MiB at 1015.53KiB/s ETA 00:00
+[download] 100.0% of 1.41MiB at 1018.14KiB/s ETA 00:00
+[download] 100% of 1.41MiB in 00:01
+[download] Downloading video 37 of 45
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-1: Downloading JSON metadata
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-1: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-1: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/7fad7639-dde6-4c91-8083-1e670edb8a65/current/mp4/1280x720.mp4?S4GUhNow0vYpMx7EZj8BSwSenQePOJ4qWKbWtoHnGQMIHHgGdYEl2ShFCtx5hw3VQinw2sPTIlhVzM2pMmhRUMCKekxnFlU3aFs5BXOH08crsz28zzFqukVrvfHr1Rs2xJ90otbi2FNH_lDqJhHmRiCN_77wt8gIQ2ZE1NAwGwlQGQRDt98tQo7_zG6H'
+[download] Sleeping 168.15 seconds...
+[download] Destination: 37-5-Hyperparameter Tuning-1280x720.mp4
+[download]   0.0% of 5.64MiB at 910.02KiB/s ETA 00:06
+[download]   0.1% of 5.64MiB at 847.28KiB/s ETA 00:06
+[download]   0.1% of 5.64MiB at 940.82KiB/s ETA 00:06
+[download]   0.3% of 5.64MiB at 983.26KiB/s ETA 00:05
+[download]   0.5% of 5.64MiB at 996.68KiB/s ETA 00:05
+[download]   1.1% of 5.64MiB at 1005.45KiB/s ETA 00:05
+[download]   2.2% of 5.64MiB at 787.69KiB/s ETA 00:07
+[download]   4.4% of 5.64MiB at 1012.29KiB/s ETA 00:05
+[download]   8.8% of 5.64MiB at 1015.33KiB/s ETA 00:05
+[download]  17.7% of 5.64MiB at 1015.21KiB/s ETA 00:04
+[download]  35.3% of 5.64MiB at 1016.76KiB/s ETA 00:03
+[download]  52.9% of 5.64MiB at 1019.46KiB/s ETA 00:02
+[download]  70.6% of 5.64MiB at 1020.81KiB/s ETA 00:01
+[download]  88.3% of 5.64MiB at 1021.56KiB/s ETA 00:00
+[download] 100.0% of 5.64MiB at 1022.22KiB/s ETA 00:00
+[download] 100% of 5.64MiB in 00:05
+[download] Downloading video 38 of 45
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-2: Downloading JSON metadata
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-2: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/0952f0cf-cc5e-4bf7-8e44-211854c6aaa7/current/mp4/1280x720.mp4?xVR4ISwK2Iyyu0wm0iBxSiU3rnk58Gdh3tzQfYdLVNL9ROoHIfafmN4LNKnP35QtLMRyEN0h8Dr3Q5DZrQ-QPG2X8A2_qvz4DqjJEFaHltAAzv90fFjUj5eZgBk50EwySzHZw8Z5cwkL5rok5EL8LC5JUnJEoL6fpoMC834VucSKI4ROtxx-hl_8eTS_'
+[download] Sleeping 155.81 seconds...
+[download] Destination: 38-5-Hyperparameter Tuning a Decision Tree Clasifier Using Grid Search-1280x720.mp4
+[download]   0.0% of 13.61MiB at 886.56KiB/s ETA 00:16
+[download]   0.0% of 13.61MiB at 836.35KiB/s ETA 00:16
+[download]   0.1% of 13.61MiB at 945.88KiB/s ETA 00:14
+[download]   0.1% of 13.61MiB at 983.13KiB/s ETA 00:14
+[download]   0.2% of 13.61MiB at 992.44KiB/s ETA 00:14
+[download]   0.5% of 13.61MiB at 1005.14KiB/s ETA 00:13
+[download]   0.9% of 13.61MiB at 1012.26KiB/s ETA 00:13
+[download]   1.8% of 13.61MiB at 1013.87KiB/s ETA 00:13
+[download]   3.7% of 13.61MiB at 1015.67KiB/s ETA 00:13
+[download]   7.3% of 13.61MiB at 1016.00KiB/s ETA 00:12
+[download]  14.6% of 13.61MiB at 1016.87KiB/s ETA 00:11
+[download]  21.9% of 13.61MiB at 1019.16KiB/s ETA 00:10
+[download]  29.3% of 13.61MiB at 1020.71KiB/s ETA 00:09
+[download]  36.6% of 13.61MiB at 1021.42KiB/s ETA 00:08
+[download]  44.0% of 13.61MiB at 1021.83KiB/s ETA 00:07
+[download]  51.3% of 13.61MiB at 1021.90KiB/s ETA 00:06
+[download]  58.7% of 13.61MiB at 1022.38KiB/s ETA 00:05
+[download]  66.0% of 13.61MiB at 1022.47KiB/s ETA 00:04
+[download]  73.4% of 13.61MiB at 1022.63KiB/s ETA 00:03
+[download]  80.7% of 13.61MiB at 1022.64KiB/s ETA 00:02
+[download]  88.1% of 13.61MiB at 1022.96KiB/s ETA 00:01
+[download]  95.4% of 13.61MiB at 1022.90KiB/s ETA 00:00
+[download] 100.0% of 13.61MiB at 1023.32KiB/s ETA 00:00
+[download] 100% of 13.61MiB in 00:13
+[download] Downloading video 39 of 45
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-3: Downloading JSON metadata
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-3: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-3: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/a2c95a74-0c7e-4b00-947d-f7ea17b05f8d/current/mp4/1280x720.mp4?mCjWI9RP1FQLGBqfGQafH5_wIroMtxHIwLfbGNi1bID1GfTYku7k-qfLr1KwrXThSr3zS56n9oXHdmvw18kGIhVPVHqwmflqaCzdJWTkJNieVR32T1JvayFZDo9pk-fWXRqfxLlYM8VM7CPzKQPS3bB58_KkZiLp5oYIZHW9Zv-6rQ9upSwJL3EzrF_r'
+[download] Sleeping 169.39 seconds...
+[download] Destination: 39-5-Hyperparameter Tuning a Logistic Regression Classifier Using Grid Search-1280x720.mp4
+[download]   0.0% of 4.91MiB at 853.19KiB/s ETA 00:06
+[download]   0.1% of 4.91MiB at 847.62KiB/s ETA 00:05
+[download]   0.1% of 4.91MiB at 944.60KiB/s ETA 00:05
+[download]   0.3% of 4.91MiB at 911.42KiB/s ETA 00:05
+[download]   0.6% of 4.91MiB at 993.96KiB/s ETA 00:05
+[download]   1.3% of 4.91MiB at 1007.76KiB/s ETA 00:04
+[download]   2.5% of 4.91MiB at 1012.04KiB/s ETA 00:04
+[download]   5.1% of 4.91MiB at 1013.14KiB/s ETA 00:04
+[download]  10.2% of 4.91MiB at 1015.16KiB/s ETA 00:04
+[download]  20.3% of 4.91MiB at 1016.24KiB/s ETA 00:03
+[download]  40.5% of 4.91MiB at 1017.04KiB/s ETA 00:02
+[download]  60.8% of 4.91MiB at 1019.37KiB/s ETA 00:01
+[download]  81.1% of 4.91MiB at 1020.81KiB/s ETA 00:00
+[download] 100.0% of 4.91MiB at 1021.54KiB/s ETA 00:00
+[download] 100% of 4.91MiB in 00:05
+[download] Downloading video 40 of 45
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-4: Downloading JSON metadata
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-4: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] 56d616cd-1c0f-411f-872d-c61bb2f3c19d-4: Waiting for 3 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid5.pluralsight.com/expiretime=1579767454/449557b4aac7666643d989304d89d987/clips/resolution/946e55de-32c6-422b-8e99-0b0e0f3303c8/current/mp4/1280x720.mp4'
+[download] Sleeping 181.68 seconds...
+[download] Destination: 40-5-Module Summary-1280x720.mp4
+[download]   0.1% of 1.36MiB at 935.81KiB/s ETA 00:01
+[download]   0.2% of 1.36MiB at 834.02KiB/s ETA 00:01
+[download]   0.5% of 1.36MiB at 912.26KiB/s ETA 00:01
+[download]   1.1% of 1.36MiB at 952.47KiB/s ETA 00:01
+[download]   2.2% of 1.36MiB at 988.10KiB/s ETA 00:01
+[download]   4.5% of 1.36MiB at 870.10KiB/s ETA 00:01
+[download]   9.1% of 1.36MiB at 940.75KiB/s ETA 00:01
+[download]  18.3% of 1.36MiB at 1010.48KiB/s ETA 00:01
+[download]  36.6% of 1.36MiB at 1014.44KiB/s ETA 00:00
+[download]  73.3% of 1.36MiB at 1014.81KiB/s ETA 00:00
+[download] 100.0% of 1.36MiB at 1018.59KiB/s ETA 00:00
+[download] 100% of 1.36MiB in 00:01
+[download] Downloading video 41 of 45
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-0: Downloading JSON metadata
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-0: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-0: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/93111b1d-a0aa-415e-923a-36a7131a4458/current/mp4/1280x720.mp4?gFEByvZmSLKgqGD5ggFcZ2Qc9xaMsEAQKGGP4VnScIRnj2tFEw4L6VftI4cwTcCV6LeJwT0ycrBj1WlrtPybO2qO_Aaji367Uy761vKfte9Qf0QYNL-lUUJyiDTLQeoyr1dEYeswOifSnO3IBYixSEQOapekf90AcXQR5vhEK_-mGC5ppR751_7q7zkg'
+[download] Sleeping 197.03 seconds...
+[download] Destination: 41-6-Module Overview-1280x720.mp4
+[download]   0.1% of 1.48MiB at 961.78KiB/s ETA 00:01
+[download]   0.2% of 1.48MiB at 838.64KiB/s ETA 00:01
+[download]   0.5% of 1.48MiB at 942.75KiB/s ETA 00:01
+[download]   1.0% of 1.48MiB at 978.89KiB/s ETA 00:01
+[download]   2.0% of 1.48MiB at 992.26KiB/s ETA 00:01
+[download]   4.2% of 1.48MiB at 1001.92KiB/s ETA 00:01
+[download]   8.4% of 1.48MiB at 1010.87KiB/s ETA 00:01
+[download]  16.8% of 1.48MiB at 1011.30KiB/s ETA 00:01
+[download]  33.7% of 1.48MiB at 1014.23KiB/s ETA 00:00
+[download]  67.5% of 1.48MiB at 1014.97KiB/s ETA 00:00
+[download] 100.0% of 1.48MiB at 1018.97KiB/s ETA 00:00
+[download] 100% of 1.48MiB in 00:01
+[download] Downloading video 42 of 45
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-1: Downloading JSON metadata
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-1: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-1: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/4415967c-3dab-415c-b5e1-eaac105eb836/current/mp4/1280x720.mp4?X6p9-ST8zYoCN0oG57W_V596z4TAtFIllyQPNcc8DUjpzaiXQObBj-k6kXdc84Ij45LAv_JBBsOTixl_v9gukSADIjAJDHahli9UBjqaC2iIrTkDPWkgAuyu0aGCCMKv-3OC_pNEF1sQnsJUHZVOeLSgH7Svvrw81ODMhOdSw6oIN8YH5x-e7OnVu_p4'
+[download] Sleeping 197.53 seconds...
+[download] Destination: 42-6-Representing Images as Matrices-1280x720.mp4
+[download]   0.0% of 4.48MiB at 927.12KiB/s ETA 00:05
+[download]   0.1% of 4.48MiB at 831.87KiB/s ETA 00:05
+[download]   0.2% of 4.48MiB at 945.15KiB/s ETA 00:04
+[download]   0.3% of 4.48MiB at 984.30KiB/s ETA 00:04
+[download]   0.7% of 4.48MiB at 996.17KiB/s ETA 00:04
+[download]   1.4% of 4.48MiB at 1004.75KiB/s ETA 00:04
+[download]   2.8% of 4.48MiB at 789.95KiB/s ETA 00:05
+[download]   5.6% of 4.48MiB at 1012.61KiB/s ETA 00:04
+[download]  11.1% of 4.48MiB at 995.37KiB/s ETA 00:04
+[download]  22.3% of 4.48MiB at 1014.81KiB/s ETA 00:03
+[download]  44.7% of 4.48MiB at 1016.80KiB/s ETA 00:02
+[download]  66.9% of 4.48MiB at 1018.96KiB/s ETA 00:01
+[download]  89.2% of 4.48MiB at 1020.79KiB/s ETA 00:00
+[download] 100.0% of 4.48MiB at 1022.30KiB/s ETA 00:00
+[download] 100% of 4.48MiB in 00:04
+[download] Downloading video 43 of 45
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-2: Downloading JSON metadata
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-2: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-2: Waiting for 4 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/99d2ed14-798e-4849-970d-601e7d6852f7/current/mp4/1280x720.mp4?7WC_Edp5m-D7-43lUfz4NhRE3MPdVrrNXfglDKhIOH3llpGHpbRZmypkJESWh18E-plbmmlP5BdvNEtY8J-tjzm9hJmeHHny1x3SqHG_lXBE9pSIxOzOL9bUI7uUkqKq0-x1DT07yWVA6BIxaKXisQZoGL4gz8X66PipwBe0nxgTbWMlDdk9TGBykSCA'
+[download] Sleeping 177.47 seconds...
+[download] Destination: 43-6-Exploring the Fashion MNIST Dataset-1280x720.mp4
+[download]   0.0% of 12.03MiB at 998.41KiB/s ETA 00:13
+[download]   0.0% of 12.03MiB at 854.06KiB/s ETA 00:14
+[download]   0.1% of 12.03MiB at 950.66KiB/s ETA 00:12
+[download]   0.1% of 12.03MiB at 980.96KiB/s ETA 00:12
+[download]   0.3% of 12.03MiB at 998.17KiB/s ETA 00:12
+[download]   0.5% of 12.03MiB at 1006.56KiB/s ETA 00:12
+[download]   1.0% of 12.03MiB at 1011.69KiB/s ETA 00:12
+[download]   2.1% of 12.03MiB at 1014.45KiB/s ETA 00:11
+[download]   4.1% of 12.03MiB at 1015.31KiB/s ETA 00:11
+[download]   8.3% of 12.03MiB at 1015.35KiB/s ETA 00:11
+[download]  16.6% of 12.03MiB at 1016.70KiB/s ETA 00:10
+[download]  24.8% of 12.03MiB at 1019.38KiB/s ETA 00:09
+[download]  33.1% of 12.03MiB at 1020.78KiB/s ETA 00:08
+[download]  41.5% of 12.03MiB at 1021.08KiB/s ETA 00:07
+[download]  49.8% of 12.03MiB at 1021.62KiB/s ETA 00:06
+[download]  58.1% of 12.03MiB at 1021.84KiB/s ETA 00:05
+[download]  66.4% of 12.03MiB at 1022.38KiB/s ETA 00:04
+[download]  74.7% of 12.03MiB at 1022.19KiB/s ETA 00:03
+[download]  83.0% of 12.03MiB at 1022.64KiB/s ETA 00:02
+[download]  91.3% of 12.03MiB at 1022.45KiB/s ETA 00:01
+[download]  99.6% of 12.03MiB at 1023.01KiB/s ETA 00:00
+[download] 100.0% of 12.03MiB at 1023.66KiB/s ETA 00:00
+[download] 100% of 12.03MiB in 00:12
+[download] Downloading video 44 of 45
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-3: Downloading JSON metadata
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-3: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-3: Waiting for 2 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/ef7b877a-c0f2-4bb2-83c6-b2718b1bfc4c/current/mp4/1280x720.mp4?XunCuf27LhYLFiUZ8kh51aZbFyMS2d1LSpxCs5tFPs317YeXwM_j4eHk1foH39XOBCzKkHRF8E0pp5m3oDCL9JzXgCJSwcX5WPJatbFgChBOloxxluhIG52i292kgaWyAAkx8RZVU2eK_edt9ZI5rlRnvJbRAu-POPSmMKlNB-0183LaJMPxpdSg61iD'
+[download] Sleeping 188.75 seconds...
+[download] Destination: 44-6-Classifying Images Using Logistic Regression-1280x720.mp4
+[download]   0.0% of 9.96MiB at 890.51KiB/s ETA 00:12
+[download]   0.0% of 9.96MiB at 853.60KiB/s ETA 00:12
+[download]   0.1% of 9.96MiB at 904.89KiB/s ETA 00:11
+[download]   0.1% of 9.96MiB at 983.32KiB/s ETA 00:10
+[download]   0.3% of 9.96MiB at 997.14KiB/s ETA 00:10
+[download]   0.6% of 9.96MiB at 1004.67KiB/s ETA 00:10
+[download]   1.2% of 9.96MiB at 1012.52KiB/s ETA 00:09
+[download]   2.5% of 9.96MiB at 1008.30KiB/s ETA 00:09
+[download]   5.0% of 9.96MiB at 1013.71KiB/s ETA 00:09
+[download]  10.0% of 9.96MiB at 1015.29KiB/s ETA 00:09
+[download]  20.0% of 9.96MiB at 1016.66KiB/s ETA 00:08
+[download]  30.0% of 9.96MiB at 1019.40KiB/s ETA 00:07
+[download]  40.0% of 9.96MiB at 1020.38KiB/s ETA 00:05
+[download]  50.1% of 9.96MiB at 1021.35KiB/s ETA 00:04
+[download]  60.1% of 9.96MiB at 1021.00KiB/s ETA 00:03
+[download]  70.1% of 9.96MiB at 1022.19KiB/s ETA 00:02
+[download]  80.2% of 9.96MiB at 1022.13KiB/s ETA 00:01
+[download]  90.3% of 9.96MiB at 1022.60KiB/s ETA 00:00
+[download] 100.0% of 9.96MiB at 1022.56KiB/s ETA 00:00
+[download] 100% of 9.96MiB in 00:10
+[download] Downloading video 45 of 45
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-4: Downloading JSON metadata
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-4: Downloading mp4-high-widescreen viewclip graphql
+[pluralsight] eda39cce-92cd-4782-bf3b-29d90a6a0b45-4: Waiting for 5 seconds to avoid throttling
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://vid.pluralsight.com/clips/resolution/44d59acf-8c5a-4c62-b0a6-251887e4870f/current/mp4/1280x720.mp4?RqpgcQnEFueNG7XT5UoG3r5wpPtRX7Vd7vRdiRmP1A1fSguSt_nctWXtd4NxjKjjtYMTP8wQrTIrvFJ4RybMacks7uFrSLFccccMjMbsS8_Qf3UTJuWJgpJw2ofyowNatZjahWrKohsy7SjcR-kW6cSkGKuvHbOOOI_pXGBrHekRVslEfTyah3yAW1H6'
+[download] Sleeping 156.64 seconds...
+[download] Destination: 45-6-Summary and Further Study-1280x720.mp4
+[download]   0.1% of 1.74MiB at 870.55KiB/s ETA 00:02
+[download]   0.2% of 1.74MiB at 848.13KiB/s ETA 00:02
+[download]   0.4% of 1.74MiB at 955.33KiB/s ETA 00:01
+[download]   0.8% of 1.74MiB at 979.09KiB/s ETA 00:01
+[download]   1.7% of 1.74MiB at 997.59KiB/s ETA 00:01
+[download]   3.5% of 1.74MiB at 1003.52KiB/s ETA 00:01
+[download]   7.1% of 1.74MiB at 1010.49KiB/s ETA 00:01
+[download]  14.3% of 1.74MiB at 1012.47KiB/s ETA 00:01
+[download]  28.6% of 1.74MiB at 1015.30KiB/s ETA 00:01
+[download]  57.4% of 1.74MiB at 1015.20KiB/s ETA 00:00
+[download] 100.0% of 1.74MiB at 1017.36KiB/s ETA 00:00
+[download] 100% of 1.74MiB in 00:01
+[download] Finished downloading playlist: Building Classification Models with scikit-learn
