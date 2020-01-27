@@ -29,7 +29,7 @@ def fail_print():
     print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
 
 
-def _cmd_request(command, logpath):
+def _cli_request(command, logpath):
     """Invokes an OS command line request
     
     Arguments:
@@ -84,8 +84,8 @@ def _get_youtube_dl_cli_command(course, sleep_interval=150, sleep_offset=50, rat
     curl = qu + pluraurl + course + qu
 
     # Join command
-    cmdline = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, curl]
-    command = sp.join(cmdline)
+    cli_components = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, curl]
+    command = sp.join(cli_components)
 
     return command
 
@@ -118,7 +118,7 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     # Execute command and log stdout/stderror
     logile = course + ".log"
     logpath = os.path.join(coursepath,logile)
-    _cmd_request(command, logpath)
+    _cli_request(command, logpath)
 
 
 def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
