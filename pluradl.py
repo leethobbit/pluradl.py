@@ -29,31 +29,6 @@ def fail_print():
     print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
 
 
-def _get_courses(scriptpath):
-    """Parsing courselist.txt
-    
-    Arguments:
-        scriptpath {str} -- Absolute path to script directory
-    
-    Returns:
-        [str] -- List of course identifiers exposed by courselist.txt
-    """
-    # courses textfile prelocated inside script directory
-    filelist = "courselist.txt"
-    
-    # Loops the list's lines and stores it as a python list
-    filepath = os.path.join(scriptpath,filelist)
-    courses = []
-    try:
-        with open(filepath, 'r+') as file:
-            for line in file.readlines():
-                if re.search(r'\S', line):
-                    courses.append(line.strip())
-        return courses
-    except FileNotFoundError:
-        print("There is no courselist.txt in script path. Terminating script ...")
-
-
 def _cmd_request(command, logpath):
     """Invokes an OS command line request
     
@@ -161,6 +136,31 @@ def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1
         _pluradl(course, sleep_interval=sleep_interval, sleep_offset=sleep_offset, rate_limit=rate_limit)
 
 
+def get_courses(scriptpath):
+    """Parsing courselist.txt
+    
+    Arguments:
+        scriptpath {str} -- Absolute path to script directory
+    
+    Returns:
+        [str] -- List of course identifiers exposed by courselist.txt
+    """
+    # courses textfile prelocated inside script directory
+    filelist = "courselist.txt"
+    
+    # Loops the list's lines and stores it as a python list
+    filepath = os.path.join(scriptpath,filelist)
+    courses = []
+    try:
+        with open(filepath, 'r+') as file:
+            for line in file.readlines():
+                if re.search(r'\S', line):
+                    courses.append(line.strip())
+        return courses
+    except FileNotFoundError:
+        print("There is no courselist.txt in script path. Terminating script ...")
+
+
 def main():
     """Main execution
     Using command line arguments to store username and password,
@@ -183,8 +183,8 @@ def main():
     USERNAME = sys.argv[1]
     PASSWORD = sys.argv[2]
 
-    # Looping through the courses determined by _get_courses() invoking download requests
-    courses = _get_courses(scriptpath)
+    # Looping through the courses determined by get_courses() invoking download requests
+    courses = get_courses(scriptpath)
     if courses:
         download_courses(courses,
                          sleep_interval=SLEEP_INTERVAL,
