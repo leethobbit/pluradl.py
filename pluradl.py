@@ -29,6 +29,31 @@ def fail_print():
     print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
 
 
+def _get_courses(scriptpath):
+    """Parsing courselist.txt
+    
+    Arguments:
+        scriptpath {str} -- Absolute path to script directory
+    
+    Returns:
+        [str] -- List of course identifiers exposed by courselist.txt
+    """
+    # courses textfile prelocated inside script directory
+    filelist = "courselist.txt"
+    
+    # Loops the list's lines and stores it as a python list
+    filepath = os.path.join(scriptpath,filelist)
+    courses = []
+    try:
+        with open(filepath, 'r+') as file:
+            for line in file.readlines():
+                if re.search(r'\S', line):
+                    courses.append(line.strip())
+        return courses
+    except FileNotFoundError:
+        print("There is no courselist.txt in script path. Terminating script ...")
+
+
 def _cmd_request(command, logpath):
     """Invokes an OS command line request
     
@@ -95,9 +120,14 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     
     Arguments:
         course {str} -- Course identifier
-        DLPATH {str} -- Course path
-        USERNAME {str} -- Pluralsight username
-        PASSWORD {str} -- Pluralsight password
+    
+    Keyword Arguments:
+        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
+        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
+        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
+    
+    Returns:
+        str -- youtue-dl CLI command
     """
     # OS parameters - Creates course path and sets current course directory
     coursepath = os.path.join(DLPATH,course)
@@ -114,31 +144,6 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     logile = course + ".log"
     logpath = os.path.join(coursepath,logile)
     _cmd_request(command, logpath)
-
-
-def _get_courses(scriptpath):
-    """Parsing courselist.txt
-    
-    Arguments:
-        scriptpath {str} -- Absolute path to script directory
-    
-    Returns:
-        [str] -- List of course identifiers exposed by courselist.txt
-    """
-    # courses textfile prelocated inside script directory
-    filelist = "courselist.txt"
-    
-    # Loops the list's lines and stores it as a python list
-    filepath = os.path.join(scriptpath,filelist)
-    courses = []
-    try:
-        with open(filepath, 'r+') as file:
-            for line in file.readlines():
-                if re.search(r'\S', line):
-                    courses.append(line.strip())
-        return courses
-    except FileNotFoundError:
-        print("There is no courselist.txt in script path. Terminating script ...")
 
 
 def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
