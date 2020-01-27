@@ -9,6 +9,9 @@ RATE_LIMIT = "1M"    #                                                          
 
 DLPATH, USERNAME, PASSWORD = "", "", ""
 
+PLURAURL = "https://app.pluralsight.com/library/courses/"
+
+
 def fail_print():
     """Prints out a default message to user when there is not enough arguments
     passed to pluradl.py.
@@ -44,26 +47,25 @@ def _cmd_request(command, logpath):
                 sys.stdout.write(line)
 
 
-def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
-    """Handling the video downloading requests for a single course
+def _get_youtube_dl_cli_command(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+    """Putting together youtube-dl CLI command used to invoke the download requests.
     
     Arguments:
         course {str} -- Course identifier
-        DLPATH {str} -- Course path
-        USERNAME {str} -- Pluralsight username
-        PASSWORD {str} -- Pluralsight password
+    
+    Keyword Arguments:
+        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
+        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
+        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
+    
+    Returns:
+        str -- youtue-dl CLI command
     """
-    # OS parameters - Creates course path and sets current course directory
-    coursepath = os.path.join(DLPATH,course)
-    if not os.path.exists(coursepath):
-        os.mkdir(coursepath)
-    os.chdir(coursepath)
-
     # Quote and space char
     # # # # # # # # # # # #
     qu = '"';  sp = ' '   # 
     # Download parameters #
-    pluraurl = "https://app.pluralsight.com/library/courses/"
+    pluraurl = PLURAURL
     username = qu + USERNAME + qu
     password = qu + PASSWORD + qu
     filename_template = qu + "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" + qu
@@ -84,6 +86,29 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     # Join command
     cmdline = [tool, usr, pw, minsl, maxsl, lrate, fn, vrb, curl]
     command = sp.join(cmdline)
+
+    return command
+
+
+def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+    """Handling the video downloading requests for a single course
+    
+    Arguments:
+        course {str} -- Course identifier
+        DLPATH {str} -- Course path
+        USERNAME {str} -- Pluralsight username
+        PASSWORD {str} -- Pluralsight password
+    """
+    # OS parameters - Creates course path and sets current course directory
+    coursepath = os.path.join(DLPATH,course)
+    if not os.path.exists(coursepath):
+        os.mkdir(coursepath)
+    os.chdir(coursepath)
+
+    command = _get_youtube_dl_cli_command(course,
+                                          sleep_interval=sleep_interval,
+                                          sleep_offset=sleep_offset,
+                                          rate_limit=rate_limit)
     
     # Execute command and log stdout/stderror
     logile = course + ".log"
@@ -167,4 +192,3 @@ if __name__ == "__main__":
         main()
     else:
         fail_print()
-
