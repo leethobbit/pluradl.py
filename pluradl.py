@@ -1,4 +1,4 @@
-import sys, os, re
+import sys, os, re, getpass, io
 from subprocess import Popen, PIPE, STDOUT
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT #
@@ -12,21 +12,33 @@ DLPATH, USERNAME, PASSWORD = "", "", ""
 PLURAURL = "https://app.pluralsight.com/library/courses/"
 
 
-def fail_print():
-    """Prints out a default message to user when there is not enough arguments
-    passed to pluradl.py.
+def _get_usr_pw():
+    """Requesting credentials from the user
+    
+    Raises:
+        ValueError: User enters an empty password too many times
     """
-    print("usage: python pluradl.py [username] [password]")
-    print("")
-    print("You need to pass your Pluralsight username and password as argument")
-    print("")
-    print("Example:")
-    print('$ python pluradl.py "youremail@example.com" "yourPassword"')
-    print("")
-    print("Example of download request command execution string:")
-    print('$ youtube-dl --verbose --username "user@mymail.com" --password "myPassword" \\ ')
-    print('             --sleep-interval 150 -o "%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s" \\')
-    print('             "https://app.pluralsight.com/library/courses/linux-server-skills-windows-administrators"')
+    global USERNAME
+    global PASSWORD
+
+    print("Enter you Pluralsight credentials")
+    for i in range(3):
+        u0 = input("Enter username: ")
+        if u0 == "":
+            print("Username cannot be empty, enter username again")
+            continue
+        else:
+            USERNAME = u0
+        
+        print("Enter password (will no be displayed)")
+        p0 = getpass.getpass(': ')
+        if p0 != "":
+            PASSWORD = p0
+            break
+        else:
+            print('Password cannot be empty, enter password again')
+    else:
+        raise ValueError('Username or password was not given.')
 
 
 def _cli_request(command, logpath):
@@ -40,14 +52,15 @@ def _cli_request(command, logpath):
     os.chdir(os.path.dirname(logpath))
     print("Logging stdout/stderror to:\n" + logpath + "\n")
 
-    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT, encoding="utf8") as process, \
-        open(file=logpath, mode='wt', buffering=1) as file:
-            for line in process.stdout:
-                file.write(line)
+    with Popen(command, shell=True, stdout=PIPE, stderr=STDOUT) as process, \
+        open(file=logpath, mode='at') as logfile:
+            for line in io.TextIOWrapper(process.stdout, newline=''):
                 sys.stdout.write(line)
+                logfile.write(line)
+                logfile.flush()
 
 
-def _get_youtube_dl_cli_command(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+def _get_youtube_dl_cli_command(course, sleep_interval=SLEEP_INTERVAL, sleep_offset=SLEEP_OFFSET, rate_limit=RATE_LIMIT):
     """Putting together youtube-dl CLI command used to invoke the download requests.
     
     Arguments:
@@ -90,16 +103,11 @@ def _get_youtube_dl_cli_command(course, sleep_interval=150, sleep_offset=50, rat
     return command
 
 
-def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+def _pluradl(course):
     """Handling the video downloading requests for a single course
     
     Arguments:
         course {str} -- Course identifier
-    
-    Keyword Arguments:
-        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
-        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
-        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
     
     Returns:
         str -- youtue-dl CLI command
@@ -110,10 +118,7 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
         os.mkdir(coursepath)
     os.chdir(coursepath)
 
-    command = _get_youtube_dl_cli_command(course,
-                                          sleep_interval=sleep_interval,
-                                          sleep_offset=sleep_offset,
-                                          rate_limit=rate_limit)
+    command = _get_youtube_dl_cli_command(course)
     
     # Execute command and log stdout/stderror
     logile = course + ".log"
@@ -121,19 +126,15 @@ def _pluradl(course, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
     _cli_request(command, logpath)
 
 
-def download_courses(courses, sleep_interval=150, sleep_offset=50, rate_limit="1M"):
+def download_courses(courses):
     """Dowloading all courses listed in courselist.txt
     
     Arguments:
         courses {[type]} -- List of course ID
     
-    Keyword Arguments:
-        sleep_interval {int} -- Minimum sleep time between video downloads (default: {150})
-        sleep_offset {int} -- Randomize sleep time up to minimum sleep time plus this value (default: {50})
-        rate_limit {str} -- Download speed limit (use "K" or "M" ) (default: {"1M"})
     """
     for course in courses:
-        _pluradl(course, sleep_interval=sleep_interval, sleep_offset=sleep_offset, rate_limit=rate_limit)
+        _pluradl(course)
 
 
 def get_courses(scriptpath):
@@ -163,12 +164,13 @@ def get_courses(scriptpath):
 
 def main():
     """Main execution
-    Using command line arguments to store username and password,
-    loops through the course IDs and invoking download requests.
+    Using command line to store username and password, loops
+    through the course IDs and invoking download requests.
     """
     global DLPATH
     global USERNAME
     global PASSWORD
+    _get_usr_pw()
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
@@ -178,22 +180,12 @@ def main():
     DLPATH = os.path.join(scriptpath,dldirname)
     if not os.path.exists(DLPATH):
         os.mkdir(DLPATH)
-    
-    # Script's call arguments for username and password
-    USERNAME = sys.argv[1]
-    PASSWORD = sys.argv[2]
 
     # Looping through the courses determined by get_courses() invoking download requests
     courses = get_courses(scriptpath)
     if courses:
-        download_courses(courses,
-                         sleep_interval=SLEEP_INTERVAL,
-                         sleep_offset=SLEEP_OFFSET,
-                         rate_limit=RATE_LIMIT)
+        download_courses(courses)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 3:
-        main()
-    else:
-        fail_print()
+    main()
