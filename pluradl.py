@@ -170,7 +170,11 @@ def main():
     global DLPATH
     global USERNAME
     global PASSWORD
-    _get_usr_pw()
+    if len(sys.argv) > 2:
+        USERNAME = sys.argv[1]
+        PASSWORD = sys.argv[2]
+    else:
+        _get_usr_pw()
 
     # Script's absolute directory path
     scriptpath = os.path.dirname(os.path.abspath(sys.argv[0]))
